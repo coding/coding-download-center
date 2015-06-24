@@ -1,0 +1,6 @@
+{
+    "src":          "{src}",
+    "dest":         "qiniu:access_key={access_key}&secret_key={secret_key}&bucket=dl-google-com&key_prefix={key_prefix}",
+    "deletable":    0,
+    "debug_level":  1
+}
