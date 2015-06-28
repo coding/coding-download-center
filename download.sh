@@ -3,8 +3,6 @@ set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
 source $top_dir/dl.conf
-echo $bucket
-echo $domain
 
 function download()
 {
@@ -71,8 +69,8 @@ function download()
                 echo '--------|----|---' >> $dl_dir/$target_dir/files.md
             fi
 
-            echo "http://$domain/$target_path"
-            http_code=`curl -sI "http://$domain/$target_path" | head -n 1 | awk '{print $2}'`
+            echo "http://$qiniu_domain/$target_path"
+            http_code=`curl -sI "http://$qiniu_domain/$target_path" | head -n 1 | awk '{print $2}'`
             if [ $http_code -ne 200 ]; then
                 if [ ! -f $dl_dir/$target_path ]; then
                     wget -O $dl_dir/$target_path "$uri"
