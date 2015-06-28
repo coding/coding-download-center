@@ -14,7 +14,7 @@ if [ -z $qiniu_user ]; then
     read -s qiniu_user
     if [ -z $qiniu_user ]; then
         echo '错误：未输入'
-#        exit 1
+        exit 1
     fi
 fi
 
@@ -23,12 +23,12 @@ if [ -z $qiniu_passwd ]; then
     read -s qiniu_passwd
     if [ -z $qiniu_passwd ]; then
         echo '错误：未输入'
-#        exit 1
+        exit 1
     fi
 fi
 
 # 生成index.html
-#qrsctl login $qiniu_user $qiniu_passwd
+qrsctl login $qiniu_user $qiniu_passwd
 
 dirs=`ls -R $dl_dir | grep ':' | awk -F: '{print $1}'`
 for dir in $dirs; do
@@ -106,7 +106,7 @@ for dir in $dirs; do
     fi
     echo $qiniu_prefix
     # 把index.html上传到 七牛的xxx/，用于列表服务
-    #qrsctl put $bucket "$qiniu_prefix" index.html
-    #qrsctl cdn/refresh $bucket http://$domain/$qiniu_prefix
-    #rm index.html
+    qrsctl put $bucket "$qiniu_prefix" index.html
+    qrsctl cdn/refresh $bucket http://$domain/$qiniu_prefix
+    rm index.html
 done
