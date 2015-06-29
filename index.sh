@@ -40,7 +40,6 @@ for dir in $dirs; do
     auto_index_md=0
     if [ ! -f index.md ]; then
         auto_index_md=1
-        auto_files_md=0
         if [ ! -f dirs_and_files.md ]; then
             auto_dirs_and_files_md=1
             if [ ! -f dirs.md ]; then
@@ -63,6 +62,7 @@ for dir in $dirs; do
             fi
             if [ -f files.md ]; then
                 tail -n +3 files.md >> dirs_and_files.md
+                rm files.md
             fi
         fi
 
