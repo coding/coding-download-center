@@ -74,6 +74,7 @@ function download()
             echo $http_code
             if [ $http_code -ne 200 ]; then
                 if [ ! -f $dl_dir/$target_path ]; then
+                    echo "Downloading..."
                     wget -O $dl_dir/$target_path "$uri"
                 fi
                 size=`ls -lh $dl_dir/$target_path | awk '{print $5}'`
