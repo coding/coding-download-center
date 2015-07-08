@@ -1,11 +1,12 @@
 uri | filename | size | md5sum
 ----|----------|------|-------
-http://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | linux/direct/google-chrome-stable\_current\_amd64.deb | 47M |
-http://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | linux/direct/google-chrome-stable\_current\_i386.deb | 46M |
-http://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | linux/direct/google-chrome-stable\_current\_x86\_64.rpm | 46M |
-http://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | linux/direct/google-chrome-stable\_current\_i386.rpm | 45M |
+http://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | linux/direct/43.0.2357.132-1\_google-chrome-stable\_current\_amd64.deb | 47M |
+http://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | linux/direct/43.0.2357.132-1\_google-chrome-stable\_current\_i386.deb | 46M |
+http://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | linux/direct/43.0.2357.132-1\_google-chrome-stable\_current\_x86\_64.rpm | 46M |
+http://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | linux/direct/43.0.2357.132-1\_google-chrome-stable\_current\_i386.rpm | 45M |
 http://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/stable/GGRO/googlechrome.dmg | 63M |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BB8C05286-2218-8285-98C9-4D2A0D8F12D3%7D%26lang%3Dzh-CN%26browser%3D3%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable%26installdataindex%3Ddefaultbrowser/update2/installers/ChromeStandaloneSetup64.exe | windows/direct/ChromeStandaloneSetup64.exe | 48M |
+http://dl.google.com/chrome/win/94F26007C8A3B0CC/43.0.2357.132_chrome_installer.exe |||
+http://dl.google.com/chrome/win/6AD397CD1E451F0B/43.0.2357.132_chrome64_installer.exe |||
 http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz | 295M |
 http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip | 94M |
 http://dl.google.com/android/installer\_r24.3.3-windows.exe | android/installer\_r24.3.3-windows.exe | 295M |
