@@ -6,6 +6,7 @@ install:
 - bash ./download.sh
 script:
 - test $TRAVIS_PULL_REQUEST == "false" && echo "travis-ci don't support qiniu, so deploy manually" || exit 0
+- dig +short myip.opendns.com @resolver1.opendns.com
 - dig devtools.qiniu.io
 - wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz || echo '122.228.94.180 devtools.qiniu.io' >> /etc/hosts
 - wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz || exit 1
