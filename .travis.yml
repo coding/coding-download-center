@@ -4,7 +4,7 @@ before_install:
 - sudo apt-get install -y curl discount
 install:
 - bash ./download.sh
-after_success:
+script:
 - test $TRAVIS_PULL_REQUEST == "false" && echo "travis-ci don't support qiniu, so deploy manually" || exit 0
 - wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz
 - mkdir qiniu
@@ -14,4 +14,5 @@ after_success:
 - sed -e "s|{access_key}|$qiniu_access_key|g" -e "s|{secret_key}|$qiniu_secret_key|g" qiniu.json > qiniu.json-withkey
 - sed -e "s|{src}|$PWD/dl|g" -e "s|{key_prefix}||g" qiniu.json-withkey > qiniu.json-dl
 - qrsync --check-exist qiniu.json-dl
+after_success:
 - bash ./index.sh
