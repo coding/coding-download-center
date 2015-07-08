@@ -1,21 +1,21 @@
 language: bash
 before_install:
 - sudo apt-get update -qq
-- sudo apt-get install -y curl discount
+- sudo apt-get install -y curl discount dnsutils
 install:
 - bash ./download.sh
 script:
 - test $TRAVIS_PULL_REQUEST == "false" && echo "travis-ci don't support qiniu, so deploy manually" || exit 0
 - dig +short myip.opendns.com @resolver1.opendns.com
 - dig devtools.qiniu.io
-- wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz || echo '122.228.94.180 devtools.qiniu.io' >> /etc/hosts
-- wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz || exit 1
+- wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz || curl -o /tmp/qiniu-devtools-linux_amd64-current.tar.gz -H 'Host: devtools.qiniu.io' http://61.174.63.232/qiniu-devtools-linux_amd64-v3.1.20150620.tar.gz
+- ls -lh /tmp/qiniu-devtools-linux_amd64-current.tar.gz || exit 1
 - mkdir qiniu
-- tar -zxvf /tmp/qiniu-devtools-linux_amd64-current.tar.gz -C ./qiniu/
+- tar -zxvf /tmp/qiniu-devtools-linux_amd64-current.tar.gz -C ./qiniu/ || exit 2
 - export PATH=$PATH:$PWD/qiniu/
 - rm -f dl/*.tmp dl/*.html dl/*.dl
 - sed -e "s|{access_key}|$qiniu_access_key|g" -e "s|{secret_key}|$qiniu_secret_key|g" qiniu.json > qiniu.json-withkey
 - sed -e "s|{src}|$PWD/dl|g" -e "s|{key_prefix}||g" qiniu.json-withkey > qiniu.json-dl
-- qrsync --check-exist qiniu.json-dl || exit 2
+- qrsync --check-exist qiniu.json-dl || exit 99
 after_success:
 - bash ./index.sh
