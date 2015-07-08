@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ev
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
 source $top_dir/dl.conf
@@ -30,6 +30,7 @@ function download()
             http_code=200
             size=""
             md5=""
+            echo $line
             for part in `echo $line | sed 's/|/ /g'`; do
                 echo $part
                 #第一列必须是下载地址
@@ -63,7 +64,6 @@ function download()
             fi
             echo 'target_path' $target_path
             echo 'target_dir' $target_dir
-            echo ''
             if [ ! -f $dl_dir/$target_dir/files.md ]; then
                 echo 'filename|size|md5' > $dl_dir/$target_dir/files.md
                 echo '--------|----|---' >> $dl_dir/$target_dir/files.md
@@ -71,6 +71,7 @@ function download()
 
             echo "http://$qiniu_domain/$target_path"
             http_code=`curl -sI "http://$qiniu_domain/$target_path" | head -n 1 | awk '{print $2}'`
+            echo $http_code
             if [ $http_code -ne 200 ]; then
                 if [ ! -f $dl_dir/$target_path ]; then
                     wget -O $dl_dir/$target_path "$uri"
