@@ -48,11 +48,7 @@ function download()
                         target_path=$part
                     fi
                 elif [ $i -eq 2 ]; then
-                    #第3列是size
-                    #如果第2列为空，则第3列必须为空，否则第3变成了第2，会错乱
-                    size=$part
-                elif [ $i -eq 3 ]; then
-                    #第4列是md5
+                    #第3列是md5
                     expected_md5=$part
                 fi
                 i=$(($i+1))
@@ -70,8 +66,12 @@ function download()
             fi
 
             echo "http://$qiniu_domain/$target_path"
-            http_code=`curl -sI "http://$qiniu_domain/$target_path" | head -n 1 | awk '{print $2}'`
+            header=`curl -sI "http://$qiniu_domain/$target_path"`
+            http_code=`echo "$header" | head -n 1 | awk '{print $2}'`
             echo $http_code
+            if [ $http_code -eq 200 ]; then
+                size=`echo "$header" | grep "Content-Length" | awk '{print $2}' | tr -d '\r' | numfmt --to=iec-i --suffix=B --padding=7`
+            fi
             if [ $http_code -ne 200 ]; then
                 if [ ! -f $dl_dir/$target_path ]; then
                     echo "Downloading..."
