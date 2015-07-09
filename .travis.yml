@@ -1,13 +1,11 @@
 language: bash
 before_install:
 - sudo apt-get update -qq
-- sudo apt-get install -y curl discount dnsutils
+- sudo apt-get install -y curl discount dnsutils coreutils
 install:
 - bash ./download.sh
 script:
 - test $TRAVIS_PULL_REQUEST == "false" && echo "travis-ci don't support qiniu, so deploy manually" || exit 0
-- dig +short myip.opendns.com @resolver1.opendns.com
-- dig devtools.qiniu.io
 - wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.io/qiniu-devtools-linux_amd64-current.tar.gz || exit 1
 - mkdir qiniu
 - tar -zxvf /tmp/qiniu-devtools-linux_amd64-current.tar.gz -C ./qiniu/ || exit 2
