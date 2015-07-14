@@ -20,3 +20,12 @@ http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | android/ndk/an
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | android/ndk/android-ndk-r10e-darwin-x86\_64.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86\_64.exe | android/ndk/android-ndk-r10e-windows-x86\_64.exe |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | android/ndk/android-ndk-r10e-windows-x86.exe |
+http://download.virtualbox.org/virtualbox/5.0.0/virtualbox-5.0_5.0.0-101573~Ubuntu~trusty_amd64.deb | virtualbox/virtualbox-5.0_5.0.0-101573~Ubuntu~trusty_amd64.deb |
+http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0-5.0.0_101573_fedora22-1.x86_64.rpm | virtualbox/VirtualBox-5.0-5.0.0_101573_fedora22-1.x86_64.rpm
+http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg | virtualbox/VirtualBox-5.0.0-101573-OSX.dmg |
+http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz | java/jdk-8u45-linux-x64.tar.gz |
+http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.rpm | java/jdk-8u45-linux-x64.rpm |
+http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-macosx-x64.dmg | java/jdk-8u45-macosx-x64.dmg |
+http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jre-8u45-linux-x64.tar.gz | java/jre-8u45-linux-x64.tar.gz |
+http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jre-8u45-linux-x64.rpm | java/jre-8u45-linux-x64.rpm |
+http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jre-8u45-macosx-x64.dmg | java/jre-8u45-macosx-x64.dmg |
