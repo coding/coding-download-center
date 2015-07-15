@@ -1,6 +1,0 @@
-{
-    "src":          "{src}",
-    "dest":         "qiniu:access_key={access_key}&secret_key={secret_key}&bucket=dl-gmirror-org&key_prefix={key_prefix}&debug_level=0",
-    "deletable":    0,
-    "debug_level":  1
-}
