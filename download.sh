@@ -68,7 +68,7 @@ for file in $files; do
         http_code=`echo "$header" | head -n 1 | awk '{print $2}'`
         echo $http_code
         if [ $http_code -eq 200 ]; then
-            size=`echo "$header" | grep "Content-Length" | awk '{print $2}' | tr -d '\r' | numfmt --to=iec-i --suffix=B --padding=7`
+            size=`echo "$header" | grep "Content-Length" | awk '{print $2}' | tr -d '\r'`
         fi
         if [ $http_code -ne 200 ]; then
             if [ ! -f $dl_dir/$target_path ]; then
