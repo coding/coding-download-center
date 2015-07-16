@@ -13,5 +13,4 @@ script:
 - unzip /tmp/qshell.zip -d ./qiniu/ || exit 2
 - cp ./qiniu/qshell_linux_amd64 ./qiniu/qshell
 - export PATH=$PATH:$PWD/qiniu/
-- sed -e "s|{access_key}|$qiniu_access_key|g" -e "s|{secret_key}|$qiniu_secret_key|g" -e "s|{src_dir}|$PWD/dl|g" -e "s|{key_prefix}||g" qshell.conf.tpl > qshell.conf
 - bash ./upload.sh
