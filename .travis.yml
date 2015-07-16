@@ -11,10 +11,7 @@ script:
 - tar -zxvf /tmp/qiniu-devtools-linux_amd64-current.tar.gz -C ./qiniu/ || exit 2
 - wget -O /tmp/qshell.zip http://qdisk.qiniudn.com/qshell%20v1.4.5.zip
 - unzip /tmp/qshell.zip -d ./qiniu/ || exit 2
+- cp ./qiniu/qshell_linux_amd64 ./qiniu/qshell
 - export PATH=$PATH:$PWD/qiniu/
-- wget -O /tmp/qshell.zip http://qdisk.qiniudn.com/qshell%20v1.4.5.zip
-- rm -f dl/*.tmp dl/*.html dl/*.dl
 - sed -e "s|{access_key}|$qiniu_access_key|g" -e "s|{secret_key}|$qiniu_secret_key|g" -e "s|{src_dir}|$PWD/dl|g" -e "s|{key_prefix}||g" qshell.conf.tpl > qshell.conf
-- qshell_linux_amd64 qupload qshell.conf || exit 99
-after_success:
-- bash ./index.sh
+- bash ./upload.sh
