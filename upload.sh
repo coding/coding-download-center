@@ -125,7 +125,8 @@ for dir in $dirs; do
     tmp_lines=`find . -maxdepth 1 -type f -printf '%f\n'`
     for filename in $tmp_lines; do
         if [ $filename != "index.html" ]; then
-            qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename
+            mime=`file -b --mime-type $filename`
+            qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename "$mime" "http://up.qiniug.com/"
         fi
     done
     # 把index.html上传到 七牛的xxx/，用于列表服务
