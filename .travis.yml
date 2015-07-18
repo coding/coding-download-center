@@ -1,7 +1,7 @@
 language: bash
 before_install:
 - sudo apt-get update -qq
-- sudo apt-get install -y curl discount dnsutils unzip
+- sudo apt-get install -y curl discount unzip
 install:
 - bash ./download.sh
 script:
