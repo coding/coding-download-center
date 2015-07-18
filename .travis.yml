@@ -7,4 +7,5 @@ install:
 script:
 - test $TRAVIS_PULL_REQUEST == "false" && echo "travis-ci don't support qiniu, so deploy manually" || exit 0
 - bash ./before_upload.sh
+- export PATH=$PATH:$PWD/qiniu/
 - bash ./upload.sh
