@@ -3,7 +3,7 @@ set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
 dl_dir=$top_dir/dl
-source $top_dir/dl.conf
+source $top_dir/gmirror.conf
 
 # 如果环境变量里没有，则要输入
 if [ -z $qiniu_user ]; then
@@ -42,15 +42,26 @@ if [ -z $qiniu_secret_key ]; then
     fi
 fi
 
-# 生成index.html
+favicon_html=""
+if [ ! -z $favicon ] && [ "x"$favicon != "x" ]; then
+    favicon_html='<link rel="icon" type="image/vnd.microsoft.icon" href="'$favicon'" />'
+fi
+
+zhuge_html=""
+if [ ! -z $zhuge_app_key ] && [ "x"$zhuge_app_key != "x" ]; then
+    zhuge_html='<script>window.zhuge=window.zhuge||[];window.zhuge.methods="_init debug identify track trackLink trackForm page".split(" ");window.zhuge.factory=function(b){return function(){var a=Array.prototype.slice.call(arguments);a.unshift(b);window.zhuge.push(a);return window.zhuge}};for(var i=0;i<window.zhuge.methods.length;i++){var key=window.zhuge.methods[i];window.zhuge[key]=window.zhuge.factory(key)};window.zhuge.load=function(b,x){if(!document.getElementById("zhuge-js")){var a=document.createElement("script");a.type="text/javascript";a.id="zhuge-js";a.async=!0;a.src="https://zgsdk.37degree.com/zhuge-lastest.min.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);window.zhuge._init(b,x)}};window.zhuge.load(\"'$zhuge_app_key'\");</script>'
+fi
+
+google_analytics_html=""
+if [ ! -z $google_analytics ] && [ "x"$google_analytics != "x" ]; then
+    google_analytics_html="<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', \''"$google_analytics"'\', 'auto'); ga('send', 'pageview');</script>"
+fi
+
 qrsctl login $qiniu_user $qiniu_passwd
 qshell account $qiniu_access_key $qiniu_secret_key
 
 dirs=`ls -R $dl_dir | grep ':' | awk -F: '{print $1}'`
 for dir in $dirs; do
-    if [ `basename $dir` = 'qiniu' ]; then
-        continue
-    fi
     echo $dir
     cd $dir
     auto_index_md=0
@@ -78,7 +89,7 @@ for dir in $dirs; do
             fi
             if [ -f files.md ]; then
                 tail -n +3 files.md >> dirs_and_files.md
-                rm files.md
+                #rm files.md
             fi
         fi
 
@@ -115,7 +126,7 @@ for dir in $dirs; do
     dl_dir_for_sed=${dl_dir//\//\\/}
     path=`pwd | sed -e "s|$dl_dir_for_sed||"`
     path_for_sed=${path//\//\\/}
-    sed -e "s|{title}|Index of $path_for_sed/|g" -e "s|{body}|$body|g" $top_dir/tpl.html | tr '\f' '\n' > index.html
+    sed -e "s|</title>|</title>$favicon_html|g" -e "s#</body>#$google_analytics_html</body>#g" -e "s#</head>#$zhuge_html</head>#g" -e "s|{title}|Index of $path_for_sed/|g" -e "s|{body}|$body|g" $top_dir/tpl.html | tr '\f' '\n' > index.html
     qiniu_prefix=${path:1}"/"
     if [ $qiniu_prefix = "/" ]; then
         qiniu_prefix=""
@@ -124,13 +135,15 @@ for dir in $dirs; do
     # 上传所有文件
     tmp_lines=`find . -maxdepth 1 -type f -printf '%f\n'`
     for filename in $tmp_lines; do
+    echo $filename
         if [ $filename != "index.html" ]; then
             mime=`file -b --mime-type $filename`
-            qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename "$mime" "http://up.qiniug.com/"
+            qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename "$mime" "http://up.qiniug.com"
         fi
     done
     # 把index.html上传到 七牛的xxx/，用于列表服务
     qrsctl put $qiniu_bucket "$qiniu_prefix" index.html
     qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/$qiniu_prefix
-    rm index.html
+    #rm index.html
 done
+echo 'the end'
