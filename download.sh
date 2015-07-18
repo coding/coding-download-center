@@ -2,9 +2,14 @@
 set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
-source $top_dir/dl.conf
-
+source $top_dir/gmirror.conf
 dl_dir=$top_dir/dl
+
+has_numfmt=0
+which numfmt
+if [ $? -eq 0 ]; then
+    has_numfmt=1
+fi
 cd $dl_dir
 files=`find $dl_dir -name 'origin.md'`
 for file in $files; do
@@ -12,7 +17,7 @@ for file in $files; do
     echo $absolute_dir
     relative_dir=`echo $file | sed -e "s|$dl_dir||" | xargs dirname`
     echo $relative_dir
-    
+
     #如果需要检查md5
     is_check_md5=0
     tmp=`head -n 1 $file | grep md5sum 2>&1`
@@ -26,8 +31,8 @@ for file in $files; do
         i=0
         new_line=""
         http_code=200
-        size=""
         md5=""
+        expected_md5=""
         echo -e "\n"$line
         for part in `echo $line | sed 's/|/ /g'`; do
             echo $part
@@ -68,7 +73,7 @@ for file in $files; do
         http_code=`echo "$header" | head -n 1 | awk '{print $2}'`
         echo $http_code
         if [ $http_code -eq 200 ]; then
-            size=`echo "$header" | grep "Content-Length" | awk '{print $2}' | tr -d '\r'`
+            size_byte=`echo "$header" | grep "Content-Length" | awk '{print $2}' | tr -d '\r'`
         fi
         if [ $http_code -ne 200 ]; then
             if [ ! -f $dl_dir/$target_path ]; then
@@ -79,17 +84,25 @@ for file in $files; do
                     wget -O $dl_dir/$target_path "$uri"
                 fi
             fi
-            size=`ls -lh $dl_dir/$target_path | awk '{print $5}'`
+            size_byte=`ls -lh $dl_dir/$target_path | awk '{print $5}'`
             md5=`md5sum $dl_dir/$target_path | awk '{print $1}'`
             if [ $is_check_md5 -eq 1 ] && [ "x"$expected_md5 != "x" ]; then
                 if [ $expected_md5 != $md5 ]; then
                     echo "error: md5 not match"
                     exit 1
                 fi
+            else
+                expected_md5=$md5
             fi
         fi
+        if [ $has_numfmt -eq 1 ]; then
+            size=`echo $size_byte | numfmt --to=iec-i --suffix=B --padding=7`
+        else
+            size=$size_byte
+        fi
 
-        echo ${filename/_/\\_}'|'$size'|'$md5 >> $dl_dir/$target_dir/files.md
+        echo ${filename//_/\\_}'|'$size'|'$expected_md5 >> $dl_dir/$target_dir/files.md
     done
 done
+echo 'the end'
 exit
