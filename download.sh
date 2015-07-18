@@ -13,9 +13,9 @@ cd $dl_dir
 files=`find $dl_dir -name 'origin.md'`
 for file in $files; do
     absolute_dir=`dirname $file`
-    echo $absolute_dir
+    echo 'absolute_dir '$absolute_dir
     relative_dir=`echo $file | sed -e "s|$dl_dir||" | xargs dirname`
-    echo $relative_dir
+    echo 'relative_dir '$relative_dir
 
     #如果需要检查md5
     is_check_md5=0
@@ -40,15 +40,19 @@ for file in $files; do
                 uri=$part
                 origin_filename=`basename $uri`
                 filename=$origin_filename
+                echo 'filename '$filename
                 uri_nopro=${part#*//}
                 target_path=${uri_nopro#*/}
+                echo 'ttt '$target_path
             elif [ $i -eq 1 ]; then
                 #第2列必须是文件名或路径，如果为空的话，将使用下载地址里相同的文件名
                 filename=`basename $part`
-                target_path=.$relative_dir/$part
+                target_path=${relative_dir#*/}/$part
+                echo 't2222 '$target_path
                 if [ $relative_dir == '/' ]; then
                     target_path=$part
                 fi
+                echo 't333 '$target_path
             elif [ $i -eq 2 ]; then
                 #第3列是md5
                 expected_md5=$part
@@ -60,8 +64,11 @@ for file in $files; do
             target_dir=${target_path%/*}
             mkdir -p $target_dir
         fi
-        echo 'target_path' $target_path
-        echo 'target_dir' $target_dir
+        if [ $target_path = $filename ]; then
+            target_path=${relative_dir#*/}/$filename
+        fi
+        echo 'target_path '$target_path
+        echo 'target_dir '$target_dir
         if [ ! -f $dl_dir/$target_dir/files.md ]; then
             echo 'filename|size|md5' > $dl_dir/$target_dir/files.md
             echo '--------|----|---' >> $dl_dir/$target_dir/files.md
@@ -69,6 +76,9 @@ for file in $files; do
 
         echo "check http://$qiniu_domain/$target_path"
         header=`curl -sI "http://$qiniu_domain/$target_path"`
+        if [ $? -ne 0 ]; then
+            exit 500
+        fi
         http_code=`echo "$header" | head -n 1 | awk '{print $2}'`
         echo $http_code
         if [ $http_code -eq 200 ]; then
@@ -83,7 +93,10 @@ for file in $files; do
                     wget -O $dl_dir/$target_path "$uri"
                 fi
             fi
-            size_byte=`ls -lh $dl_dir/$target_path | awk '{print $5}'`
+            if [ $? -ne 0 ]; then
+                exit 404
+            fi
+            size_byte=`ls -l $dl_dir/$target_path | awk '{print $5}'`
             md5=`md5sum $dl_dir/$target_path | awk '{print $1}'`
             if [ $is_check_md5 -eq 1 ] && [ "x"$expected_md5 != "x" ]; then
                 if [ $expected_md5 != $md5 ]; then
