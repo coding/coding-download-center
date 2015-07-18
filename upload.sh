@@ -120,13 +120,15 @@ for dir in $dirs; do
     fi
 
     # sed不支持多行文本，所以要先把换行符去掉
-    tmp=`cat tmp-index-part.html | tr '\n' '\f'`
-    body=`echo $tmp | sed -e "s|<table>|<table class=\"pure-table pure-table-striped pure-table-horizontal\">|g"`
-    rm tmp-*
+    sed -i ':a;N;s/\n//;ta' tmp-index-part.html
+    sed -i "s|<table>|<table class=\"pure-table pure-table-striped pure-table-horizontal\">|g" tmp-index-part.html
+    sed -e 's/^/s|{body}|/' -e 's/$/|g/' tmp-index-part.html > tmp-sed.sh
     dl_dir_for_sed=${dl_dir//\//\\/}
     path=`pwd | sed -e "s|$dl_dir_for_sed||"`
     path_for_sed=${path//\//\\/}
-    sed -e "s|</title>|</title>$favicon_html|g" -e "s#</body>#$google_analytics_html</body>#g" -e "s#</head>#$zhuge_html</head>#g" -e "s|{title}|Index of $path_for_sed/|g" -e "s|{body}|$body|g" $top_dir/tpl.html | tr '\f' '\n' > index.html
+    sed -e "s|</title>|</title>$favicon_html|g" -e "s#</body>#$google_analytics_html</body>#g" -e "s#</head>#$zhuge_html</head>#g" $top_dir/tpl.html -e "s|{title}|Index of $path_for_sed/|g" > index.html
+    sed -i -f tmp-sed.sh index.html
+    rm tmp-*
     qiniu_prefix=${path:1}"/"
     if [ $qiniu_prefix = "/" ]; then
         qiniu_prefix=""
@@ -144,6 +146,6 @@ for dir in $dirs; do
     # 把index.html上传到 七牛的xxx/，用于列表服务
     qrsctl put $qiniu_bucket "$qiniu_prefix" index.html
     qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/$qiniu_prefix
-    #rm index.html
+    rm index.html
 done
 echo 'the end'
