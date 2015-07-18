@@ -23,6 +23,7 @@ http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | android/ndk/
 http://download.virtualbox.org/virtualbox/5.0.0/virtualbox-5.0\_5.0.0-101573~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.0-101573~Ubuntu~trusty\_amd64.deb |
 http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0-5.0.0\_101573\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.0\_101573\_fedora22-1.x86\_64.rpm |
 http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg | virtualbox/VirtualBox-5.0.0-101573-OSX.dmg |
+http://download.virtualbox.org/virtualbox/5.0.0/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.0-101573.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.0-101573.vbox-extpack |
 http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.tar.gz | java/jdk-8u51-linux-x64.tar.gz |
 http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.rpm | java/jdk-8u51-linux-x64.rpm |
 http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-macosx-x64.dmg | java/jdk-8u51-macosx-x64.dmg |
