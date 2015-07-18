@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
 source $top_dir/gmirror.conf
