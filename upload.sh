@@ -138,7 +138,7 @@ for dir in $dirs; do
     tmp_lines=`find . -maxdepth 1 -type f -printf '%f\n'`
     for filename in $tmp_lines; do
     echo $filename
-        if [ $filename != "index.html" ]; then
+        if [ $filename != "index.html" ] && [ $filename != "files.md" ]; then
             mime=`file -b --mime-type $filename`
             qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename "$mime" "http://up.qiniug.com"
         fi
