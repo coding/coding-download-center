@@ -1,14 +1,14 @@
 :ri | filename | md5sum
 ----|----------|-------
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.89\_google-chrome-stable\_current\_amd64.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.89\_google-chrome-stable\_current\_i386.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/44.0.2403.89\_google-chrome-stable\_current\_x86\_64.rpm |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/44.0.2403.89\_google-chrome-stable\_current\_i386.rpm |
-https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/44.0.2403.89\_googlechrome.dmg |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/44.0.2403.89\_googlechromestandaloneenterprise64.msi |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.89\_googlechromestandaloneenterprise.msi |
-http://dl.google.com/chrome/win/304B714D5633C4A4/44.0.2403.89\_chrome64\_installer.exe | chrome/win/44.0.2403.89\_chrome64\_installer.exe |
-http://dl.google.com/chrome/win/85B93BB9AC60ACED/44.0.2403.89\_chrome\_installer.exe | chrome/win/44.0.2403.89\_chrome\_installer.exe |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_amd64.deb |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_i386.deb |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_x86\_64.rpm |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_i386.rpm |
+https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/44.0.2403.107\_googlechrome.dmg |
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/44.0.2403.107\_googlechromestandaloneenterprise64.msi |
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.107\_googlechromestandaloneenterprise.msi |
+http://dl.google.com/chrome/win/C2C79A9E41382DC6/44.0.2403.107\_chrome64\_installer.exe | chrome/win/44.0.2403.107\_chrome64\_installer.exe |
+http://dl.google.com/chrome/win/2EFE47E970C927DF/44.0.2403.107\_chrome\_installer.exe | chrome/win/44.0.2403.107\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz |
 http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip |
 http://dl.google.com/android/installer\_r24.3.3-windows.exe | android/installer\_r24.3.3-windows.exe |
@@ -32,3 +32,7 @@ http://javadl.sun.com/webapps/download/AutoDL?BundleId=108139 | java/jre-8u51-li
 http://javadl.sun.com/webapps/download/AutoDL?BundleId=108138 | java/jre-8u51-linux-x64.rpm |
 http://javadl.sun.com/webapps/download/AutoDL?BundleId=108140 | java/jre-8u51-macosx-x64.dmg |
 http://javadl.sun.com/webapps/download/AutoDL?BundleId=107944 | java/jre-8u51-windows-x64.exe |
+https://github.com/cgapps/vendor\_google/raw/builds/arm64/gapps-5.1-arm64-2015-07-17-15-08.zip | gapps/gapps-5.1-arm64-2015-07-17-15-08.zip |
+https://github.com/cgapps/vendor\_google/raw/builds/arm/gapps-5.1-arm-2015-07-17-13-29.zip | gapps/gapps-5.1-arm-2015-07-17-13-29.zip |
+https://github.com/cgapps/vendor\_google/raw/builds/x86/gapps-5.1-x86-2015-07-17-15-08.zip | gapps/gapps-5.1-x86-2015-07-17-15-08.zip |
+http://itvends.com/gapps/gapps-kk-20140606-signed.zip | |
