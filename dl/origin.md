@@ -1,14 +1,14 @@
 :ri | filename | md5sum
 ----|----------|-------
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_amd64.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_i386.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_x86\_64.rpm |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/44.0.2403.107\_google-chrome-stable\_current\_i386.rpm |
-https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/44.0.2403.107\_googlechrome.dmg |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/44.0.2403.107\_googlechromestandaloneenterprise64.msi |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.107\_googlechromestandaloneenterprise.msi |
-http://dl.google.com/chrome/win/C2C79A9E41382DC6/44.0.2403.107\_chrome64\_installer.exe | chrome/win/44.0.2403.107\_chrome64\_installer.exe |
-http://dl.google.com/chrome/win/2EFE47E970C927DF/44.0.2403.107\_chrome\_installer.exe | chrome/win/44.0.2403.107\_chrome\_installer.exe |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.125\_google-chrome-stable\_current\_amd64.deb |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.125\_google-chrome-stable\_current\_i386.deb |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/44.0.2403.125\_google-chrome-stable\_current\_x86\_64.rpm |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/44.0.2403.125\_google-chrome-stable\_current\_i386.rpm |
+https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/44.0.2403.125\_googlechrome.dmg |
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/44.0.2403.125\_googlechromestandaloneenterprise64.msi |
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.125\_googlechromestandaloneenterprise.msi |
+http://dl.google.com/chrome/win/181FB3267D7D5264/44.0.2403.125\_chrome64\_installer.exe | chrome/win/44.0.2403.125\_chrome64\_installer.exe |
+http://dl.google.com/chrome/win/423611FFB3B8CD56/44.0.2403.125\_chrome\_installer.exe | chrome/win/44.0.2403.125\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz |
 http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip |
 http://dl.google.com/android/installer\_r24.3.3-windows.exe | android/installer\_r24.3.3-windows.exe |
