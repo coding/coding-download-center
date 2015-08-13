@@ -113,7 +113,11 @@ for file in $files; do
             size=$size_byte
         fi
 
-        echo ${filename//_/\\_}'|'$size'|'$expected_md5 >> $dl_dir/$target_dir/files.md
+        filename_for_markdown=${filename//_/\\_}
+        grep "$filename_for_markdown"'|' $dl_dir/$target_dir/files.md
+        if [ $? -ne 0 ]; then
+            echo "$filename_for_markdown"'|'$size'|'$expected_md5 >> $dl_dir/$target_dir/files.md
+        fi
     done
 done
 echo 'the end'
