@@ -11,10 +11,8 @@ http://dl.google.com/chrome/win/848F5CEF891B7DBB/44.0.2403.155\_chrome64\_instal
 http://dl.google.com/chrome/win/7DE6FB2AC587843A/44.0.2403.155\_chrome\_installer.exe | chrome/win/44.0.2403.155\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz |
 http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip |
-http://dl.google.com/android/installer\_r24.3.3-windows.exe | android/installer\_r24.3.3-windows.exe |
 https://dl.google.com/dl/android/studio/ide-zips/1.3.1.0/android-studio-ide-141.2135290-linux.zip | android/studio/android-studio-ide-141.2135290-linux.zip |
 https://dl.google.com/dl/android/studio/install/1.3.1.0/android-studio-ide-141.2135290-mac.dmg | android/studio/android-studio-ide-141.2135290-mac.dmg |
-https://dl.google.com/dl/android/studio/install/1.3.1.0/android-studio-ide-141.2135290-windows.exe | android/studio/android-studio-ide-141.2135290-windows.exe |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | android/ndk/android-ndk-r10e-linux-x86\_64.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | android/ndk/android-ndk-r10e-linux-x86.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | android/ndk/android-ndk-r10e-darwin-x86\_64.bin |
