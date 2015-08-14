@@ -1,4 +1,4 @@
-:ri | filename | md5sum
+uri | filename | md5sum
 ----|----------|-------
 https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.155\_google-chrome-stable\_current\_amd64.deb |
 https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.155\_google-chrome-stable\_current\_i386.deb |
@@ -12,18 +12,18 @@ http://dl.google.com/chrome/win/7DE6FB2AC587843A/44.0.2403.155\_chrome\_installe
 http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz |
 http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip |
 http://dl.google.com/android/installer\_r24.3.3-windows.exe | android/installer\_r24.3.3-windows.exe |
-https://dl.google.com/dl/android/studio/ide-zips/1.2.2.0/android-studio-ide-141.1980579-linux.zip | android/studio/1.2.2.0/android-studio-ide-141.1980579-linux.zip |
-https://dl.google.com/dl/android/studio/install/1.2.2.0/android-studio-ide-141.1980579-mac.dmg | android/studio/1.2.2.0/android-studio-ide-141.1980579-mac.dmg |
-https://dl.google.com/dl/android/studio/install/1.2.2.0/android-studio-ide-141.1980579-windows.exe | android/studio/1.2.2.0/android-studio-ide-141.1980579-windows.exe |
+https://dl.google.com/dl/android/studio/ide-zips/1.3.1.0/android-studio-ide-141.2135290-linux.zip | android/studio/android-studio-ide-141.2135290-linux.zip |
+https://dl.google.com/dl/android/studio/install/1.3.1.0/android-studio-ide-141.2135290-mac.dmg | android/studio/android-studio-ide-141.2135290-mac.dmg |
+https://dl.google.com/dl/android/studio/install/1.3.1.0/android-studio-ide-141.2135290-windows.exe | android/studio/android-studio-ide-141.2135290-windows.exe |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | android/ndk/android-ndk-r10e-linux-x86\_64.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | android/ndk/android-ndk-r10e-linux-x86.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | android/ndk/android-ndk-r10e-darwin-x86\_64.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86\_64.exe | android/ndk/android-ndk-r10e-windows-x86\_64.exe |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | android/ndk/android-ndk-r10e-windows-x86.exe |
-http://download.virtualbox.org/virtualbox/5.0.0/virtualbox-5.0\_5.0.0-101573~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.0-101573~Ubuntu~trusty\_amd64.deb |
-http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0-5.0.0\_101573\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.0\_101573\_fedora22-1.x86\_64.rpm |
-http://download.virtualbox.org/virtualbox/5.0.0/VirtualBox-5.0.0-101573-OSX.dmg | virtualbox/VirtualBox-5.0.0-101573-OSX.dmg |
-http://download.virtualbox.org/virtualbox/5.0.0/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.0-101573.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.0-101573.vbox-extpack |
+http://download.virtualbox.org/virtualbox/5.0.2/virtualbox-5.0\_5.0.2-102096~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.2-102096~Ubuntu~trusty\_amd64.deb |
+http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0-5.0.2\_102096\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.2\_102096\_fedora22-1.x86\_64.rpm |
+http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0.2-102096-OSX.dmg | virtualbox/VirtualBox-5.0.2-102096-OSX.dmg |
+http://download.virtualbox.org/virtualbox/5.0.2/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.2-102096.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.2-102096.vbox-extpack |
 http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.tar.gz | java/jdk-8u51-linux-x64.tar.gz |
 http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-linux-x64.rpm | java/jdk-8u51-linux-x64.rpm |
 http://download.oracle.com/otn-pub/java/jdk/8u51-b16/jdk-8u51-macosx-x64.dmg | java/jdk-8u51-macosx-x64.dmg |
