@@ -34,3 +34,6 @@ https://github.com/cgapps/vendor\_google/raw/builds/arm64/gapps-5.1-arm64-2015-0
 https://github.com/cgapps/vendor\_google/raw/builds/arm/gapps-5.1-arm-2015-07-17-13-29.zip | gapps/gapps-5.1-arm-2015-07-17-13-29.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/x86/gapps-5.1-x86-2015-07-17-15-08.zip | gapps/gapps-5.1-x86-2015-07-17-15-08.zip |
 http://itvends.com/gapps/gapps-kk-20140606-signed.zip | |
+http://php.net/get/php-5.6.12.tar.bz2/from/this/mirror | php/php-5.6.12.tar.bz2 |
+https://phar.phpunit.de/phpunit.phar | php/phpunit-4.8.0.phar |
+https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.8.5/phpDocumentor.phar | php/phpDocumentor-2.8.5.phar |
