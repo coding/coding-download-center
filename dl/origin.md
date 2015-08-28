@@ -1,14 +1,14 @@
 uri | filename | md5sum
 ----|----------|-------
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.155\_google-chrome-stable\_current\_amd64.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.155\_google-chrome-stable\_current\_i386.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/44.0.2403.155\_google-chrome-stable\_current\_x86\_64.rpm |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/44.0.2403.155\_google-chrome-stable\_current\_i386.rpm |
-https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/44.0.2403.155\_googlechrome.dmg |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/44.0.2403.155\_googlechromestandaloneenterprise64.msi |
-https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.155\_googlechromestandaloneenterprise.msi |
-http://dl.google.com/chrome/win/848F5CEF891B7DBB/44.0.2403.155\_chrome64\_installer.exe | chrome/win/44.0.2403.155\_chrome64\_installer.exe |
-http://dl.google.com/chrome/win/7DE6FB2AC587843A/44.0.2403.155\_chrome\_installer.exe | chrome/win/44.0.2403.155\_chrome\_installer.exe |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/44.0.2403.157\_google-chrome-stable\_current\_amd64.deb |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/44.0.2403.157\_google-chrome-stable\_current\_i386.deb |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/44.0.2403.157\_google-chrome-stable\_current\_x86\_64.rpm |
+https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/44.0.2403.157\_google-chrome-stable\_current\_i386.rpm |
+https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/44.0.2403.157\_googlechrome.dmg |
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/44.0.2403.157\_googlechromestandaloneenterprise64.msi |
+https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.157\_googlechromestandaloneenterprise.msi |
+http://dl.google.com/chrome/win/848F5CEF891B7DBB/44.0.2403.157\_chrome64\_installer.exe | chrome/win/44.0.2403.157\_chrome64\_installer.exe |
+http://dl.google.com/chrome/win/7DE6FB2AC587843A/44.0.2403.157\_chrome\_installer.exe | chrome/win/44.0.2403.157\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz |
 http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip |
 https://dl.google.com/dl/android/studio/ide-zips/1.3.1.0/android-studio-ide-141.2135290-linux.zip | android/studio/android-studio-ide-141.2135290-linux.zip |
@@ -37,3 +37,8 @@ http://itvends.com/gapps/gapps-kk-20140606-signed.zip | |
 http://php.net/get/php-5.6.12.tar.bz2/from/this/mirror | php/php-5.6.12.tar.bz2 |
 https://phar.phpunit.de/phpunit.phar | php/phpunit-4.8.0.phar |
 https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.8.5/phpDocumentor.phar | php/phpDocumentor-2.8.5.phar |
+https://services.gradle.org/distributions/gradle-2.6-all.zip | gradle/gradle-2.6-all.zip |
+https://services.gradle.org/distributions/gradle-2.5-all.zip | gradle/gradle-2.5-all.zip |
+https://services.gradle.org/distributions/gradle-2.4-all.zip | gradle/gradle-2.4-all.zip |
+https://services.gradle.org/distributions/gradle-2.3-all.zip | gradle/gradle-2.3-all.zip |
+https://services.gradle.org/distributions/gradle-2.2.1-all.zip | gradle/gradle-2.2.1-all.zip |
