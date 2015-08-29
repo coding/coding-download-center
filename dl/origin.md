@@ -9,10 +9,10 @@ https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D
 https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/44.0.2403.157\_googlechromestandaloneenterprise.msi |
 http://dl.google.com/chrome/win/1119FA397D484864/44.0.2403.157\_chrome64\_installer.exe | chrome/win/44.0.2403.157\_chrome64\_installer.exe |
 http://dl.google.com/chrome/win/F24BEBCD670E2ACB/44.0.2403.157\_chrome\_installer.exe | chrome/win/44.0.2403.157\_chrome\_installer.exe |
-http://dl.google.com/android/android-sdk\_r24.3.3-linux.tgz | android/android-sdk\_r24.3.3-linux.tgz |
-http://dl.google.com/android/android-sdk\_r24.3.3-macosx.zip | android/android-sdk\_r24.3.3-macosx.zip |
-https://dl.google.com/dl/android/studio/ide-zips/1.3.1.0/android-studio-ide-141.2135290-linux.zip | android/studio/android-studio-ide-141.2135290-linux.zip |
-https://dl.google.com/dl/android/studio/install/1.3.1.0/android-studio-ide-141.2135290-mac.dmg | android/studio/android-studio-ide-141.2135290-mac.dmg |
+http://dl.google.com/android/android-sdk\_r24.3.4-linux.tgz | android/android-sdk\_r24.3.4-linux.tgz |
+http://dl.google.com/android/android-sdk\_r24.3.4-macosx.zip | android/android-sdk\_r24.3.4-macosx.zip |
+https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2135290-linux.zip | android/studio/android-studio-ide-141.2135290-linux.zip |
+https://dl.google.com/dl/android/studio/install/1.3.2.0/android-studio-ide-141.2135290-mac.dmg | android/studio/android-studio-ide-141.2135290-mac.dmg |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | android/ndk/android-ndk-r10e-linux-x86\_64.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | android/ndk/android-ndk-r10e-linux-x86.bin |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | android/ndk/android-ndk-r10e-darwin-x86\_64.bin |
@@ -33,7 +33,8 @@ http://javadl.sun.com/webapps/download/AutoDL?BundleId=107944 | java/jre-8u51-wi
 https://github.com/cgapps/vendor\_google/raw/builds/arm64/gapps-5.1-arm64-2015-07-17-15-08.zip | gapps/gapps-5.1-arm64-2015-07-17-15-08.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/arm/gapps-5.1-arm-2015-07-17-13-29.zip | gapps/gapps-5.1-arm-2015-07-17-13-29.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/x86/gapps-5.1-x86-2015-07-17-15-08.zip | gapps/gapps-5.1-x86-2015-07-17-15-08.zip |
-http://itvends.com/gapps/gapps-kk-20140606-signed.zip | |
+http://gapps.itvends.com/gapps-lp-20141212-signed.zip | gapps/gapps-lp-20141212-signed.zip |
+http://gapps.itvends.com/gapps-kk-20140606-signed.zip | gapps/gapps-kk-20140606-signed.zip |
 http://php.net/get/php-5.6.12.tar.bz2/from/this/mirror | php/php-5.6.12.tar.bz2 |
 https://phar.phpunit.de/phpunit.phar | php/phpunit-4.8.0.phar |
 https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.8.5/phpDocumentor.phar | php/phpDocumentor-2.8.5.phar |
