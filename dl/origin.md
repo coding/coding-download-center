@@ -11,13 +11,13 @@ https://dl.google.com/chrome/win/747508CB2FEC3FAD/45.0.2454.85\_chrome64\_instal
 https://dl.google.com/chrome/win/44279B03EFF4252A/45.0.2454.85\_chrome\_installer.exe | chrome/win/45.0.2454.85\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.3.4-linux.tgz | android/android-sdk\_r24.3.4-linux.tgz |
 http://dl.google.com/android/android-sdk\_r24.3.4-macosx.zip | android/android-sdk\_r24.3.4-macosx.zip |
-https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2135290-linux.zip | android/studio/android-studio-ide-141.2135290-linux.zip |
-https://dl.google.com/dl/android/studio/install/1.3.2.0/android-studio-ide-141.2135290-mac.dmg | android/studio/android-studio-ide-141.2135290-mac.dmg |
-http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | android/ndk/android-ndk-r10e-linux-x86\_64.bin |
-http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | android/ndk/android-ndk-r10e-linux-x86.bin |
-http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | android/ndk/android-ndk-r10e-darwin-x86\_64.bin |
-http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86\_64.exe | android/ndk/android-ndk-r10e-windows-x86\_64.exe |
-http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | android/ndk/android-ndk-r10e-windows-x86.exe |
+https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2135290-linux.zip | |
+https://dl.google.com/dl/android/studio/install/1.3.2.0/android-studio-ide-141.2135290-mac.dmg | |
+http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | |
+http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | |
+http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | |
+http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86\_64.exe | |
+http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | |
 http://download.virtualbox.org/virtualbox/5.0.2/virtualbox-5.0\_5.0.2-102096~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.2-102096~Ubuntu~trusty\_amd64.deb |
 http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0-5.0.2\_102096\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.2\_102096\_fedora22-1.x86\_64.rpm |
 http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0.2-102096-OSX.dmg | virtualbox/VirtualBox-5.0.2-102096-OSX.dmg |
@@ -35,6 +35,6 @@ https://services.gradle.org/distributions/gradle-2.5-all.zip | gradle/gradle-2.5
 https://services.gradle.org/distributions/gradle-2.4-all.zip | gradle/gradle-2.4-all.zip |
 https://services.gradle.org/distributions/gradle-2.3-all.zip | gradle/gradle-2.3-all.zip |
 https://services.gradle.org/distributions/gradle-2.2.1-all.zip | gradle/gradle-2.2.1-all.zip |
-https://storage.googleapis.com/golang/go1.5.windows-amd64.msi | golang/go1.5.windows-amd64.msi |
-https://storage.googleapis.com/golang/go1.5.darwin-amd64.pkg | golang/go1.5.darwin-amd64.pkg |
-https://storage.googleapis.com/golang/go1.5.linux-amd64.tar.gz | golang/go1.5.linux-amd64.tar.gz |
+https://storage.googleapis.com/golang/go1.5.windows-amd64.msi | |
+https://storage.googleapis.com/golang/go1.5.darwin-amd64.pkg | |
+https://storage.googleapis.com/golang/go1.5.linux-amd64.tar.gz | |
