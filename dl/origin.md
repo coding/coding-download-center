@@ -9,10 +9,10 @@ https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D
 https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/45.0.2454.85\_googlechromestandaloneenterprise.msi |
 https://dl.google.com/chrome/win/747508CB2FEC3FAD/45.0.2454.85\_chrome64\_installer.exe | chrome/win/45.0.2454.85\_chrome64\_installer.exe |
 https://dl.google.com/chrome/win/44279B03EFF4252A/45.0.2454.85\_chrome\_installer.exe | chrome/win/45.0.2454.85\_chrome\_installer.exe |
-http://dl.google.com/android/android-sdk\_r24.3.4-linux.tgz | android/android-sdk\_r24.3.4-linux.tgz |
-http://dl.google.com/android/android-sdk\_r24.3.4-macosx.zip | android/android-sdk\_r24.3.4-macosx.zip |
-https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2135290-linux.zip | |
-https://dl.google.com/dl/android/studio/install/1.3.2.0/android-studio-ide-141.2135290-mac.dmg | |
+http://dl.google.com/android/android-sdk\_r24.3.4-linux.tgz | |
+http://dl.google.com/android/android-sdk\_r24.3.4-macosx.zip | |
+https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2178183-linux.zip | |
+https://dl.google.com/dl/android/studio/install/1.3.2.0/android-studio-ide-141.2178183-mac.dmg | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | |
