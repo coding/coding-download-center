@@ -137,16 +137,16 @@ for dir in $dirs; do
     # 上传所有文件
     tmp_lines=`find . -maxdepth 1 -type f -printf '%f\n'`
     for filename in $tmp_lines; do
-    echo $filename
+        echo $filename
         if [ $filename != "index.html" ] && [ $filename != "files.md" ]; then
             mime=`file -b --mime-type $filename`
             qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename "$mime" "http://up.qiniug.com"
         fi
     done
-    # 把index.html上传到 七牛的xxx/，用于列表服务
-    qshell delete $qiniu_bucket "$qiniu_prefix"
-    qshell fput $qiniu_bucket "$qiniu_prefix" index.html
-    qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/$qiniu_prefix
+    # 上传index.html，用于列表服务
+    qshell delete $qiniu_bucket "$qiniu_prefix"index.html
+    qshell fput $qiniu_bucket "$qiniu_prefix"index.html index.html
+    qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/"$qiniu_prefix"index.html
     rm index.html
 done
 echo 'the end'
