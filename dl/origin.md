@@ -1,9 +1,7 @@
 uri | filename | md5sum
 ----|----------|-------
 https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb | chrome/linux/45.0.2454.101\_google-chrome-stable\_current\_amd64.deb |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.deb | chrome/linux/45.0.2454.101\_google-chrome-stable\_current\_i386.deb |
 https://dl.google.com/linux/direct/google-chrome-stable\_current\_x86\_64.rpm | chrome/linux/45.0.2454.101\_google-chrome-stable\_current\_x86\_64.rpm |
-https://dl.google.com/linux/direct/google-chrome-stable\_current\_i386.rpm | chrome/linux/45.0.2454.101\_google-chrome-stable\_current\_i386.rpm |
 https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/45.0.2454.101\_googlechrome.dmg |
 https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/45.0.2454.101\_googlechromestandaloneenterprise64.msi |
 https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/45.0.2454.101\_googlechromestandaloneenterprise.msi |
@@ -11,17 +9,17 @@ http://dl.google.com/chrome/win/98E60FD8733C86C4/45.0.2454.101\_chrome64\_instal
 http://dl.google.com/chrome/win/0E8B92977CB91A99/45.0.2454.101\_chrome\_installer.exe | chrome/win/45.0.2454.101\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.3.4-linux.tgz | |
 http://dl.google.com/android/android-sdk\_r24.3.4-macosx.zip | |
-https://dl.google.com/dl/android/studio/ide-zips/1.3.2.0/android-studio-ide-141.2178183-linux.zip | |
-https://dl.google.com/dl/android/studio/install/1.3.2.0/android-studio-ide-141.2178183-mac.dmg | |
+https://dl.google.com/dl/android/studio/ide-zips/1.4.0.10/android-studio-ide-141.2288178-linux.zip | |
+https://dl.google.com/dl/android/studio/install/1.4.0.10/android-studio-ide-141.2288178-mac.dmg | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86\_64.exe | |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | |
-http://download.virtualbox.org/virtualbox/5.0.2/virtualbox-5.0\_5.0.2-102096~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.2-102096~Ubuntu~trusty\_amd64.deb |
-http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0-5.0.2\_102096\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.2\_102096\_fedora22-1.x86\_64.rpm |
-http://download.virtualbox.org/virtualbox/5.0.2/VirtualBox-5.0.2-102096-OSX.dmg | virtualbox/VirtualBox-5.0.2-102096-OSX.dmg |
-http://download.virtualbox.org/virtualbox/5.0.2/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.2-102096.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.2-102096.vbox-extpack |
+http://download.virtualbox.org/virtualbox/5.0.6/virtualbox-5.0\_5.0.6-103037~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.6-103037~Ubuntu~trusty\_amd64.deb |
+http://download.virtualbox.org/virtualbox/5.0.6/VirtualBox-5.0-5.0.6\_103037\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.6\_103037\_fedora22-1.x86\_64.rpm |
+http://download.virtualbox.org/virtualbox/5.0.6/VirtualBox-5.0.6-103037-OSX.dmg | virtualbox/VirtualBox-5.0.6-103037-OSX.dmg |
+http://download.virtualbox.org/virtualbox/5.0.6/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.6-103037.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.6-103037.vbox-extpack |
 https://github.com/cgapps/vendor\_google/raw/builds/arm64/gapps-5.1-arm64-2015-07-17-15-08.zip | gapps/gapps-5.1-arm64-2015-07-17-15-08.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/arm/gapps-5.1-arm-2015-07-17-13-29.zip | gapps/gapps-5.1-arm-2015-07-17-13-29.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/x86/gapps-5.1-x86-2015-07-17-15-08.zip | gapps/gapps-5.1-x86-2015-07-17-15-08.zip |
