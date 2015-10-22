@@ -144,9 +144,9 @@ for dir in $dirs; do
         fi
     done
     # 上传index.html，用于列表服务
-    qshell delete $qiniu_bucket "$qiniu_prefix"index.html
-    qshell fput $qiniu_bucket "$qiniu_prefix"index.html index.html "text/html" "http://upws.qiniug.com"
-    qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/"$qiniu_prefix"index.html
+    qshell delete $qiniu_bucket "$qiniu_prefix"
+    qshell fput $qiniu_bucket "$qiniu_prefix" index.html "text/html" "http://upws.qiniug.com"
+    qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/"$qiniu_prefix"
     rm index.html
 done
 echo 'the end'
