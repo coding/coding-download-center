@@ -7,8 +7,8 @@ https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D
 https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/dl/chrome/install/googlechromestandaloneenterprise.msi | chrome/win/46.0.2490.71\_googlechromestandaloneenterprise.msi |
 http://dl.google.com/chrome/win/ED09801303323CD3/46.0.2490.71\_chrome64\_installer.exe | chrome/win/46.0.2490.71\_chrome64\_installer.exe |
 http://dl.google.com/chrome/win/462C8315AC5B3DDC/46.0.2490.71\_chrome\_installer.exe | chrome/win/46.0.2490.71\_chrome\_installer.exe |
-http://dl.google.com/android/android-sdk\_r24.3.4-linux.tgz | |
-http://dl.google.com/android/android-sdk\_r24.3.4-macosx.zip | |
+http://dl.google.com/android/android-sdk\_r24.4.1-linux.tgz | |
+http://dl.google.com/android/android-sdk\_r24.4.1-macosx.zip | |
 https://dl.google.com/dl/android/studio/ide-zips/1.4.0.10/android-studio-ide-141.2288178-linux.zip | |
 https://dl.google.com/dl/android/studio/install/1.4.0.10/android-studio-ide-141.2288178-mac.dmg | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | |
@@ -25,8 +25,8 @@ https://github.com/cgapps/vendor\_google/raw/builds/arm/gapps-5.1-arm-2015-07-17
 https://github.com/cgapps/vendor\_google/raw/builds/x86/gapps-5.1-x86-2015-07-17-15-08.zip | gapps/gapps-5.1-x86-2015-07-17-15-08.zip |
 http://gapps.itvends.com/gapps-lp-20141212-signed.zip | gapps/gapps-lp-20141212-signed.zip |
 http://gapps.itvends.com/gapps-kk-20140606-signed.zip | gapps/gapps-kk-20140606-signed.zip |
-http://php.net/get/php-5.6.13.tar.bz2/from/this/mirror | php/php-5.6.13.tar.bz2 |
-https://phar.phpunit.de/phpunit.phar | php/phpunit-4.8.0.phar |
+http://php.net/get/php-5.6.14.tar.bz2/from/this/mirror | php/php-5.6.14.tar.bz2 |
+https://phar.phpunit.de/phpunit.phar | php/phpunit-5.0.phar |
 https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.8.5/phpDocumentor.phar | php/phpDocumentor-2.8.5.phar |
 https://services.gradle.org/distributions/gradle-2.6-all.zip | gradle/gradle-2.6-all.zip |
 https://services.gradle.org/distributions/gradle-2.5-all.zip | gradle/gradle-2.5-all.zip |
