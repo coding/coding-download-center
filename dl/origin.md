@@ -16,10 +16,12 @@ http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86\_64.exe | |
 http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86.exe | |
-http://download.virtualbox.org/virtualbox/5.0.6/virtualbox-5.0\_5.0.6-103037~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.6-103037~Ubuntu~trusty\_amd64.deb |
-http://download.virtualbox.org/virtualbox/5.0.6/VirtualBox-5.0-5.0.6\_103037\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.6\_103037\_fedora22-1.x86\_64.rpm |
-http://download.virtualbox.org/virtualbox/5.0.6/VirtualBox-5.0.6-103037-OSX.dmg | virtualbox/VirtualBox-5.0.6-103037-OSX.dmg |
-http://download.virtualbox.org/virtualbox/5.0.6/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.6-103037.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.6-103037.vbox-extpack |
+http://download.virtualbox.org/virtualbox/5.0.8/virtualbox-5.0\_5.0.8-103449~Ubuntu~wily\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.8-103449~Ubuntu~wily\_amd64.deb |
+http://download.virtualbox.org/virtualbox/5.0.8/virtualbox-5.0\_5.0.8-103449~Ubuntu~trusty\_amd64.deb | virtualbox/virtualbox-5.0\_5.0.8-103449~Ubuntu~trusty\_amd64.deb |
+http://download.virtualbox.org/virtualbox/5.0.8/VirtualBox-5.0-5.0.8\_103449\_fedora22-1.x86\_64.rpm | virtualbox/VirtualBox-5.0-5.0.8\_103449\_fedora22-1.x86\_64.rpm |
+http://download.virtualbox.org/virtualbox/5.0.8/VirtualBox-5.0.8-103449-OSX.dmg | virtualbox/VirtualBox-5.0.8-103449-OSX.dmg |
+http://download.virtualbox.org/virtualbox/5.0.8/VirtualBox-5.0.8-103449-Win.exe | virtualbox/VirtualBox-5.0.8-103449-Win.exe |
+http://download.virtualbox.org/virtualbox/5.0.8/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.8-103449.vbox-extpack | virtualbox/Oracle\_VM\_VirtualBox\_Extension\_Pack-5.0.8-103449.vbox-extpack |
 https://github.com/cgapps/vendor\_google/raw/builds/arm64/gapps-5.1-arm64-2015-07-17-15-08.zip | gapps/gapps-5.1-arm64-2015-07-17-15-08.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/arm/gapps-5.1-arm-2015-07-17-13-29.zip | gapps/gapps-5.1-arm-2015-07-17-13-29.zip |
 https://github.com/cgapps/vendor\_google/raw/builds/x86/gapps-5.1-x86-2015-07-17-15-08.zip | gapps/gapps-5.1-x86-2015-07-17-15-08.zip |
