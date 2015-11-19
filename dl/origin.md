@@ -34,6 +34,6 @@ https://services.gradle.org/distributions/gradle-2.5-all.zip | gradle/gradle-2.5
 https://services.gradle.org/distributions/gradle-2.4-all.zip | gradle/gradle-2.4-all.zip |
 https://services.gradle.org/distributions/gradle-2.3-all.zip | gradle/gradle-2.3-all.zip |
 https://services.gradle.org/distributions/gradle-2.2.1-all.zip | gradle/gradle-2.2.1-all.zip |
-https://storage.googleapis.com/golang/go1.5.windows-amd64.msi | |
-https://storage.googleapis.com/golang/go1.5.darwin-amd64.pkg | |
-https://storage.googleapis.com/golang/go1.5.linux-amd64.tar.gz | |
+https://storage.googleapis.com/golang/go1.5.1.windows-amd64.msi | |
+https://storage.googleapis.com/golang/go1.5.1.darwin-amd64.pkg | |
+https://storage.googleapis.com/golang/go1.5.1.linux-amd64.tar.gz | |
