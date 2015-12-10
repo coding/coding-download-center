@@ -9,8 +9,8 @@ http://dl.google.com/chrome/win/E35ECF06F2881431/47.0.2526.73\_chrome64\_install
 http://dl.google.com/chrome/win/F7D6CB514ABC7EEB/47.0.2526.73\_chrome\_installer.exe | chrome/win/47.0.2526.73\_chrome\_installer.exe |
 http://dl.google.com/android/android-sdk\_r24.4.1-linux.tgz | |
 http://dl.google.com/android/android-sdk\_r24.4.1-macosx.zip | |
-https://dl.google.com/dl/android/studio/ide-zips/1.5.0.4/android-studio-ide-141.2422023-linux.zip | |
-https://dl.google.com/dl/android/studio/install/1.5.0.4/android-studio-ide-141.2422023-mac.dmg | |
+https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip | |
+https://dl.google.com/dl/android/studio/install/1.5.1.0/android-studio-ide-141.2456560-mac.dmg | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86\_64.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin | |
 http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86\_64.bin | |
