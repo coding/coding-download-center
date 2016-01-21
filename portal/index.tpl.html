@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>gmirror - 常用软件CDN镜像下载</title>
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href='http://fonts.gmirror.org/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="./css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="./css/highlight.css">
+  
+  <script>
+  // Current page data
+  var mkdocs_page_name = "None";
+  </script>
+  
+  <script src="./js/jquery-2.1.1.min.js"></script>
+  <script src="./js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="./js/highlight.pack.js"></script>
+  <script src="./js/theme.js"></script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> gmirror - 常用软件CDN镜像下载</a>
+        <div role="search">
+          <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+            <input type="text" name="q" placeholder="Search docs" />
+          </form>
+        </div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          <li class="toctree-l1 current">
+            <a class="current" href=".">首页</a>
+            <ul>
+              <li class="toctree-l3"><a href="#_1">开发者常用软件国内镜像下载</a></li>
+              <li><a class="toctree-l4" href="#chrome">Chrome 浏览器</a></li>
+              <li><a class="toctree-l4" href="#android-sdk-tools-only">Android SDK Tools Only</a></li>
+              <li><a class="toctree-l4" href="#android-studio">Android Studio</a></li>
+              <li><a class="toctree-l4" href="#android-ndk">Android NDK</a></li>
+              <li><a class="toctree-l4" href="#go-lang">Go Lang</a></li>
+              <li><a class="toctree-l4" href="#google-fonts">Google Fonts 国内镜像加速</a></li>
+              <li><a class="toctree-l4" href="#jdk">JDK</a></li>
+              <li><a class="toctree-l4" href="#jre">JRE</a></li>
+              <li><a class="toctree-l4" href="#ubuntu">Ubuntu</a></li>
+              <li><a class="toctree-l4" href="#virtualbox">VirtualBox</a></li>
+          </ul>
+        </li>
+        <li class="toctree-l1 ">
+          <a class="" href="about/">关于我们</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">gmirror - 常用软件CDN镜像下载</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ul class="wy-breadcrumbs">
+              <li><a href=".">Docs</a> &raquo;</li>
+              <li>首页</li>
+              <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/sinkcup/gmirror" class="icon icon-github"> Edit on GitHub</a>
+              </li>
+            </ul>
+            <hr/>
+          </div>
+          <div role="main">
+            <div class="section">
+              <h1 id="_1">开发者常用软件国内镜像下载</h1>
+              <p>主要提供Linux和OS X下的软件国内镜像加速，建议使用Linux或OS X做开发。Windows用户可使用迅雷从官网链接下载，速度很快，所以无需提供镜像。由于目前电脑CPU都是64位的，所以不再提供32位软件下载，建议使用64位操作系统。</p>
+              <h2 id="chrome">Chrome 浏览器</h2>
+              <p>获取快速、免费的网络浏览器（一款适用于计算机、手机和平板电脑的浏览器）。官网：<a href="http://www.google.cn/chrome/browser/desktop/index.html">google.cn/chrome/</a></p>
+
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Debian/Ubuntu amd64</td>
+                    <td>{google-chrome-debian-filename}</td>
+                    <td><a href="{google-chrome-debian-origin-uri}">{google-chrome-debian-origin-domain}</a></td>
+                    <td><a href="{google-chrome-debian-gmirror-uri}">{google-chrome-debian-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Fedora/openSUSE x86_64</td>
+                    <td>{google-chrome-fedora-filename}</td>
+                    <td><a href="{google-chrome-fedora-origin-uri}">{google-chrome-fedora-origin-domain}</a></td>
+                    <td><a href="{google-chrome-fedora-gmirror-uri}">{google-chrome-fedora-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>OS X</td>
+                    <td>{google-chrome-osx-filename}</td>
+                    <td><a href="{google-chrome-osx-origin-uri}">{google-chrome-osx-origin-domain}</a></td>
+                    <td><a href="{google-chrome-osx-gmirror-uri}">{google-chrome-osx-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows 10/8/7 64-bit管理员</td>
+                    <td>{google-chrome-enterprise-win-filename}</td>
+                    <td><a href="{google-chrome-enterprise-win-origin-uri}">{google-chrome-enterprise-win-origin-domain}</a></td>
+                    <td><a href="{google-chrome-enterprise-win-gmirror-uri}">{google-chrome-enterprise-win-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows 10/8/7 64-bit普通用户</td>
+                    <td>{google-chrome-win-filename}</td>
+                    <td><a href="{google-chrome-win-origin-uri}">{google-chrome-enterprise-win-origin-domain}</a></td>
+                    <td><a href="{google-chrome-win-gmirror-uri}">{google-chrome-enterprise-win-gmirror-domain}</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2 id="android-sdk-tools-only">Android SDK Tools Only</h2>
+              <p>These packages provide the basic SDK tools for app development, without an IDE. 官网：<a href="http://developer.android.com/sdk/index.html#Other">developer.android.com/sdk/</a>。</p>
+
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linux</td>
+                    <td>{android-sdk-linux-filename}</td>
+                    <td><a href="{android-sdk-linux-origin-uri}">{android-sdk-linux-origin-domain}</a></td>
+                    <td><a href="{android-sdk-linux-gmirror-uri}">{android-sdk-linux-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>OS X</td>
+                    <td>{android-sdk-osx-filename}</td>
+                    <td><a href="{android-sdk-osx-origin-uri}">{android-sdk-osx-origin-domain}</a></td>
+                    <td><a href="{android-sdk-osx-gmirror-uri}">{android-sdk-osx-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows</td>
+                    <td>installer_r24.4.1-windows.exe</td>
+                    <td><a href="http://dl.google.com/android/installer_r24.4.1-windows.exe">dl.google.com</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2 id="android-studio">Android Studio</h2>
+              <p>The official Android IDE. 官网：<a href="http://developer.android.com/sdk/index.html#Other">developer.android.com/sdk/</a>。</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linux</td>
+                    <td>{android-studio-linux-filename}</td>
+                    <td><a href="{android-studio-linux-origin-uri}">{android-studio-linux-origin-domain}</a></td>
+                    <td><a href="{android-studio-linux-gmirror-uri}">{android-studio-linux-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>OS X</td>
+                    <td>{android-studio-osx-filename}</td>
+                    <td><a href="{android-studio-osx-origin-uri}">{android-studio-osx-origin-domain}</a></td>
+                    <td><a href="{android-studio-osx-gmirror-uri}">{android-studio-osx-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows</td>
+                    <td>android-studio-ide-141.2456560-windows.exe</td>
+                    <td><a href="https://dl.google.com/dl/android/studio/install/1.5.1.0/android-studio-ide-141.2456560-windows.exe">dl.google.com</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2 id="android-ndk">Android NDK</h2>
+              <p>The Native Development Kit (NDK) is a set of tools that allow you to leverage C and C++ code in your Android apps. 官网：<a href="http://developer.android.com/ndk/downloads/index.html">developer.android.com/ndk/downloads/</a>。</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linux</td>
+                    <td>{android-ndk-linux-filename}</td>
+                    <td><a href="{android-ndk-linux-origin-uri}">{android-ndk-linux-origin-domain}</a></td>
+                    <td><a href="{android-ndk-linux-gmirror-uri}">{android-ndk-linux-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>OS X</td>
+                    <td>{android-ndk-osx-filename}</td>
+                    <td><a href="{android-ndk-osx-origin-uri}">{android-ndk-osx-origin-domain}</a></td>
+                    <td><a href="{android-ndk-osx-gmirror-uri}">{android-ndk-osx-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows</td>
+                    <td>android-ndk-r10e-windows-x86_64.exe</td>
+                    <td><a href="http://dl.google.com/android/ndk/android-ndk-r10e-windows-x86_64.exe">dl.google.com</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2 id="go-lang">Go Lang</h2>
+              <p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. 官网：<a href="https://golang.org/dl/">golang.org/dl/</a>。感谢 <a href="https://github.com/mingshun">mingshun</a> 贡献代码发起 <a href="https://github.com/sinkcup/gmirror/pull/4">PR</a>。</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linux 64-bit</td>
+                    <td>{golang-linux-filename}</td>
+                    <td><a href="{golang-linux-origin-uri}">{golang-linux-origin-domain}</a></td>
+                    <td><a href="{golang-linux-gmirror-uri}">{golang-linux-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>OS X 64-bit</td>
+                    <td>{golang-osx-filename}</td>
+                    <td><a href="{golang-osx-origin-uri}">{golang-osx-origin-domain}</a></td>
+                    <td><a href="{golang-osx-gmirror-uri}">{golang-osx-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows 64-bit</td>
+                    <td>{golang-win-filename}</td>
+                    <td><a href="{golang-win-origin-uri}">{golang-win-origin-domain}</a></td>
+                    <td><a href="{golang-win-gmirror-uri}">{golang-win-gmirror-domain}</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2 id="google-fonts">Google Fonts 国内镜像加速</h2>
+              <p>把</p>
+              <pre><code>https://fonts.googleapis.com/
+              </code></pre>
+
+              <p>替换为</p>
+              <pre><code>http://fonts.gmirror.org/
+              </code></pre>
+              <p>即可。</p>
+
+              <h2 id="jdk">JDK</h2>
+              <p>软件开发人员：JDK (Java SE Development Kit)。面向 Java 开发人员。包括一个完整的 JRE 以及用于开发、调试和监视 Java 应用的工具。</p>
+              <p>感谢 <a href="https://coding.net/u/linqun">孜然麻辣熊大大</a> 发<a href="https://coding.net/u/sinkcup/pp/70419">冒泡评论</a>提醒，Oracle可能不允许外网提供Java下载，请大家移步官网（<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a>）。参考：<a href="https://www.java.com/zh_CN/download/faq/distribution.xml">《Java授权和分发常见问题解答》</a>。</p>
+              <h2 id="jre">JRE</h2>
+              <p>在桌面上运行 Java 的最终用户：JRE(Java Runtime Environment)。可满足大多数最终用户需要。包含在系统上运行 Java 应用所需的一切内容。JRE 官网下载页面：<a href="http://java.com/zh_CN/download/linux_manual.jsp">http://java.com/zh_CN/download/linux_manual.jsp</a></p>
+              <h2 id="ubuntu">Ubuntu</h2>
+              <p>Ubuntu is an open source software platform that runs from the cloud, to the smartphone, to all your things.</p>
+              <h3 id="ubuntu-desktop">Ubuntu Desktop 桌面版</h3>
+              <p>官网：<a href="http://www.ubuntu.com/download/desktop">ubuntu.com/download/desktop</a></p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ubuntu 15.10 64-bit</td>
+                    <td>ubuntu-15.10-desktop-amd64.iso</td>
+                    <td><a href="http://releases.ubuntu.com/15.10/ubuntu-15.10-desktop-amd64.iso">releases.ubuntu.com</a></td>
+                    <td><a href="http://mirrors.aliyun.com/ubuntu-releases/15.10/ubuntu-15.10-desktop-amd64.iso">mirrors.aliyun.com</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h3 id="ubuntu-server">Ubuntu Server 服务器版</h3>
+              <p>官网：<a href="http://www.ubuntu.com/download/server">ubuntu.com/download/server</a></p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Linux</td>
+                    <td>ubuntu-14.04.3-server-amd64.iso</td>
+                    <td><a href="http://releases.ubuntu.com/14.04.3/ubuntu-14.04.3-server-amd64.iso">releases.ubuntu.com</a></td>
+                    <td><a href="http://mirrors.163.com/ubuntu-releases/14.04.3/ubuntu-14.04.3-server-amd64.iso">mirrors.163.com</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h2 id="virtualbox">VirtualBox</h2>
+              <p>VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. 官网：<a href="https://www.virtualbox.org/wiki/Downloads">virtualbox.org/wiki/Downloads</a>。</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>系统</th>
+                    <th>文件名</th>
+                    <th>官网下载</th>
+                    <th>CDN加速</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ubuntu 15.10 ("Wily") AMD64</td>
+                    <td>{virtualbox-ubuntu-wily-filename}</td>
+                    <td><a href="{virtualbox-ubuntu-wily-origin-uri}">{virtualbox-ubuntu-wily-origin-domain}</a></td>
+                    <td><a href="{virtualbox-ubuntu-wily-gmirror-uri}">{virtualbox-ubuntu-wily-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Ubuntu 14.04 ("Trusty") / 14.10 ("Utopic") / 15.04 ("Vivid" AMD64</td>
+                    <td>{virtualbox-ubuntu-trusty-filename}</td>
+                    <td><a href="{virtualbox-ubuntu-trusty-origin-uri}">{virtualbox-ubuntu-trusty-origin-domain}</a></td>
+                    <td><a href="{virtualbox-ubuntu-trusty-gmirror-uri}">{virtualbox-ubuntu-trusty-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Fedora 22</td>
+                    <td>{virtualbox-fedora22-filename}</td>
+                    <td><a href="{virtualbox-fedora22-origin-uri}">{virtualbox-fedora22-origin-domain}</a></td>
+                    <td><a href="{virtualbox-fedora22-gmirror-uri}">{virtualbox-fedora22-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>OS X</td>
+                    <td>{virtualbox-osx-filename}</td>
+                    <td><a href="{virtualbox-osx-origin-uri}">{virtualbox-osx-origin-domain}</a></td>
+                    <td><a href="{virtualbox-osx-gmirror-uri}">{virtualbox-osx-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Windows</td>
+                    <td>{virtualbox-win-filename}</td>
+                    <td><a href="{virtualbox-win-origin-uri}">{virtualbox-win-origin-domain}</a></td>
+                    <td><a href="{virtualbox-win-gmirror-uri}">{virtualbox-win-gmirror-domain}</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>所有</td>
+                    <td>{virtualbox-extpack-filename}</td>
+                    <td><a href="{virtualbox-extpack-origin-uri}">{virtualbox-extpack-origin-domain}</a></td>
+                    <td><a href="{virtualbox-extpack-gmirror-uri}">{virtualbox-extpack-gmirror-domain}</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+      <!-- UY BEGIN -->
+
+      <div id="uyan_frame"></div>
+
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2050318"></script>
+
+      <!-- UY END -->
+              
+            </div>
+            </div>
+            <footer>
+        
+        <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+          
+          <a href="about/" class="btn btn-neutral float-right" title="关于我们"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+          
+          
+        </div>
+        
+
+        <hr/>
+
+        <div role="contentinfo">
+        <!-- Copyright etc -->
+        
+          <p><a title="Coding.net代码托管" href="https://coding.net/register" target="_blank"><img style="border-radius:30px;background:#fff;" height="30" width="30" src="https://coding.net/static/adddcfb37896b41779bc0976326cd798.png" alt="coding.net" /></a><a title="daocloud.io持续集成" href="https://account.daocloud.io/signup?invite_code=c8bkkhc1uq8i7z8nin93" target="_blank"><img height="30" width="30" src="http://blog.daocloud.io/wp-content/uploads/2015/06/Logo_1-250x250.jpg" alt="daocloud.io" /></a><a title="帮助我们：点击注册七牛，本站将获得流量" href="https://portal.qiniu.com/signup?code=3lafkpsz7yes1" target="_blank"><img style="border-radius:30px;background:#fff;" width="30" src="http://assets.qiniu.com/qiniu-55x41.png" alt="七牛云储存" /></a><a rel="nofollow" href="http://www.miitbeian.gov.cn/">苏ICP备15020382号-2</a> <script type="text/javascript"> window.zhuge=window.zhuge||[];window.zhuge.methods="_init debug identify track trackLink trackForm page".split(" ");window.zhuge.factory=function(b){return function(){var a=Array.prototype.slice.call(arguments);a.unshift(b);window.zhuge.push(a);return window.zhuge}};for(var i=0;i<window.zhuge.methods.length;i++){var key=window.zhuge.methods[i];window.zhuge[key]=window.zhuge.factory(key)};window.zhuge.load=function(b,x){if(!document.getElementById("zhuge-js")){var a=document.createElement("script");a.type="text/javascript";a.id="zhuge-js";a.async=!0;a.src="https://zgsdk.37degree.com/zhuge-lastest.min.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);window.zhuge._init(b,x)}}; window.zhuge.load('86a17a5f139042589ee72d51509c5ecb'); function cmpVersion(a, b) { var i, cmp, len, re = /(\.0)+[^\.]*$/; a = (a + '').replace(re, '').split('.'); b = (b + '').replace(re, '').split('.'); len = Math.min(a.length, b.length); for( i = 0; i < len; i++ ) { cmp = parseInt(a[i], 10) - parseInt(b[i], 10); if( cmp !== 0 ) { return cmp; } } return a.length - b.length; } var chromeLastestVersion = '48.0.2564.82'; var start = window.navigator.userAgent.indexOf('Chrome/'); if (start != -1) { var chromeUserVersion = window.navigator.userAgent.split('Chrome/')[1].split(' ')[0]; var cmp = cmpVersion(chromeLastestVersion, chromeUserVersion); $("nav.wy-nav-side").append('<div style="color:#b3b3b3">你正在使用的是Chrome/' + chromeUserVersion + '</div>'); var notice = "恭喜你，已经是最新版"; if (cmp > 0) { notice = '请升级至最新版Chrome/' + chromeLastestVersion + '</div>'; } else if (cmp < 0) { notice = '哇！比本站的版本还新，请<a href="https://github.com/sinkcup/gmirror" target="_blank">提交代码更新</a>'; } $("nav.wy-nav-side").append('<div style="color:#fcfcfc">' + notice + '</div>'); } </script></p>
+        
+        </div>
+
+        Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+      </footer>
+                
+          </div>
+          </div>
+
+    </section>
+
+    </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+        <a href="https://github.com/sinkcup/gmirror" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+      <span style="margin-left: 15px"><a href="about/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+  </div>
+
+  </body>
+</html>
+
+<!--
+MkDocs version : 0.14.0
+Build Date UTC : 2016-01-21 02:54:44.510857
+-->
