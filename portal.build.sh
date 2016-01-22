@@ -1,7 +1,7 @@
 #!/bin/bash
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
-source $top_dir/gmirror.conf
+source $top_dir/portal.conf
 dl_dir=$top_dir/dl
 cp $top_dir/portal/index.tpl.html $top_dir/portal/index.html
 
@@ -49,8 +49,8 @@ for file in $files; do
         origin_domain=`echo $uri | awk -F '/' '{print $3}'`
         sed -i "s|{$id-origin-uri}|$uri|g" $top_dir/portal/index.html
         sed -i "s|{$id-origin-domain}|$origin_domain|g" $top_dir/portal/index.html
-        sed -i "s|{$id-gmirror-uri}|http://$qiniu_domain/$target_path|g" $top_dir/portal/index.html
-        sed -i "s|{$id-gmirror-domain}|$qiniu_domain|g" $top_dir/portal/index.html
+        sed -i "s|{$id-gmirror-uri}|http://$dl_domain/$target_path|g" $top_dir/portal/index.html
+        sed -i "s|{$id-gmirror-domain}|$dl_domain|g" $top_dir/portal/index.html
         continue;
     done
 done
