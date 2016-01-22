@@ -67,8 +67,7 @@ for dir in $dirs; do
         echo $target
         mime=`file -b --mime-type $filename`
         echo $mime
-        qshell delete $qiniu_bucket $target
-        qshell fput $qiniu_bucket $target $filename "$mime" "http://upws.qiniug.com"
+        qshell fput $qiniu_bucket "$target" $filename true "http://upws.qiniug.com"
         qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/$target
     done
 done
