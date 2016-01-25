@@ -66,9 +66,6 @@
                 <li class="toctree-l3"><a href="#gmirror">gmirror</a></li>
                 
             
-                <li class="toctree-l3"><a href="#gmirror-portal">gmirror-portal</a></li>
-                
-            
                 <li class="toctree-l3"><a href="#gmirror-fonts">gmirror-fonts</a></li>
                 
             
@@ -109,7 +106,7 @@
     <li class="wy-breadcrumbs-aside">
       
         
-          <a href="https://github.com/sinkcup/gmirror" class="icon icon-github"> Edit on GitHub</a>
+          <a href="https://github.com/sinkcup/gmirror/blob/master/portal/about/index.html" class="icon icon-github"> Edit on GitHub</a>
         
       
     </li>
@@ -119,24 +116,17 @@
           <div role="main">
             <div class="section">
               
-                <p>gmirror 本意是 google mirror，现在发展成一系列开源项目，用于提供国外优秀资源的国内镜像。</p>
+                <p>gmirror 意为 google mirror，用于提供国外优秀资源的国内镜像。</p>
 <p>现有下列项目：</p>
 <ul>
 <li>gmirror</li>
-<li>gmirror-portal</li>
 <li>gmirror-fonts</li>
 </ul>
 <h2 id="gmirror">gmirror</h2>
 <p>这是一个下载和上传工具。代码为几个shell和markdown文件，放在github上，通过travis-ci.org持续集成自动下载国外的文件，并生成文件列表页面，一起上传到七牛云存储上。</p>
-<p>线上效果：<a href="http://dl.gmirror.org/">http://dl.gmirror.org/</a></p>
+<p>线上效果：<a href="http://gmirror.org/">http://gmirror.org/</a> 和 <a href="http://dl.gmirror.org/">http://dl.gmirror.org/</a></p>
 <p>代码：<a href="https://github.com/sinkcup/gmirror">https://github.com/sinkcup/gmirror</a></p>
-<p>协作方式：Fork，把需要的软件加入<code>dl/origin.md</code>，发起Pull request即可。</p>
-<h2 id="gmirror-portal">gmirror-portal</h2>
-<p>这是一个纯静态网站。代码为markdown，放在github上，通过daocloud.io持续集成自动执行mkdocs把markdown转换成HTML，并构建docker镜像，部署到容器中，无需服务器。</p>
-<p>todo：由于是纯静态网站，可以考虑直接发布到七牛云储存上，连容器也不用了。</p>
-<p>线上效果：<a href="http://gmirror.org/">http://gmirror.org/</a></p>
-<p>代码：<a href="https://github.com/sinkcup/gmirror-portal">https://github.com/sinkcup/gmirror-portal</a></p>
-<p>协作方式：Fork，把需要的软件加入<code>docs/index.md</code>，发起Pull request即可。</p>
+<p>协作方式：Fork，把需要的软件加入<code>dl/origin.md</code> 和 <code>portal/index.tpl.html</code>，发起Pull request即可。</p>
 <h2 id="gmirror-fonts">gmirror-fonts</h2>
 <p>这是一个PHP网站。使用PHP lumen框架，放在github上，通过daocloud.io持续集成自动构建docker镜像，部署到容器中，无需服务器。</p>
 <p>用户请求 http://fonts.gmirror.org/css 时，PHP去获取 https://fonts.googleapis.com/css 对应的内容，把其中的 fonts.gstatic.com 替换为 fonts-gstatic-com.gmirror.org（七牛），css缓存在后端服务器上，字体文件通过七牛自动拉取。</p>
@@ -187,7 +177,7 @@
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+          <a class="icon icon-github" href="https://github.com/sinkcup/gmirror" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
         <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
