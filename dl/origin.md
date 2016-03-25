@@ -11,12 +11,11 @@ android-studio-linux | https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/
 android-studio-osx | https://dl.google.com/dl/android/studio/install/1.5.1.0/android-studio-ide-141.2456560-mac.dmg | |
 android-ndk-linux | http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86_64.bin | |
 android-ndk-osx | http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86_64.bin | |
-virtualbox-ubuntu-wily | http://download.virtualbox.org/virtualbox/5.0.14/virtualbox-5.0_5.0.14-105127~Ubuntu~wily_amd64.deb | virtualbox/virtualbox-5.0_5.0.14-105127-Ubuntu-wily_amd64.deb
-virtualbox-ubuntu-trusty | http://download.virtualbox.org/virtualbox/5.0.14/virtualbox-5.0_5.0.14-105127~Ubuntu~trusty_amd64.deb | virtualbox/virtualbox-5.0_5.0.14-105127-Ubuntu-trusty_amd64.deb
-virtualbox-fedora22 | http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0-5.0.14_105127_fedora22-1.x86_64.rpm | virtualbox/VirtualBox-5.0-5.0.14_105127_fedora22-1.x86_64.rpm
-virtualbox-osx | http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-OSX.dmg | virtualbox/VirtualBox-5.0.14-105127-OSX.dmg
-virtualbox-win | http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-Win.exe | virtualbox/VirtualBox-5.0.14-105127-Win.exe
-virtualbox-extpack | http://download.virtualbox.org/virtualbox/5.0.14/Oracle_VM_VirtualBox_Extension_Pack-5.0.14-105127.vbox-extpack | virtualbox/Oracle_VM_VirtualBox_Extension_Pack-5.0.14-105127.vbox-extpack
+virtualbox-ubuntu-wily | http://download.virtualbox.org/virtualbox/5.0.16/virtualbox-5.0_5.0.16-105871~Ubuntu~wily_amd64.deb | virtualbox/virtualbox-5.0.16-105871-Ubuntu-wily-amd64.deb
+virtualbox-ubuntu-trusty | http://download.virtualbox.org/virtualbox/5.0.16/virtualbox-5.0_5.0.16-105871~Ubuntu~trusty_amd64.deb | virtualbox/virtualbox-5.0.16-105871-Ubuntu-trusty-amd64.deb
+virtualbox-osx | http://download.virtualbox.org/virtualbox/5.0.16/VirtualBox-5.0.16-105871-OSX.dmg | virtualbox/VirtualBox-5.0.16-105871-OSX.dmg
+virtualbox-win | http://download.virtualbox.org/virtualbox/5.0.16/VirtualBox-5.0.16-105871-Win.exe | virtualbox/VirtualBox-5.0.16-105871-Win.exe
+virtualbox-extpack | http://download.virtualbox.org/virtualbox/5.0.16/Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack | virtualbox/Oracle_VM_VirtualBox_Extension_Pack-5.0.16-105871.vbox-extpack
 golang-win | https://storage.googleapis.com/golang/go1.5.3.windows-amd64.msi | |
 golang-osx | https://storage.googleapis.com/golang/go1.5.3.darwin-amd64.pkg | |
 golang-linux | https://storage.googleapis.com/golang/go1.5.3.linux-amd64.tar.gz | |
