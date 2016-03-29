@@ -1,7 +1,6 @@
 id | uri | filename | md5sum
 ---|-----|----------|-------
 google-chrome-debian | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/49.0.2623.110_google-chrome-stable_current_amd64.deb |
-google-chrome-fedora | https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm | chrome/linux/49.0.2623.110_google-chrome-stable_current_x86_64.rpm |
 google-chrome-osx | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/49.0.2623.110_googlechrome.dmg |
 google-chrome-enterprise-win | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/49.0.2623.110_googlechromestandaloneenterprise64.msi |
 google-chrome-win | http://dl.google.com/release2/49.0.2623.110_chrome_installer_win64.exe | chrome/win/49.0.2623.110_chrome_installer_win64.exe |
