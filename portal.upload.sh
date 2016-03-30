@@ -72,4 +72,5 @@ for dir in $dirs; do
     done
 done
 rm $portal_dir/index.html
+qrsctl cdn/refresh $qiniu_bucket http://$domain/
 echo 'the end'
