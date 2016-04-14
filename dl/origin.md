@@ -6,8 +6,8 @@ google-chrome-enterprise-win | https://dl.google.com/tag/s/appguid%3D%7B8A69D345
 google-chrome-win | http://dl.google.com/release2/50.0.2661.75_chrome_installer_win64.exe | chrome/win/50.0.2661.75_chrome_installer_win64.exe |
 android-sdk-linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz | |
 android-sdk-osx | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip | |
-android-studio-linux | https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip | |
-android-studio-osx | https://dl.google.com/dl/android/studio/install/1.5.1.0/android-studio-ide-141.2456560-mac.dmg | |
+android-studio-linux | https://dl.google.com/dl/android/studio/ide-zips/2.0.0.20/android-studio-ide-143.2739321-linux.zip | |
+android-studio-osx | https://dl.google.com/dl/android/studio/install/2.0.0.20/android-studio-ide-143.2739321-mac.dmg | |
 android-ndk-linux | http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86_64.bin | |
 android-ndk-osx | http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86_64.bin | |
 virtualbox-ubuntu-wily | http://download.virtualbox.org/virtualbox/5.0.16/virtualbox-5.0_5.0.16-105871~Ubuntu~wily_amd64.deb | virtualbox/virtualbox-5.0.16-105871-Ubuntu-wily-amd64.deb
