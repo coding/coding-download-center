@@ -1,9 +1,9 @@
 id | uri | filename | md5sum
 ---|-----|----------|-------
-google-chrome-debian | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/49.0.2623.110_google-chrome-stable_current_amd64.deb |
-google-chrome-osx | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/49.0.2623.110_googlechrome.dmg |
-google-chrome-enterprise-win | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/49.0.2623.110_googlechromestandaloneenterprise64.msi |
-google-chrome-win | http://dl.google.com/release2/49.0.2623.110_chrome_installer_win64.exe | chrome/win/49.0.2623.110_chrome_installer_win64.exe |
+google-chrome-debian | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/50.0.2661.75_google-chrome-stable_current_amd64.deb |
+google-chrome-osx | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/50.0.2661.75_googlechrome.dmg |
+google-chrome-enterprise-win | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/50.0.2661.75_googlechromestandaloneenterprise64.msi |
+google-chrome-win | http://dl.google.com/release2/50.0.2661.75_chrome_installer_win64.exe | chrome/win/50.0.2661.75_chrome_installer_win64.exe |
 android-sdk-linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz | |
 android-sdk-osx | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip | |
 android-studio-linux | https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip | |
