@@ -8,8 +8,8 @@ android-sdk-linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz |
 android-sdk-osx | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip | |
 android-studio-linux | https://dl.google.com/dl/android/studio/ide-zips/2.0.0.20/android-studio-ide-143.2739321-linux.zip | |
 android-studio-osx | https://dl.google.com/dl/android/studio/install/2.0.0.20/android-studio-ide-143.2739321-mac.dmg | |
-android-ndk-linux | http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86_64.bin | |
-android-ndk-osx | http://dl.google.com/android/ndk/android-ndk-r10e-darwin-x86_64.bin | |
+android-ndk-linux | http://dl.google.com/android/repository/android-ndk-r11c-linux-x86_64.zip | |
+android-ndk-osx | http://dl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip | |
 virtualbox-ubuntu-wily | http://download.virtualbox.org/virtualbox/5.0.16/virtualbox-5.0_5.0.16-105871~Ubuntu~wily_amd64.deb | virtualbox/virtualbox-5.0.16-105871-Ubuntu-wily-amd64.deb
 virtualbox-ubuntu-trusty | http://download.virtualbox.org/virtualbox/5.0.16/virtualbox-5.0_5.0.16-105871~Ubuntu~trusty_amd64.deb | virtualbox/virtualbox-5.0.16-105871-Ubuntu-trusty-amd64.deb
 virtualbox-osx | http://download.virtualbox.org/virtualbox/5.0.16/VirtualBox-5.0.16-105871-OSX.dmg | virtualbox/VirtualBox-5.0.16-105871-OSX.dmg
