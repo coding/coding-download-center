@@ -18,5 +18,5 @@ virtualbox-extpack | http://download.virtualbox.org/virtualbox/5.0.16/Oracle_VM_
 golang-win | https://storage.googleapis.com/golang/go1.6.1.windows-amd64.msi | |
 golang-osx | https://storage.googleapis.com/golang/go1.6.1.darwin-amd64.pkg | |
 golang-linux | https://storage.googleapis.com/golang/go1.6.1.linux-amd64.tar.gz | |
-atom-debain | https://github.com/atom/atom/releases/download/v1.7.0/atom-amd64.deb | atom/atom-amd64-1.7.0.deb |
-atom-osx | https://github.com/atom/atom/releases/download/v1.7.0/atom-mac.zip | atom/atom-mac-1.7.0.zip |
+atom-debain | https://github.com/atom/atom/releases/download/v1.7.1/atom-amd64.deb | atom/atom-amd64-1.7.1.deb |
+atom-osx | https://github.com/atom/atom/releases/download/v1.7.1/atom-mac.zip | atom/atom-mac-1.7.1.zip |
