@@ -2,7 +2,7 @@
 set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
-portal_dir=$top_dir/portal
+portal_dir=$top_dir/site
 source $top_dir/portal.conf
 
 # 如果环境变量里没有，则要输入
