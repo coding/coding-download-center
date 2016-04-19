@@ -17,13 +17,6 @@ for file in $files; do
     relative_dir=`echo $file | sed -e "s|$dl_dir||" | xargs dirname`
     echo 'relative_dir '$relative_dir
 
-    #如果需要检查md5
-    is_check_md5=0
-    tmp=`head -n 1 $file | grep md5sum 2>&1`
-    if [ "x""$tmp" != "x" ]; then
-        is_check_md5=1
-    fi
-
     thead_line_num=`grep -n "\-|\-" $file | awk -F: '{print $1}'`
     offset=$(($thead_line_num+1))
     tail -n +$offset $file | while read line; do
@@ -33,13 +26,12 @@ for file in $files; do
         md5=""
         expected_md5=""
         echo -e "\n"$line
-        for part in `echo $line | sed 's/|/ /g'`; do
+        while IFS='|' read -ra tmp; do
+            for part in "${tmp[@]}"; do
+            part="$(sed -e 's/[[:space:]]*$//' <<<${part})"
             echo $part
-            #第1列是id
-            if [ $i -eq 0 ]; then
-                id=$part
-            elif [ $i -eq 1 ]; then
-                #第2列必须是下载地址
+            if [ $i -eq 2 ]; then
+                #第3列是下载地址
                 uri=$part
                 origin_filename=`basename $uri`
                 filename=$origin_filename
@@ -47,8 +39,11 @@ for file in $files; do
                 uri_nopro=${part#*//}
                 target_path=${uri_nopro#*/}
                 echo 'ttt '$target_path
-            elif [ $i -eq 2 ]; then
-                #第3列必须是文件名或路径，如果为空的话，将使用下载地址里相同的文件名
+            elif [ $i -eq 3 ]; then
+                #第3列是文件名或路径，如果为空的话，将使用下载地址里相同的文件名
+                if [ $part = '/dev/null' ]; then
+                    continue;
+                fi
                 filename=`basename $part`
                 target_path=${relative_dir#*/}/$part
                 echo 't2222 '$target_path
@@ -56,12 +51,10 @@ for file in $files; do
                     target_path=$part
                 fi
                 echo 't333 '$target_path
-            elif [ $i -eq 3 ]; then
-                #第4列是md5
-                expected_md5=$part
             fi
             i=$(($i+1))
         done
+        done <<< "$line"
         target_dir=""
         if [ $target_path != $filename ]; then
             target_dir=${target_path%/*}
@@ -101,14 +94,6 @@ for file in $files; do
             fi
             size_byte=`ls -l $dl_dir/$target_path | awk '{print $5}'`
             md5=`md5sum $dl_dir/$target_path | awk '{print $1}'`
-            if [ $is_check_md5 -eq 1 ] && [ "x"$expected_md5 != "x" ]; then
-                if [ $expected_md5 != $md5 ]; then
-                    echo "error: md5 not match"
-                    exit 1
-                fi
-            else
-                expected_md5=$md5
-            fi
         fi
         if [ $has_numfmt -eq 1 ]; then
             size=`echo $size_byte | numfmt --to=iec-i --suffix=B --padding=7`
@@ -119,7 +104,7 @@ for file in $files; do
         filename_for_markdown=${filename//_/\\_}
         grep "$filename_for_markdown"'|' $dl_dir/$target_dir/files.md
         if [ $? -ne 0 ]; then
-            echo "$filename_for_markdown"'|'$size'|'$expected_md5 >> $dl_dir/$target_dir/files.md
+            echo "$filename_for_markdown"'|'$size'|'$md5 >> $dl_dir/$target_dir/files.md
         fi
     done
 done
