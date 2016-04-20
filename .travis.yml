@@ -10,5 +10,6 @@ script:
 - bash ./before_upload.sh || exit 1
 - export PATH=$PATH:$PWD/qiniu/
 - bash ./upload.sh
+- bash ./portal.fill.sh
 - bash ./portal.build.sh
 - bash ./portal.upload.sh
