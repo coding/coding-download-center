@@ -49,7 +49,7 @@ https://fonts.googleapis.com/
 替换为
 
 ```
-http://fonts.gmirror.org/
+https://fonts.gmirror.org/
 ```
 
 即可。

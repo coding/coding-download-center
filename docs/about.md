@@ -17,11 +17,11 @@ gmirror 本意是 google mirror，用于提供国外优秀资源的国内镜像�
 
 ## gmirror-fonts
 
-这是一个PHP网站。使用PHP lumen框架，放在github上，通过daocloud.io持续集成自动构建docker镜像，部署到容器中，无需服务器。
+这是字体镜像网站，支持http和https。使用PHP lumen框架，放在github上，通过daocloud.io持续集成自动构建docker镜像，部署到容器中，无需服务器。
 
-用户请求 http://fonts.gmirror.org/css 时，PHP去获取 https://fonts.googleapis.com/css 对应的内容，把其中的 fonts.gstatic.com 替换为 fonts-gstatic-com.gmirror.org（七牛），css缓存在后端服务器上，字体文件通过七牛自动拉取。
+用户请求 https://fonts.gmirror.org/css 时，PHP去获取 https://fonts.googleapis.com/css 对应的内容，把其中的 fonts.gstatic.com 替换为 fonts-gstatic-com.gmirror.org（七牛），css缓存在后端服务器上，字体文件通过七牛自动拉取。
 
-线上效果：[http://fonts.gmirror.org/](http://fonts.gmirror.org/)
+线上效果：[https://fonts.gmirror.org/](https://fonts.gmirror.org/)
 
 代码：[https://github.com/sinkcup/gmirror-fonts](https://github.com/sinkcup/gmirror-fonts)
 
