@@ -68,9 +68,11 @@ for dir in $dirs; do
         mime=`file -b --mime-type $filename`
         echo $mime
         qshell fput $qiniu_bucket "$target" $filename true "http://upws.qiniug.com"
-        qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/$target
+        if [ $filename == "index.html" ]; then
+            # html 链接不变，所以需要刷新。而img、js、css可以修改链接跳过老的缓存。
+            # 刷新http即可，https会跟着变。
+            qrsctl cdn/refresh $qiniu_bucket http://$domain/$target
+        fi
     done
 done
-rm $portal_dir/index.html
-qrsctl cdn/refresh $qiniu_bucket http://$domain/
 echo 'the end'
