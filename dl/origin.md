@@ -1,9 +1,9 @@
 product | os | uri | filename
 --------|----|-----|---------
-google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/50.0.2661.75_google-chrome-stable_current_amd64.deb
-google-chrome | OS X | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/50.0.2661.75_googlechrome.dmg
-google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/50.0.2661.75_googlechromestandaloneenterprise64.msi
-google-chrome | Windows 10/8/7 64-bit普通用户 | http://dl.google.com/release2/wvqjsxmubj1e9t229azs11xz8ptftgcz572gpome80qvz3vafv4f7kurs8k0hbtsmy1vyoyjqs5mmal7npc2rvnpgbnq2tzix2i/50.0.2661.75_chrome_installer_win64.exe | chrome/win/50.0.2661.75_chrome_installer_win64.exe
+google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/50.0.2661.94_google-chrome-stable_current_amd64.deb
+google-chrome | OS X | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/50.0.2661.94_googlechrome.dmg
+google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/50.0.2661.94_googlechromestandaloneenterprise64.msi
+google-chrome | Windows 10/8/7 64-bit普通用户 | http://dl.google.com/release2/i5fqbc1reo8q1tvxvpcjpxfhgvg81rfb7wkvc1o6xv22q7yjyni7yxlrnqru886itv4q09svdzo8t80m3z3rw6flfpjie1lm5sd/50.0.2661.94_chrome_installer_win64.exe | chrome/win/50.0.2661.94_chrome_installer_win64.exe
 android-sdk | Linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz |
 android-sdk | OS X | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip |
 android-sdk | Windows | http://dl.google.com/android/installer_r24.4.1-windows.exe | /dev/null
