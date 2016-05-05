@@ -32,5 +32,4 @@ gmirror 本意是 google mirror，用于提供国外优秀资源的国内镜像�
 
 ## 感谢
 
- * 感谢 [daocloud.io](https://account.daocloud.io/signup?invite_code=c8bkkhc1uq8i7z8nin93) 提供免费容器。
- * 感谢 [七牛云储存](https://portal.qiniu.com/signup?code=3lafkpsz7yes1) 提供每月10G免费下载流量。
+ * 感谢 [七牛云储存](https://portal.qiniu.com/signup?code=3lafkpsz7yes1) 的 [开源扶持计划](http://hd.qiniu.com/supportopen/) 提供每月5TB免费下载流量。
