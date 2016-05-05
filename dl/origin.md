@@ -18,9 +18,9 @@ virtualbox | Ubuntu 15.10 ("Wily") AMD64 | http://download.virtualbox.org/virtua
 virtualbox | OS X | http://download.virtualbox.org/virtualbox/5.0.20/VirtualBox-5.0.20-106931-OSX.dmg | virtualbox/5.0.20/VirtualBox-5.0.20-106931-OSX.dmg
 virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.0.20/VirtualBox-5.0.20-106931-Win.exe | virtualbox/5.0.20/VirtualBox-5.0.20-106931-Win.exe
 virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.0.20/Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack | virtualbox/5.0.20/Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack
-golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.6.1.windows-amd64.msi |
-golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.6.1.darwin-amd64.pkg |
-golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.6.1.linux-amd64.tar.gz |
+golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.6.2.windows-amd64.msi |
+golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.6.2.darwin-amd64.pkg |
+golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz |
 atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.7.3/atom-amd64.deb | atom/atom-amd64-1.7.3.deb
 atom | OS X | https://github.com/atom/atom/releases/download/v1.7.3/atom-mac.zip | atom/atom-mac-1.7.3.zip
 atom | Windows | https://github.com/atom/atom/releases/download/v1.7.3/AtomSetup.exe | atom/atom-windows-1.7.3.exe
