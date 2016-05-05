@@ -10,7 +10,7 @@
 
 ## Atom
 
-A hackable text editor for the 21st Century. 官网：atom.io。
+A hackable text editor for the 21st Century. 官网：[atom.io](https://atom.io/)。
 
 {atom}
 
