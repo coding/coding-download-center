@@ -21,6 +21,6 @@ virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.0.20/Oracle_VM
 golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.6.2.windows-amd64.msi |
 golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.6.2.darwin-amd64.pkg |
 golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz |
-atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.7.4/atom-amd64.deb | atom/atom-amd64-1.7.4.deb
-atom | OS X | https://github.com/atom/atom/releases/download/v1.7.4/atom-mac.zip | atom/atom-mac-1.7.4.zip
-atom | Windows | https://github.com/atom/atom/releases/download/v1.7.4/AtomSetup.exe | atom/atom-windows-1.7.4.exe
+atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.8.0/atom-amd64.deb | atom/atom-amd64-1.8.0.deb
+atom | OS X | https://github.com/atom/atom/releases/download/v1.8.0/atom-mac.zip | atom/atom-mac-1.8.0.zip
+atom | Windows | https://github.com/atom/atom/releases/download/v1.8.0/AtomSetup.exe | atom/atom-windows-1.8.0.exe
