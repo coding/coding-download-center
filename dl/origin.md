@@ -13,11 +13,11 @@ android-studio | Windows | https://dl.google.com/dl/android/studio/install/2.1.1
 android-ndk | Linux | http://dl.google.com/android/repository/android-ndk-r11c-linux-x86_64.zip |
 android-ndk | OS X | http://dl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip |
 android-ndk | Windows | http://dl.google.com/android/repository/android-ndk-r11c-windows-x86_64.zip |
-virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.0.20/virtualbox-5.0_5.0.20-106931~Ubuntu~xenial_amd64.deb | virtualbox/5.0.20/virtualbox-5.0.20-106931-Ubuntu-16.10-xenial-amd64.deb
-virtualbox | Ubuntu 15.10 ("Wily") AMD64 | http://download.virtualbox.org/virtualbox/5.0.20/virtualbox-5.0_5.0.20-106931~Ubuntu~wily_amd64.deb | virtualbox/5.0.20/virtualbox-5.0.20-106931-Ubuntu-15.10-wily-amd64.deb
-virtualbox | OS X | http://download.virtualbox.org/virtualbox/5.0.20/VirtualBox-5.0.20-106931-OSX.dmg | virtualbox/5.0.20/VirtualBox-5.0.20-106931-OSX.dmg
-virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.0.20/VirtualBox-5.0.20-106931-Win.exe | virtualbox/5.0.20/VirtualBox-5.0.20-106931-Win.exe
-virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.0.20/Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack | virtualbox/5.0.20/Oracle_VM_VirtualBox_Extension_Pack-5.0.20-106931.vbox-extpack
+virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.0.22/VirtualBox-5.0.22-108108-Win.exe | virtualbox/5.0.22/VirtualBox-5.0.22-108108-Win.exe
+virtualbox | OS X | http://download.virtualbox.org/virtualbox/5.0.22/VirtualBox-5.0.22-108108-OSX.dmg | virtualbox/5.0.22/VirtualBox-5.0.22-108108-OSX.dmg
+virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.0.22/virtualbox-5.0_5.0.22-108108~Ubuntu~xenial_amd64.deb | virtualbox/5.0.22/virtualbox-5.0_5.0.22-108108-Ubuntu-xenial_amd64.deb
+virtualbox | Ubuntu 15.10 ("Wily") AMD64 | http://download.virtualbox.org/virtualbox/5.0.22/virtualbox-5.0_5.0.22-108108~Ubuntu~wily_amd64.deb | virtualbox/5.0.22/virtualbox-5.0_5.0.22-108108-Ubuntu-wily_amd64.deb
+virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.0.22/Oracle_VM_VirtualBox_Extension_Pack-5.0.22-108108.vbox-extpack | virtualbox/5.0.22/Oracle_VM_VirtualBox_Extension_Pack-5.0.22-108108.vbox-extpack
 golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.6.2.windows-amd64.msi |
 golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.6.2.darwin-amd64.pkg |
 golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz |
