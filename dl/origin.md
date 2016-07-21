@@ -10,9 +10,9 @@ android-sdk | Windows | http://dl.google.com/android/installer_r24.4.1-windows.e
 android-studio | Linux | https://dl.google.com/dl/android/studio/ide-zips/2.1.1.0/android-studio-ide-143.2915827-linux.zip |
 android-studio | OS X | https://dl.google.com/dl/android/studio/install/2.1.1.0/android-studio-ide-143.2915827-mac.dmg |
 android-studio | Windows | https://dl.google.com/dl/android/studio/install/2.1.1.0/android-studio-ide-143.2915827-windows.exe | /dev/null
-android-ndk | Linux | http://dl.google.com/android/repository/android-ndk-r11c-linux-x86_64.zip |
-android-ndk | OS X | http://dl.google.com/android/repository/android-ndk-r11c-darwin-x86_64.zip |
-android-ndk | Windows | http://dl.google.com/android/repository/android-ndk-r11c-windows-x86_64.zip |
+android-ndk | Linux | http://dl.google.com/android/repository/android-mdk-r12b-linux-x86_64.zip |
+android-ndk | OS X | http://dl.google.com/android/repository/android-mdk-r12b-darwin-x86_64.zip |
+android-ndk | Windows | http://dl.google.com/android/repository/android-mdk-r12b-windows-x86_64.zip |
 virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.0.22/VirtualBox-5.0.22-108108-Win.exe | virtualbox/5.0.22/VirtualBox-5.0.22-108108-Win.exe
 virtualbox | OS X | http://download.virtualbox.org/virtualbox/5.0.22/VirtualBox-5.0.22-108108-OSX.dmg | virtualbox/5.0.22/VirtualBox-5.0.22-108108-OSX.dmg
 virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.0.22/virtualbox-5.0_5.0.22-108108~Ubuntu~xenial_amd64.deb | virtualbox/5.0.22/virtualbox-5.0_5.0.22-108108-Ubuntu-xenial_amd64.deb
