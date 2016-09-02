@@ -18,9 +18,9 @@ virtualbox | OS X | http://download.virtualbox.org/virtualbox/5.1.4/VirtualBox-5
 virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.1.4/virtualbox-5.1_5.1.4-110228~Ubuntu~xenial_amd64.deb | virtualbox/5.1.4/virtualbox-5.1_5.1.4-110228-Ubuntu-xenial_amd64.deb
 virtualbox | Ubuntu 15.10 ("Wily") AMD64 | http://download.virtualbox.org/virtualbox/5.1.4/virtualbox-5.1_5.1.4-110228~Ubuntu~wily_amd64.deb | virtualbox/5.1.4/virtualbox-5.1_5.1.4-110228-Ubuntu-wily_amd64.deb
 virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.1.4/Oracle_VM_VirtualBox_Extension_Pack-5.1.4-110228.vbox-extpack |
-golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.6.3.windows-amd64.msi |
-golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.6.3.darwin-amd64.pkg |
-golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.6.3.linux-amd64.tar.gz |
+golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.7.windows-amd64.msi |
+golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.7.darwin-amd64.pkg |
+golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz |
 atom | Windows | https://github.com/atom/atom/releases/download/v1.10.0/AtomSetup.exe | atom/atom-windows-1.10.0.exe
 atom | OS X | https://github.com/atom/atom/releases/download/v1.10.0/atom-mac.zip | atom/atom-mac-1.10.0.zip
 atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.10.0/atom-amd64.deb | atom/atom-amd64-1.10.0.deb
