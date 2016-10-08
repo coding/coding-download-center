@@ -7,9 +7,9 @@ google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-
 android-sdk | Linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz |
 android-sdk | OS X | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip |
 android-sdk | Windows | http://dl.google.com/android/installer_r24.4.1-windows.exe | /dev/null
-android-studio | Windows | https://dl.google.com/dl/android/studio/install/2.1.3.0/android-studio-ide-143.3101438-windows.exe | /dev/null
-android-studio | OS X | https://dl.google.com/dl/android/studio/install/2.1.3.0/android-studio-ide-143.3101438-mac.dmg |
-android-studio | Linux | https://dl.google.com/dl/android/studio/ide-zips/2.1.3.0/android-studio-ide-143.3101438-linux.zip |
+android-studio | Windows | https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-windows.exe | /dev/null
+android-studio | OS X | https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-mac.dmg |
+android-studio | Linux | https://dl.google.com/dl/android/studio/ide-zips/2.2.0.12/android-studio-ide-145.3276617-linux.zip |
 android-ndk | Linux | http://dl.google.com/android/repository/android-mdk-r12b-linux-x86_64.zip |
 android-ndk | OS X | http://dl.google.com/android/repository/android-mdk-r12b-darwin-x86_64.zip |
 android-ndk | Windows | http://dl.google.com/android/repository/android-mdk-r12b-windows-x86_64.zip |
