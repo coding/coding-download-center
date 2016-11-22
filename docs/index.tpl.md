@@ -40,19 +40,9 @@ Go is an open source programming language that makes it easy to build simple, re
 
 ## Google Fonts 国内镜像加速
 
-把
+已下线，待捐助100元，参考阿里云香港服务器价格：[https://ecs-buy.aliyun.com/](https://ecs-buy.aliyun.com/)。捐款请转至我的支付宝账号：sinkcup，二维码：
 
-```
-https://fonts.googleapis.com/
-```
-
-替换为
-
-```
-https://fonts.gmirror.org/
-```
-
-即可。
+![sinkcup的支付宝](https://t.alipayobjects.com/images/mobilecodec/T1hiBuXoFcXXXXXXXX)
 
 ## JDK
 
