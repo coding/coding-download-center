@@ -1,9 +1,9 @@
 product | os | uri | filename
 --------|----|-----|---------
-google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/54.0.2840.99_googlechromestandaloneenterprise64.msi
-google-chrome | Windows 10/8/7 64-bit普通用户 | http://dl.google.com/release2/laukm0y820bdcw851yaw9wkkef8rs7k81bt8lhn43mgayofjyxqb5fz7o67bknz47drkndicpdr21sfi8j3d8m7ih18br2l07rw/54.0.2840.99_chrome_installer.exe | chrome/win/54.0.2840.99_chrome_installer.exe
-google-chrome | OS X | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/54.0.2840.99_googlechrome.dmg
-google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/54.0.2840.100_google-chrome-stable_current_amd64.deb
+google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/55.0.2883.75_googlechromestandaloneenterprise64.msi
+google-chrome | Windows 10/8/7 64-bit普通用户 | http://dl.google.com/release2/vllsgbu5dpgyjmk8asiyozmqf97zwlfqwz8lbdozvfzsmg4kf3a7d164wd47jiyapyh7r349khowbfgxdiwr3aluxcb30eap62m/55.0.2883.75_chrome_installer.exe | chrome/win/55.0.2883.75_chrome_installer.exe
+google-chrome | OS X | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/55.0.2883.75_googlechrome.dmg
+google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/55.0.2883.75_google-chrome-stable_current_amd64.deb
 android-sdk | Linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz |
 android-sdk | OS X | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip |
 android-sdk | Windows | http://dl.google.com/android/installer_r24.4.1-windows.exe | /dev/null
