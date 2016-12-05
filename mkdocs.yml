@@ -21,7 +21,7 @@ copyright: <a title="帮助我们：点击注册七牛，本站将获得流量�
             }
             return a.length - b.length;
         }
-        var chromeLastestVersion = '54.0.2840.99';
+        var chromeLastestVersion = '55.0.2883.75';
         var start = window.navigator.userAgent.indexOf('Chrome/');
         if (start != -1) {
             var chromeUserVersion = window.navigator.userAgent.split('Chrome/')[1].split(' ')[0];
