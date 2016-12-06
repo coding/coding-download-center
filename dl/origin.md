@@ -21,6 +21,6 @@ virtualbox | Ubuntu 16.10 ("Yakkety") AMD64 | http://download.virtualbox.org/vir
 golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.7.1.windows-amd64.msi |
 golang | OS X 64-bit | https://storage.googleapis.com/golang/go1.7.1.darwin-amd64.pkg |
 golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz |
-atom | Windows | https://github.com/atom/atom/releases/download/v1.12.6/AtomSetup.exe | atom/atom-windows-1.12.5.exe
-atom | OS X | https://github.com/atom/atom/releases/download/v1.12.6/atom-mac.zip | atom/atom-mac-1.12.5.zip
-atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.12.6/atom-amd64.deb | atom/atom-amd64-1.12.5.deb
+atom | Windows | https://github.com/atom/atom/releases/download/v1.12.6/AtomSetup.exe | atom/atom-windows-1.12.6.exe
+atom | OS X | https://github.com/atom/atom/releases/download/v1.12.6/atom-mac.zip | atom/atom-mac-1.12.6.zip
+atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.12.6/atom-amd64.deb | atom/atom-amd64-1.12.6.deb
