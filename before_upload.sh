@@ -1,6 +1,5 @@
 #!/bin/bash
 
-curl http://echoip.com/
 wget -O /tmp/qiniu-devtools-linux_amd64-current.tar.gz http://devtools.qiniu.com/qiniu-devtools-linux_amd64-current.tar.gz || exit 1
 md5sum /tmp/qiniu-devtools-linux_amd64-current.tar.gz
 mkdir qiniu
