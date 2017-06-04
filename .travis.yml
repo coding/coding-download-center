@@ -1,9 +1,9 @@
 language: bash
 before_install:
+- curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 - sudo apt-get update -qq
-- sudo apt-get install -y curl unzip python-pip npm
+- sudo apt-get install -y curl unzip python-pip nodejs
 - sudo pip install mkdocs
-- sudo npm install marked --global
 install:
 - bash ./download.sh
 script:
