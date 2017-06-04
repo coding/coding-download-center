@@ -3,40 +3,25 @@ set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
 dl_dir=$top_dir/dl
+mkdir -p $dl_dir
+tmp_dir=$top_dir/tmp
+mkdir -p $tmp_dir
 source $top_dir/gmirror.conf
 
 # 如果环境变量里没有，则要输入
-if [ -z $qiniu_user ]; then
-    echo "请输入七牛用户名："
-    read -s qiniu_user
-    if [ -z $qiniu_user ]; then
-        echo '错误：未输入'
-        exit 1
-    fi
-fi
-
-if [ -z $qiniu_passwd ]; then
-    echo "请输入七牛密码："
-    read -s qiniu_passwd
-    if [ -z $qiniu_passwd ]; then
-        echo '错误：未输入'
-        exit 1
-    fi
-fi
-
-if [ -z $qiniu_access_key ]; then
+if [ -z $QINIU_ACCESS_KEY ]; then
     echo "请输入七牛access_key："
-    read -s qiniu_access_key
-    if [ -z $qiniu_access_key ]; then
+    read -s QINIU_ACCESS_KEY
+    if [ -z $QINIU_ACCESS_KEY ]; then
         echo '错误：未输入'
         exit 1
     fi
 fi
 
-if [ -z $qiniu_secret_key ]; then
+if [ -z $QINIU_SECRET_KEY ]; then
     echo "请输入七牛secret_key："
-    read -s qiniu_secret_key
-    if [ -z $qiniu_secret_key ]; then
+    read -s QINIU_SECRET_KEY
+    if [ -z $QINIU_SECRET_KEY ]; then
         echo '错误：未输入'
         exit 1
     fi
@@ -57,8 +42,9 @@ if [ ! -z $google_analytics ] && [ "x"$google_analytics != "x" ]; then
     google_analytics_html="<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', \''"$google_analytics"'\', 'auto'); ga('send', 'pageview');</script>"
 fi
 
-qrsctl login $qiniu_user $qiniu_passwd
-qshell account $qiniu_access_key $qiniu_secret_key
+qshell account $QINIU_ACCESS_KEY $QINIU_SECRET_KEY
+echo "" > $tmp_dir/refresh.dl.txt
+echo "{\"src_dir\": \"$dl_dir\", \"bucket\": \"$qiniu_bucket\" }" > $tmp_dir/qupload.dl.json
 
 dirs=`ls -R $dl_dir | grep ':' | awk -F: '{print $1}'`
 for dir in $dirs; do
@@ -89,7 +75,7 @@ for dir in $dirs; do
             fi
             if [ -f files.md ]; then
                 tail -n +3 files.md >> dirs_and_files.md
-                #rm files.md
+                rm files.md
             fi
         fi
 
@@ -114,9 +100,10 @@ for dir in $dirs; do
     sed -i 's/ | /|/g' index.md
 
     # sudo apt-get install discount
-    markdown index.md > tmp-index-part.html
+    marked index.md > tmp-index-part.html
     if [ $auto_index_md -eq 1 ]; then
         rm index.md
+        echo 1;
     fi
 
     # sed不支持多行文本，所以要先把换行符去掉
@@ -133,20 +120,10 @@ for dir in $dirs; do
     if [ $qiniu_prefix = "/" ]; then
         qiniu_prefix=""
     fi
-    echo $qiniu_prefix
-    # 上传所有文件
-    tmp_lines=`find . -maxdepth 1 -type f -printf '%f\n'`
-    for filename in $tmp_lines; do
-        echo $filename
-        if [ $filename != "index.html" ] && [ $filename != "files.md" ]; then
-            mime=`file -b --mime-type $filename`
-            qshell rput $qiniu_bucket "$qiniu_prefix"$filename $filename "$mime" "http://upload-na0.qiniu.com"
-        fi
-    done
-    # 上传index.html，用于列表服务
-    qshell delete $qiniu_bucket "$qiniu_prefix"
-    qshell fput $qiniu_bucket "$qiniu_prefix" index.html "text/html" "http://upload-na0.qiniu.com"
-    qrsctl cdn/refresh $qiniu_bucket http://$qiniu_domain/"$qiniu_prefix"
-    rm index.html
+    echo http://$qiniu_domain/"$qiniu_prefix" >> $top_dir/refresh.dl.txt
 done
+# 上传所有文件
+cd $top_dir
+qshell qupload $tmp_dir/qupload.dl.json
+qshell cdnrefresh $tmp_dir/refresh.dl.txt
 echo 'the end'

@@ -3,47 +3,33 @@ set -e
 top_dir=$(cd `dirname $0`; pwd)
 echo $top_dir
 portal_dir=$top_dir/site
+mkdir -p $portal_dir
+tmp_dir=$top_dir/tmp
+mkdir -p $tmp_dir
 source $top_dir/portal.conf
 
 # 如果环境变量里没有，则要输入
-if [ -z $qiniu_user ]; then
-    echo "请输入七牛用户名："
-    read -s qiniu_user
-    if [ -z $qiniu_user ]; then
-        echo '错误：未输入'
-        exit 1
-    fi
-fi
-
-if [ -z $qiniu_passwd ]; then
-    echo "请输入七牛密码："
-    read -s qiniu_passwd
-    if [ -z $qiniu_passwd ]; then
-        echo '错误：未输入'
-        exit 1
-    fi
-fi
-
-if [ -z $qiniu_access_key ]; then
+if [ -z $QINIU_ACCESS_KEY ]; then
     echo "请输入七牛access_key："
-    read -s qiniu_access_key
-    if [ -z $qiniu_access_key ]; then
+    read -s QINIU_ACCESS_KEY
+    if [ -z $QINIU_ACCESS_KEY ]; then
         echo '错误：未输入'
         exit 1
     fi
 fi
 
-if [ -z $qiniu_secret_key ]; then
+if [ -z $QINIU_SECRET_KEY ]; then
     echo "请输入七牛secret_key："
-    read -s qiniu_secret_key
-    if [ -z $qiniu_secret_key ]; then
+    read -s QINIU_SECRET_KEY
+    if [ -z $QINIU_SECRET_KEY ]; then
         echo '错误：未输入'
         exit 1
     fi
 fi
 
-qrsctl login $qiniu_user $qiniu_passwd
-qshell account $qiniu_access_key $qiniu_secret_key
+qshell account $QINIU_ACCESS_KEY $QINIU_SECRET_KEY
+echo "" > $tmp_dir/refresh.portal.txt
+echo "{\"src_dir\": \"$portal_dir\", \"bucket\": \"$qiniu_bucket\" }" > $tmp_dir/qupload.portal.json
 
 dirs=`ls -R $portal_dir | grep ':' | awk -F: '{print $1}'`
 for dir in $dirs; do
@@ -64,15 +50,14 @@ for dir in $dirs; do
         if [ $filename == "index.html" ]; then
             target=$qiniu_prefix
         fi
-        echo $target
-        mime=`file -b --mime-type $filename`
-        echo $mime
-        qshell fput $qiniu_bucket "$target" $filename true "http://upws.qiniug.com"
+        qshell fput $qiniu_bucket "$target" $filename true
         if [ $filename == "index.html" ]; then
             # html 链接不变，所以需要刷新。而img、js、css可以修改链接跳过老的缓存。
             # 刷新http即可，https会跟着变。
-            qrsctl cdn/refresh $qiniu_bucket http://$domain/$target
+            echo "http://$domain/$target" >> $tmp_dir/refresh.portal.txt
         fi
     done
 done
+cd $top_dir
+qshell cdnrefresh $tmp_dir/refresh.portal.txt
 echo 'the end'
