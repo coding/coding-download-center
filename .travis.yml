@@ -7,7 +7,7 @@ before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -y curl unzip python-pip
 - sudo pip install mkdocs
-- sudo npm install marked --global
+- sudo $(which npm) install marked --global
 install:
 - bash ./download.sh
 script:
