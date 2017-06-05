@@ -1,8 +1,9 @@
-language: bash
+language: node_js
+node_js:
+- "6"
 before_install:
-- curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 - sudo apt-get update -qq
-- sudo apt-get install -y curl unzip python-pip clang-3.4 nodejs
+- sudo apt-get install -y curl unzip python-pip
 - sudo pip install mkdocs
 install:
 - bash ./download.sh
