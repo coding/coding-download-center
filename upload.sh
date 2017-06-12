@@ -27,6 +27,10 @@ if [ -z $QINIU_SECRET_KEY ]; then
     fi
 fi
 
+if [ -z $QINIU_THREAD_COUNT ]; then
+    QINIU_THREAD_COUNT=7
+fi
+
 favicon_html=""
 if [ ! -z $favicon ] && [ "x"$favicon != "x" ]; then
     favicon_html='<link rel="icon" type="image/vnd.microsoft.icon" href="'$favicon'" />'
@@ -44,7 +48,7 @@ fi
 
 qshell account $QINIU_ACCESS_KEY $QINIU_SECRET_KEY
 echo "" > $tmp_dir/refresh.dl.txt
-echo "{\"src_dir\": \"$dl_dir\", \"bucket\": \"$qiniu_bucket\" }" > $tmp_dir/qupload.dl.json
+echo "{\"src_dir\": \"$dl_dir\", \"bucket\": \"$qiniu_bucket\", \"overwrite\": true, \"check_hash\": true }" > $tmp_dir/qupload.dl.json
 
 dirs=`ls -R $dl_dir | grep ':' | awk -F: '{print $1}'`
 for dir in $dirs; do
@@ -124,6 +128,6 @@ for dir in $dirs; do
 done
 # 上传所有文件
 cd $top_dir
-qshell qupload $tmp_dir/qupload.dl.json
+qshell qupload $QINIU_THREAD_COUNT $tmp_dir/qupload.dl.json
 qshell cdnrefresh $tmp_dir/refresh.dl.txt
 echo 'the end'

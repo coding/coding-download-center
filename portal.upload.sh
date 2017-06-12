@@ -29,7 +29,7 @@ fi
 
 qshell account $QINIU_ACCESS_KEY $QINIU_SECRET_KEY
 echo "" > $tmp_dir/refresh.portal.txt
-echo "{\"src_dir\": \"$portal_dir\", \"bucket\": \"$qiniu_bucket\" }" > $tmp_dir/qupload.portal.json
+echo "{\"src_dir\": \"$portal_dir\", \"bucket\": \"$qiniu_bucket\", \"overwrite\": true, \"check_hash\": true }" > $tmp_dir/qupload.portal.json
 
 dirs=`ls -R $portal_dir | grep ':' | awk -F: '{print $1}'`
 for dir in $dirs; do
