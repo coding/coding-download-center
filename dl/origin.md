@@ -10,9 +10,9 @@ android-sdk | Linux | https://dl.google.com/android/repository/sdk-tools-linux-3
 android-studio | Windows | https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-windows.exe | /dev/null
 android-studio | macOS | https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-mac.dmg |
 android-studio | Linux | https://dl.google.com/dl/android/studio/ide-zips/2.2.0.12/android-studio-ide-145.3276617-linux.zip |
-android-ndk | Linux | http://dl.google.com/android/repository/android-mdk-r12b-linux-x86_64.zip |
-android-ndk | macOS | http://dl.google.com/android/repository/android-mdk-r12b-darwin-x86_64.zip |
-android-ndk | Windows | http://dl.google.com/android/repository/android-mdk-r12b-windows-x86_64.zip |
+android-ndk | Windows | https://dl.google.com/android/repository/android-ndk-r15-windows-x86_64.zip |
+android-ndk | macOS | https://dl.google.com/android/repository/android-ndk-r15-darwin-x86_64.zip |
+android-ndk | Linux | https://dl.google.com/android/repository/android-ndk-r15-linux-x86_64.zip |
 virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.1.10/Oracle_VM_VirtualBox_Extension_Pack-5.1.10-112026.vbox-extpack |
 virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.1.10/VirtualBox-5.1.10-112026-Win.exe |
 virtualbox | macOS | http://download.virtualbox.org/virtualbox/5.1.10/VirtualBox-5.1.10-112026-OSX.dmg |
