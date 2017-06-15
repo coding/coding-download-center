@@ -12,3 +12,11 @@ for file in `find ./site/css/ -name '*.css'`; do
     filename=`basename $file`
     grep -lr "css/$filename\"" ./site/ && (grep -lr "css/$filename\"" ./site/ | xargs sed -i "s/css\/$filename\"/css\/$filename?md5=$md5\"/g") || echo 'replace nothing'
 done
+
+# use https://github.com/imsun/gitment
+awk '
+/<\/head>/ {
+    print "  <link rel=\"stylesheet\" href=\"https://imsun.github.io/gitment/style/default.css\" />"
+}
+{ print }
+' ./site/index.html > ./site/index2.html

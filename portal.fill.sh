@@ -69,13 +69,13 @@ for file in $files; do
         sed -i "$line_num a$tr" $top_dir/docs/index.md
     done
     j=0
-    for line_num in `grep -n {*} $top_dir/docs/index.md | cut -d : -f 1`; do
+    for line_num in `grep -n {*}} $top_dir/docs/index.md | cut -d : -f 1`; do
         tmp_num=$(($line_num+$j))
         th='系统 | 文件名 | 官网下载 | CDN下载'
         sed -i "$tmp_num i$th" $top_dir/docs/index.md
         j=$(($j+1))
     done
-    for line_num in `grep -n {*} $top_dir/docs/index.md | cut -d : -f 1`; do
+    for line_num in `grep -n {*}} $top_dir/docs/index.md | cut -d : -f 1`; do
         th='-----|--------|----------|--------'
         sed -i "$line_num s/.*/$th/" $top_dir/docs/index.md
     done

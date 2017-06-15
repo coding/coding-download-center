@@ -6,37 +6,37 @@
 
 获取快速、免费的网络浏览器（一款适用于计算机、手机和平板电脑的浏览器）。官网：[google.cn/chrome/](http://www.google.cn/chrome/browser/desktop/index.html)
 
-{google-chrome}
+{{google-chrome}}
 
 ## Atom
 
 A hackable text editor for the 21st Century. 官网：[atom.io](https://atom.io/)。
 
-{atom}
+{{atom}}
 
 ## Android SDK Tools Only
 
 These packages provide the basic SDK tools for app development, without an IDE. 官网：[developer.android.com/sdk/](http://developer.android.com/sdk/index.html#Other)。
 
-{android-sdk}
+{{android-sdk}}
 
 ## Android Studio
 
 The official Android IDE. 官网：[developer.android.com/sdk/](http://developer.android.com/sdk/index.html#Other)。
 
-{android-studio}
+{{android-studio}}
 
 ## Android NDK
 
 The Native Development Kit (NDK) is a set of tools that allow you to leverage C and C++ code in your Android apps. 官网：[developer.android.com/ndk/downloads/](http://developer.android.com/ndk/downloads/index.html)。
 
-{android-ndk}
+{{android-ndk}}
 
 ## Go Lang
 
 Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. 官网：[golang.org/dl/](https://golang.org/dl/)。感谢 [mingshun](https://github.com/mingshun) 贡献代码发起 [PR](https://github.com/sinkcup/gmirror/pull/4)。
 
-{golang}
+{{golang}}
 
 ## Google Fonts 国内镜像加速
 
@@ -48,7 +48,7 @@ Go is an open source programming language that makes it easy to build simple, re
 
 MongoDB is an open-source, document database designed for ease of development and scaling. The Manual introduces key concepts in MongoDB, presents the query language, and provides operational and administrative considerations and procedures as well as a comprehensive reference section. 官网：[mongodb.com](https://www.mongodb.com/download-center)
 
-{mongodb}
+{{mongodb}}
 
 ## JDK
 
@@ -65,21 +65,17 @@ MongoDB is an open-source, document database designed for ease of development an
 
 VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. 官网：[virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)。
 
-{virtualbox}
+{{virtualbox}}
 
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="index" data-title="开发者常用软件国内镜像下载" data-url="http://gmirror.org/"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"gmirror"};
-(function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+      "owner": "sinkcup",
+      "repo": 'sinkcup/gmirror',
+      "oauth": {
+        "client_id": "33b27f4d0f8594cdccb5",
+        "client_secret": "c886ec8b1779839dc21f4114e14466e8ed8a192f"
+      }
+    });
+    gitment.render('container');
 </script>
-<!-- 多说公共JS代码 end -->
