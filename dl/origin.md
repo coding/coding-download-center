@@ -4,9 +4,9 @@ google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/app
 google-chrome | Windows 10/8/7 64-bit普通用户 | https://dl.google.com/release2/TVi2QMXKGV8/59.0.3071.86_chrome_installer.exe | chrome/win/59.0.3071.86_chrome_installer.exe
 google-chrome | OS X | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/59.0.3071.86_googlechrome.dmg
 google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/59.0.3071.86_google-chrome-stable_current_amd64.deb
-android-sdk | Linux | http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz |
-android-sdk | OS X | http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip |
-android-sdk | Windows | http://dl.google.com/android/installer_r24.4.1-windows.exe | /dev/null
+android-sdk | Windows | https://dl.google.com/android/repository/sdk-tools-windows-3859397.zip |
+android-sdk | OS X | https://dl.google.com/android/repository/sdk-tools-darwin-3859397.zip |
+android-sdk | Linux | https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip |
 android-studio | Windows | https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-windows.exe | /dev/null
 android-studio | OS X | https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-mac.dmg |
 android-studio | Linux | https://dl.google.com/dl/android/studio/ide-zips/2.2.0.12/android-studio-ide-145.3276617-linux.zip |
