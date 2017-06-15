@@ -13,11 +13,12 @@ android-studio | Linux | https://dl.google.com/dl/android/studio/ide-zips/2.3.3.
 android-ndk | Windows | https://dl.google.com/android/repository/android-ndk-r15-windows-x86_64.zip |
 android-ndk | macOS | https://dl.google.com/android/repository/android-ndk-r15-darwin-x86_64.zip |
 android-ndk | Linux | https://dl.google.com/android/repository/android-ndk-r15-linux-x86_64.zip |
-virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.1.10/Oracle_VM_VirtualBox_Extension_Pack-5.1.10-112026.vbox-extpack |
-virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.1.10/VirtualBox-5.1.10-112026-Win.exe |
-virtualbox | macOS | http://download.virtualbox.org/virtualbox/5.1.10/VirtualBox-5.1.10-112026-OSX.dmg |
-virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.1.10/virtualbox-5.1_5.1.10-112026~Ubuntu~xenial_amd64.deb | virtualbox/5.1.10/virtualbox-5.1.10-112026-Ubuntu-xenial-amd64.deb
-virtualbox | Ubuntu 16.10 ("Yakkety") AMD64 | http://download.virtualbox.org/virtualbox/5.1.10/virtualbox-5.1_5.1.10-112026~Ubuntu~yakkety_amd64.deb | virtualbox/5.1.10/virtualbox-5.1.10-112026-Ubuntu-yakkety-amd64.deb
+virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.1.22/Oracle_VM_VirtualBox_Extension_Pack-5.1.22-115126.vbox-extpack |
+virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.1.22/VirtualBox-5.1.22-115126-Win.exe |
+virtualbox | macOS | http://download.virtualbox.org/virtualbox/5.1.22/VirtualBox-5.1.22-115126-OSX.dmg |
+virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.1.22/virtualbox-5.1_5.1.22-115126~Ubuntu~xenial_amd64.deb | virtualbox/5.1.22/virtualbox-5.1.22-115126-Ubuntu-xenial-amd64.deb
+virtualbox | Ubuntu 16.10 ("Yakkety") AMD64 | http://download.virtualbox.org/virtualbox/5.1.22/virtualbox-5.1_5.1.22-115126~Ubuntu~yakkety_amd64.deb | virtualbox/5.1.22/virtualbox-5.1.22-115126-Ubuntu-yakkety-amd64.deb
+virtualbox | Ubuntu 17.04 ("Zesty") AMD64 | http://download.virtualbox.org/virtualbox/5.1.22/virtualbox-5.1_5.1.22-115126~Ubuntu~zesty_amd64.deb | virtualbox/5.1.22/virtualbox-5.1.22-115126-Ubuntu-zesty-amd64.deb
 golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.8.3.windows-amd64.msi |
 golang | macOS 64-bit | https://storage.googleapis.com/golang/go1.8.3.darwin-amd64.pkg |
 golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz |
