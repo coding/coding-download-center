@@ -53,8 +53,8 @@ for dir in $dirs; do
         qshell fput $qiniu_bucket "$target" $filename true
         if [ $filename == "index.html" ]; then
             # html 链接不变，所以需要刷新。而img、js、css可以修改链接跳过老的缓存。
-            # 刷新http即可，https会跟着变。
-            echo "http://$domain/$target" >> $tmp_dir/refresh.portal.txt
+            # 刷新https即可，http会跟着变。
+            echo "https://$domain/$target" >> $tmp_dir/refresh.portal.txt
         fi
     done
 done
