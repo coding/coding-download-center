@@ -14,7 +14,7 @@ android-ndk | Windows | https://dl.google.com/android/repository/android-ndk-r15
 android-ndk | macOS | https://dl.google.com/android/repository/android-ndk-r15-darwin-x86_64.zip |
 android-ndk | Linux | https://dl.google.com/android/repository/android-ndk-r15-linux-x86_64.zip |
 virtualbox | 所有 | http://download.virtualbox.org/virtualbox/5.1.22/Oracle_VM_VirtualBox_Extension_Pack-5.1.22-115126.vbox-extpack |
-virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.1.22/VirtualBox-5.1.22-115126-Win.exe |
+virtualbox | Windows | http://download.virtualbox.org/virtualbox/5.1.22/VirtualBox-5.1.22-115126-Win.exe | /dev/null
 virtualbox | macOS | http://download.virtualbox.org/virtualbox/5.1.22/VirtualBox-5.1.22-115126-OSX.dmg |
 virtualbox | Ubuntu 16.04 ("Xenial") AMD64 | http://download.virtualbox.org/virtualbox/5.1.22/virtualbox-5.1_5.1.22-115126~Ubuntu~xenial_amd64.deb | virtualbox/5.1.22/virtualbox-5.1.22-115126-Ubuntu-xenial-amd64.deb
 virtualbox | Ubuntu 16.10 ("Yakkety") AMD64 | http://download.virtualbox.org/virtualbox/5.1.22/virtualbox-5.1_5.1.22-115126~Ubuntu~yakkety_amd64.deb | virtualbox/5.1.22/virtualbox-5.1.22-115126-Ubuntu-yakkety-amd64.deb
