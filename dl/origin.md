@@ -1,9 +1,9 @@
 product | os | uri | filename
 --------|----|-----|---------
-google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/59.0.3071.86_googlechromestandaloneenterprise64.msi
-google-chrome | Windows 10/8/7 64-bit普通用户 | https://dl.google.com/release2/TVi2QMXKGV8/59.0.3071.86_chrome_installer.exe | chrome/win/59.0.3071.86_chrome_installer.exe
-google-chrome | macOS | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/59.0.3071.86_googlechrome.dmg
-google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/59.0.3071.86_google-chrome-stable_current_amd64.deb
+google-chrome | Windows 10/8/7 64-bit管理员 | https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBF9FDEDC-1F3F-E462-F6B4-782CEEC72491%7D%26lang%3Dzh-CN%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/dl/chrome/install/googlechromestandaloneenterprise64.msi | chrome/win/59.0.3071.104_googlechromestandaloneenterprise64.msi
+google-chrome | Windows 10/8/7 64-bit普通用户 | http://redirector.gvt1.com/edgedl/release2/TxM7h4ZkDQg/59.0.3071.104_chrome_installer.exe | chrome/win/59.0.3071.104_chrome_installer.exe
+google-chrome | macOS | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | chrome/mac/59.0.3071.104_googlechrome.dmg
+google-chrome | Debian/Ubuntu amd64 | https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | chrome/linux/59.0.3071.104_google-chrome-stable_current_amd64.deb
 android-sdk | Windows | https://dl.google.com/android/repository/sdk-tools-windows-3859397.zip |
 android-sdk | macOS | https://dl.google.com/android/repository/sdk-tools-darwin-3859397.zip |
 android-sdk | Linux | https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip |
