@@ -13,10 +13,15 @@ for file in `find ./site/css/ -name '*.css'`; do
     grep -lr "css/$filename\"" ./site/ && (grep -lr "css/$filename\"" ./site/ | xargs sed -i "s/css\/$filename\"/css\/$filename?md5=$md5\"/g") || echo 'replace nothing'
 done
 
+# replace bad link
+sed -i "s/edit\/master\/docs\/index.md/edit\/master\/docs\/index.tpl.md/g" ./site/index.html
+
+
 # use https://github.com/imsun/gitment
 awk '
 /<\/head>/ {
     print "  <link rel=\"stylesheet\" href=\"https://imsun.github.io/gitment/style/default.css\" />"
 }
 { print }
-' ./site/index.html > ./site/index2.html
+' ./site/index.html > ./site/index.html.tmp
+mv ./site/index.html.tmp ./site/index.html
