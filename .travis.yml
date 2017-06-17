@@ -2,11 +2,7 @@ sudo: required
 dist: trusty
 language: bash
 before_install:
-- curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-- sudo apt-get update -qq
-- sudo apt-get install -y curl unzip python-pip nodejs
-- sudo pip install mkdocs
-- sudo npm install marked --global
+- bash ./before_install.sh
 install:
 - bash ./download.sh
 script:
