@@ -67,17 +67,4 @@ VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterp
 
 {{virtualbox}}
 
-<div id="comments"></div>
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-      "id": "index",
-      "owner": "sinkcup",
-      "repo": 'gmirror',
-      "oauth": {
-        "client_id": "33b27f4d0f8594cdccb5",
-        "client_secret": "c886ec8b1779839dc21f4114e14466e8ed8a192f"
-      }
-    });
-    gitment.render('comments');
-</script>
+<div id="comments" data-thread-key="index"></div>

@@ -7,11 +7,13 @@ theme: readthedocs
 repo_url: https://github.com/sinkcup/gmirror
 site_favicon: favicon.ico
 copyright: <a title="帮助我们：点击注册七牛，本站将获得流量供大家下载使用" href="https://portal.qiniu.com/signup?code=3lafkpsz7yes1" target="_blank"><img src="https://gmirror.org/qiniu-transparent.png" alt="七牛云" /></a><a rel="nofollow" href="http://www.miitbeian.gov.cn/">苏ICP备15020382号-2</a>
-    <script src="https://s4.cnzz.com/z_stat.php?id=1261409042&web_id=1261409042"></script>
     <script>
         if (window.location.protocol === "http:") {
             window.location.href = "https:" + window.location.href.slice(5);
         }
+    </script>
+    <script src="https://s4.cnzz.com/z_stat.php?id=1261409042&web_id=1261409042"></script>
+    <script>
         function cmpVersion(a, b) {
             var i, cmp, len, re = /(\.0)+[^\.]*$/;
             a = (a + '').replace(re, '').split('.');

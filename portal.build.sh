@@ -1,5 +1,6 @@
 #!/bin/bash
 
+. ./portal.conf
 mkdocs build --clean
 # some theme use link css in HTML head
 grep -lr "href='https://fonts.googleapis.com/css" ./site/ && (grep -lr "href='https://fonts.googleapis.com/css" ./site/ | xargs sed -i "s/href='https:\/\/fonts\.googleapis\.com\/css/href='https:\/\/fonts\.proxy\.ustclug\.org\/css/g") || echo 'replace nothing'
@@ -25,3 +26,19 @@ awk '
 { print }
 ' ./site/index.html > ./site/index.html.tmp
 mv ./site/index.html.tmp ./site/index.html
+
+sed -i "/<div id=\"comments\"/a \
+<script src=\"https://imsun.github.io/gitment/dist/gitment.browser.js\"></script> \
+<script> \
+var gitment = new Gitment({ \
+\"id\": \$(\"#comments\").data(\"thread-key\"), \
+\"owner\": \"$gitment_owner\", \
+\"repo\": \"$gitment_repo\", \
+\"oauth\": { \
+\"client_id\": \"$gitment_oauth_client_id\", \
+\"client_secret\": \"$gitment_oauth_client_secret\" \
+} \
+}); \
+gitment.render(\"comments\"); \
+</script> \
+" ./site/index.html
