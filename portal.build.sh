@@ -27,7 +27,7 @@ awk '
 ' ./site/index.html > ./site/index.html.tmp
 mv ./site/index.html.tmp ./site/index.html
 
-sed -i "/<div id=\"comments\"/a \
+grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<div id=\"comments\"/a \
 <script src=\"https://imsun.github.io/gitment/dist/gitment.browser.js\"></script> \
 <script> \
 var gitment = new Gitment({ \
@@ -41,4 +41,4 @@ var gitment = new Gitment({ \
 }); \
 gitment.render(\"comments\"); \
 </script> \
-" ./site/index.html
+"
