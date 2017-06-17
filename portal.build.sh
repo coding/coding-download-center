@@ -31,7 +31,7 @@ grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<div id=\"comments\"/a 
 <script src=\"https://imsun.github.io/gitment/dist/gitment.browser.js\"></script> \
 <script> \
 var gitment = new Gitment({ \
-\"id\": \$(\"#comments\").data(\"thread-key\"), \
+\"id\": document.getElementById(\"comments\").dataset.threadKey, \
 \"owner\": \"$gitment_owner\", \
 \"repo\": \"$gitment_repo\", \
 \"oauth\": { \
