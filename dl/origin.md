@@ -22,9 +22,9 @@ virtualbox | Ubuntu 17.04 ("Zesty") AMD64 | http://download.virtualbox.org/virtu
 golang | Windows 64-bit | https://storage.googleapis.com/golang/go1.8.3.windows-amd64.msi | /dev/null
 golang | macOS 64-bit | https://storage.googleapis.com/golang/go1.8.3.darwin-amd64.pkg |
 golang | Linux 64-bit | https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz |
-atom | Windows | https://github.com/atom/atom/releases/download/v1.17.2/AtomSetup.exe | /dev/null
-atom | macOS | https://github.com/atom/atom/releases/download/v1.17.2/atom-mac.zip | atom/atom-mac-1.17.2.zip
-atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.17.2/atom-amd64.deb | atom/atom-amd64-1.17.2.deb
+atom | Windows | https://github.com/atom/atom/releases/download/v1.18.0/AtomSetup.exe | /dev/null
+atom | macOS | https://github.com/atom/atom/releases/download/v1.18.0/atom-mac.zip | atom/atom-mac-1.18.0.zip
+atom | Debian/Ubuntu amd64 | https://github.com/atom/atom/releases/download/v1.18.0/atom-amd64.deb | atom/atom-amd64-1.18.0.deb
 mongodb | Debian 8 | https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian81-3.4.0.tgz |
 mongodb | Ubuntu 14.04 | https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.4.0.tgz |
 mongodb | Ubuntu 16.04 | https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.4.0.tgz |
