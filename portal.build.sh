@@ -19,13 +19,9 @@ sed -i "s/edit\/master\/docs\/index.md/edit\/master\/docs\/index.tpl.md/g" ./sit
 
 
 # use https://github.com/imsun/gitment
-awk '
-/<\/head>/ {
-    print "  <link rel=\"stylesheet\" href=\"https://imsun.github.io/gitment/style/default.css\" />"
-}
-{ print }
-' ./site/index.html > ./site/index.html.tmp
-mv ./site/index.html.tmp ./site/index.html
+grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<title>/a \
+<link rel=\"stylesheet\" href=\"https://imsun.github.io/gitment/style/default.css\" /> \
+"
 
 grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<div id=\"comments\"/a \
 <script src=\"https://imsun.github.io/gitment/dist/gitment.browser.js\"></script> \
