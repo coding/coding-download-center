@@ -19,11 +19,12 @@ sed -i "s/edit\/master\/docs\/index.md/edit\/master\/docs\/index.tpl.md/g" ./sit
 
 
 # use https://github.com/imsun/gitment
-grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<title>/a \
+if [ -n "$gitment_owner" ] && [ -n "$gitment_repo" ] && [ -n "$gitment_oauth_client_id" ] && [ -n "$gitment_oauth_client_secret" ]; then
+    grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<title>/a \
 <link rel=\"stylesheet\" href=\"https://imsun.github.io/gitment/style/default.css\" /> \
 "
 
-grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<div id=\"comments\"/a \
+    grep -lr "<div id=\"comments\"" ./site/ | xargs sed -i "/<div id=\"comments\"/a \
 <script src=\"https://imsun.github.io/gitment/dist/gitment.browser.js\"></script> \
 <script> \
 var gitment = new Gitment({ \
@@ -38,3 +39,4 @@ var gitment = new Gitment({ \
 gitment.render(\"comments\"); \
 </script> \
 "
+fi
