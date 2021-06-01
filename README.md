@@ -4,7 +4,7 @@
 
 ## 提交需要的软件
 
-修改 `index.md`，加入需要的软件，发起合并请求，待管理员合并，会触发自动下载，并发布到公开制品库：
+修改 `index.md`，加入需要的软件（按照字母顺序），发起合并请求，待管理员合并，会触发自动下载，并发布到公开制品库：
 
 https://coding-public.coding.net/public-artifacts/public/downloads/packages
 
