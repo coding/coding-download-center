@@ -48,16 +48,15 @@ tail -n +$offset "$index_file" | while read line; do
         echo "skip: file exists on mirror"
     fi
     if [ "$http_code" -ne 200 ]; then
-        if [ -f "$dl_dir/$filename" ]; then
-          if sha256sum -c "$dl_dir/$filename.sha256sum"; then
+        if [ -f "$dl_dir/$filename" ] && sha256sum -c "$dl_dir/$filename.sha256sum"; then
             echo "skip: file exists on local"
-            continue
-          fi
+        else
+            wget -O "$dl_dir/$filename" "$uri"
+            sha256sum -c "$dl_dir/$filename.sha256sum"
         fi
-        wget -O "$dl_dir/$filename" "$uri"
-        sha256sum -c "$dl_dir/$filename.sha256sum"
         # coding-generic 自带校验功能，上传成功即可，无需再下载校验。
-        coding-generic --username="$CODING_GENERIC_REGISTRY:" --path=./test.txt --registry="$CODING_GENERIC_REGISTRY"
+        coding-generic --username="${CODING_ARTIFACTS_USERNAME}:${CODING_ARTIFACTS_PASSWORD}" --path="${dl_dir}/${filename}" \
+            --registry="${CODING_GENERIC_REGISTRY}chunks/${package}?version=${version}"
     fi
 done
 echo 'the end'
