@@ -20,7 +20,7 @@ tail -n +$offset "$index_file" | while read line; do
     sha256=""
     while IFS='|' read -ra tmp; do
         for part in "${tmp[@]}"; do
-        part="$(sed -e 's/[[:space:]]*$//' <<<${part})"
+        part=$(echo "${part}" | tr -d '[:space:]')
         if [ $i -eq 0 ]; then
             package=$part
             printf "\n%s\n" "$package"
