@@ -1,6 +1,12 @@
 #!/bin/bash
 set -e
 
+if [ "$CODING_GENERIC_REGISTRY" = "" ]; then
+    echo "WARNING: env CODING_GENERIC_REGISTRY not set, only run download"
+elif [ "$CODING_ARTIFACTS_USERNAME" = "" ]; then
+    echo "WARNING: env CODING_ARTIFACTS_USERNAME not set, only run check and download"
+fi
+
 top_dir=$(cd `dirname $0`; pwd)
 dl_dir=$top_dir/dl
 mkdir -p "$dl_dir"
@@ -36,16 +42,15 @@ tail -n +$offset "$index_file" | while read line; do
     done
     done <<< "$line"
 
-    if [ "$CODING_GENERIC_REGISTRY" = "" ]; then
-        echo "error: env CODING_GENERIC_REGISTRY not set"
-        exit 1
-    fi
-    mirror_full_url="${CODING_GENERIC_REGISTRY}$package?version=$version"
-    echo "check $mirror_full_url"
-    header=$(curl -sI "$mirror_full_url")
-    http_code=$(echo "$header" | head -n 1 | awk '{print $2}')
-    if [ "$http_code" -eq 200 ]; then
-        echo "skip: file exists on mirror"
+    http_code=404
+    if [ "$CODING_GENERIC_REGISTRY" != "" ]; then
+        mirror_full_url="${CODING_GENERIC_REGISTRY}$package?version=$version"
+        echo "check $mirror_full_url"
+        header=$(curl -sI "$mirror_full_url")
+        http_code=$(echo "$header" | head -n 1 | awk '{print $2}')
+        if [ "$http_code" -eq 200 ]; then
+            echo "skip: file exists on mirror"
+        fi
     fi
     if [ "$http_code" -ne 200 ]; then
         if [ -f "$dl_dir/$filename" ] && sha256sum -c "$dl_dir/$filename.sha256sum"; then
@@ -55,8 +60,13 @@ tail -n +$offset "$index_file" | while read line; do
             sha256sum -c "$dl_dir/$filename.sha256sum"
         fi
         # coding-generic 自带校验功能，上传成功即可，无需再下载校验。
-        coding-generic --username="${CODING_ARTIFACTS_USERNAME}:${CODING_ARTIFACTS_PASSWORD}" --path="${dl_dir}/${filename}" \
-            --registry="${CODING_GENERIC_REGISTRY}chunks/${package}?version=${version}"
+        if [ "$CODING_GENERIC_REGISTRY" != "" ] \
+            && [ "$CODING_ARTIFACTS_USERNAME" != "" ] \
+            && [ "$CODING_ARTIFACTS_PASSWORD" != "" ]; then
+            coding-generic --username="${CODING_ARTIFACTS_USERNAME}:${CODING_ARTIFACTS_PASSWORD}" \
+            --path="${dl_dir}/${filename}" \
+                --registry="${CODING_GENERIC_REGISTRY}chunks/${package}?version=${version}"
+        fi
     fi
 done
 echo 'the end'
