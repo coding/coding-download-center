@@ -29,7 +29,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      # Check packages in `index.md` sorted by A to Z
+      - name: Lint
+        run: ./lint.sh
+
+      # Download and check sha256, if file not exist in registry
+      - name: Download and check
         run: ./coding-generic-sync.sh
 
