@@ -1,6 +1,6 @@
 package | version | uri | sha256
 --------|---------|-----|---------
-apache-maven-bin.tag.gz | 3.6.3 | https://mirror.softaculous.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz | 26ad91d751b3a9a53087aefa743f4e16a17741d3915b219cf74112bf87a438c5
+apache-maven-bin.tar.gz | 3.6.3 | https://mirror.softaculous.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz | 26ad91d751b3a9a53087aefa743f4e16a17741d3915b219cf74112bf87a438c5
 chrome-darwin-amd64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | 23348d4864a2c0a1512a43b52d9d9e7dab4fc5138aa80e8f298490e0cb9add19
 chrome-darwin-arm64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg | 0ec1f9d1f89b5b913c63452b8327e76deb1ddb6b7d3e518fd6eecd15c09a4dd4
 chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome/bxpqrd8QQC3CMG7JLTYU0w_91.0.4472.106/91.0.4472.106_chrome_installer.exe | cffddc1fa70fa7296d033e1754c942b143f2c5995edff17a4ecae8e455775446
