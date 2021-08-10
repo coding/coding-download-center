@@ -10,5 +10,5 @@ helm-linux-amd64.tar.gz | v3.6.0 | https://get.helm.sh/helm-v3.6.0-linux-amd64.t
 hugo-linux-64bit.deb | 0.87.0 | https://github.com/gohugoio/hugo/releases/download/v0.87.0/hugo_0.87.0_Linux-64bit.deb | 722affa16c672b01a01e913ede3ae454d124cbb844c8b16b67dc025f0c8807be
 kubectl-linux-amd64 | v1.21.1 | https://dl.k8s.io/release/v1.21.1/bin/linux/amd64/kubectl | 58785190e2b4fc6891e01108e41f9ba5db26e04cebb7c1ac639919a931ce9233
 vscode-darwin-universal.zip | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCode-darwin-universal.zip | da04978c00b1c142eafb97a0db86883cda5ca5b54899b86b88456a82153bba53
-vscode-windows-user-setup-x64.exe | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCodeUserSetup-x64-1.59.0.exe | 797c354b28f9a9eeb96e2d7c17f8f341b1830147832c90e686606150f5987b9d
 vscode-linux-amd64.deb | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/code_1.59.0-1628120042_amd64.deb | c9c73e3e9e38806c83031954e909c23c50d4d3b8877dc91ab4b51eb66a3f5eea
+vscode-windows-user-setup-x64.exe | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCodeUserSetup-x64-1.59.0.exe | 797c354b28f9a9eeb96e2d7c17f8f341b1830147832c90e686606150f5987b9d
