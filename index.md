@@ -1,7 +1,7 @@
 package | version | uri | sha256
 --------|---------|-----|---------
-adoptopenjdk-11-openj9-amd64.deb | 11.0.10+9.openj9-0.24.0-3 | https://adoptopenjdk.jfrog.io/ui/api/v1/download?repoKey=deb&path=pool%252Fmain%252Fa%252Fadoptopenjdk-11-openj9%252Fadoptopenjdk-11-openj9_11.0.10%252B9.openj9-0.24.0-3_amd64.deb | 31ded628e72f16e9924786caf9ecc26c4e5728b458e51c7345f89cb05ed77d6b
-adoptopenjdk-16-openj9-amd64.deb | 16.0.1+9.openj9-0.26.0-3 | https://adoptopenjdk.jfrog.io/ui/api/v1/download?repoKey=deb&path=pool%252Fmain%252Fa%252Fadoptopenjdk-16-openj9%252Fadoptopenjdk-16-openj9_16.0.1%252B9.openj9-0.26.0-3_amd64.deb | 486e92a3dd6525ec3e360ba21188c9c1d5974d35d3502b082c849172d2e90f11
+adoptopenjdk-11-openj9-amd64.deb | 11.0.10-9.openj9-0.24.0-3 | https://adoptopenjdk.jfrog.io/ui/api/v1/download?repoKey=deb&path=pool%252Fmain%252Fa%252Fadoptopenjdk-11-openj9%252Fadoptopenjdk-11-openj9_11.0.10%252B9.openj9-0.24.0-3_amd64.deb | 31ded628e72f16e9924786caf9ecc26c4e5728b458e51c7345f89cb05ed77d6b
+adoptopenjdk-16-openj9-amd64.deb | 16.0.1-9.openj9-0.26.0-3 | https://adoptopenjdk.jfrog.io/ui/api/v1/download?repoKey=deb&path=pool%252Fmain%252Fa%252Fadoptopenjdk-16-openj9%252Fadoptopenjdk-16-openj9_16.0.1%252B9.openj9-0.26.0-3_amd64.deb | 486e92a3dd6525ec3e360ba21188c9c1d5974d35d3502b082c849172d2e90f11
 apache-maven-bin.tar.gz | 3.8.1 | https://mirror.softaculous.com/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz | b98a1905eb554d07427b2e5509ff09bd53e2f1dd7a0afa38384968b113abef02
 chrome-darwin-amd64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg | 23348d4864a2c0a1512a43b52d9d9e7dab4fc5138aa80e8f298490e0cb9add19
 chrome-darwin-arm64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg | 0ec1f9d1f89b5b913c63452b8327e76deb1ddb6b7d3e518fd6eecd15c09a4dd4
