@@ -9,7 +9,7 @@ chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome
 composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar | 29454b41558968ca634bf5e2d4d07ff2275d91b637a76d7a05e6747d36dd3473
 go-linux-amd64.tar.gz | 1.16.7 | https://golang.google.cn/dl/go1.16.7.linux-amd64.tar.gz | 7fe7a73f55ba3e2285da36f8b085e5c0159e9564ef5f63ee0ed6b818ade8ef04
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
-hugo-linux-64bit.deb | 0.87.0 | https://github.com/gohugoio/hugo/releases/download/v0.87.0/hugo_0.87.0_Linux-64bit.deb | 722affa16c672b01a01e913ede3ae454d124cbb844c8b16b67dc025f0c8807be
+hugo-linux-64bit.deb | 0.88.1 | https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb | 2d5f5dc3c1041f38e690f2a2c876d1658fbfdf1a327565f0167b3f0853798fb2
 kubectl-linux-amd64 | v1.21.1 | https://dl.k8s.io/release/v1.21.1/bin/linux/amd64/kubectl | 58785190e2b4fc6891e01108e41f9ba5db26e04cebb7c1ac639919a931ce9233
 vscode-darwin-universal.zip | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCode-darwin-universal.zip | da04978c00b1c142eafb97a0db86883cda5ca5b54899b86b88456a82153bba53
 vscode-linux-amd64.deb | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/code_1.59.0-1628120042_amd64.deb | c9c73e3e9e38806c83031954e909c23c50d4d3b8877dc91ab4b51eb66a3f5eea
