@@ -12,6 +12,7 @@ go-linux-amd64.tar.gz | 1.16.7 | https://golang.google.cn/dl/go1.16.7.linux-amd6
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
 hugo-linux-64bit.deb | 0.88.1 | https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb | 2d5f5dc3c1041f38e690f2a2c876d1658fbfdf1a327565f0167b3f0853798fb2
 kubectl-linux-amd64 | v1.21.1 | https://dl.k8s.io/release/v1.21.1/bin/linux/amd64/kubectl | 58785190e2b4fc6891e01108e41f9ba5db26e04cebb7c1ac639919a931ce9233
+packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
 vscode-darwin-universal.zip | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCode-darwin-universal.zip | da04978c00b1c142eafb97a0db86883cda5ca5b54899b86b88456a82153bba53
 vscode-linux-amd64.deb | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/code_1.59.0-1628120042_amd64.deb | c9c73e3e9e38806c83031954e909c23c50d4d3b8877dc91ab4b51eb66a3f5eea
 vscode-windows-user-setup-x64.exe | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCodeUserSetup-x64-1.59.0.exe | 797c354b28f9a9eeb96e2d7c17f8f341b1830147832c90e686606150f5987b9d
