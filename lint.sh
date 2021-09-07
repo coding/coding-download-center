@@ -8,6 +8,6 @@ diff index-body.md index-body-sorted.md
 
 package_name=$(awk '{print $1}' index-body.md)
 
-for i in $package_name;do
+for i in $package_name; do
     [[ ! "$i" =~ \.[0-9]+\. ]] || ( echo "[ERROR] $i : package name should not have version!" && exit 2 )
 done
