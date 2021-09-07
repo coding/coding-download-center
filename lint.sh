@@ -8,6 +8,6 @@ diff index-body.md index-body-sorted.md
 
 for i in `awk '{print $1}' /tmp/index-body.md`
 do
-  [[ "$i" =~ ^[a-z0-9.-]+$ ]]  || ( echo “$i: Product names shall be all in lower case” && exit 250 )
+  [[ "$i" =~ ^[a-z0-9.-]+$ ]] || ( echo "$i: Product names shall be all in lower case" && exit 250 )
 done
 
