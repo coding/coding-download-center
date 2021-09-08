@@ -29,9 +29,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Check packages in `index.md` sorted by A to Z
       - name: Lint
-        run: ./lint.sh
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          apt-get update
+          apt-get install -y shellcheck
+          wget https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 -O /usr/local/bin/shfmt
+          chmod +x /usr/local/bin/shfmt
+          git diff --diff-filter=d --name-only origin/$GITHUB_BASE_REF... | xargs ./lint.sh
 
       # Download and check sha256, if file not exist in registry
       - name: Download and check
