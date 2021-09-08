@@ -9,7 +9,7 @@ chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome
 composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar | 29454b41558968ca634bf5e2d4d07ff2275d91b637a76d7a05e6747d36dd3473
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
 go-linux-amd64.tar.gz | 1.16.7 | https://golang.google.cn/dl/go1.16.7.linux-amd64.tar.gz | 7fe7a73f55ba3e2285da36f8b085e5c0159e9564ef5f63ee0ed6b818ade8ef04
-helm-linux-amd64.tar.gz | v2.17.0 | https://get.helm.sh/helm-v2.17.0-linux-amd64.tar.gz | f3bec3c7c55f6a9eb9e6586b8c503f370af92fe987fcbf741f37707606d70296
+helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
 hugo-linux-64bit.deb | 0.88.1 | https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb | 2d5f5dc3c1041f38e690f2a2c876d1658fbfdf1a327565f0167b3f0853798fb2
 kubectl-linux-amd64 | v1.21.1 | https://dl.k8s.io/release/v1.21.1/bin/linux/amd64/kubectl | 58785190e2b4fc6891e01108e41f9ba5db26e04cebb7c1ac639919a931ce9233
 packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
