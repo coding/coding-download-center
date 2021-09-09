@@ -29,9 +29,32 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Check packages in `index.md` sorted by A to Z
+      - uses: technote-space/get-diff-action@v5
+        if: ${{ github.event_name == 'pull_request' }}
+
+      - name: Cache Downloads
+        id: cache-downloads
+        uses: actions/cache@v2
+        with:
+          path: |
+            /usr/local/bin/shellcheck
+            /usr/local/bin/shfmt
+          key: ${{ runner.os }}-shellcheck-shfmt
+
+      - name: Prepare
+        if: steps.cache-downloads.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/.cache/downloads
+          wget https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 -O ~/.cache/downloads/shfmt
+          chmod +x ~/.cache/downloads/shfmt
+          sudo cp ~/.cache/downloads/shfmt /usr/local/bin/shfmt
+          wget https://github.com/koalaman/shellcheck/releases/download/v0.7.2/shellcheck-v0.7.2.linux.x86_64.tar.xz -P ~/.cache/downloads/
+          tar -C ~/.cache/downloads/ --strip-components=1 -Jxvf ~/.cache/downloads/shellcheck-v0.7.2.linux.x86_64.tar.xz shellcheck-v0.7.2/shellcheck
+          sudo cp ~/.cache/downloads/shellcheck /usr/local/bin/shellcheck
+
       - name: Lint
-        run: ./lint.sh
+        if: env.GIT_DIFF
+        run: echo ${{ env.GIT_DIFF }} | xargs ./lint.sh
 
       # Download and check sha256, if file not exist in registry
       - name: Download and check
