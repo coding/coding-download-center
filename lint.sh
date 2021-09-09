@@ -26,5 +26,11 @@ if [ -n "$index_file" ]; then
     diff index-body.md index-body-sorted.md
 fi
 
+package_name=$(awk '{print $1}' /tmp/index-body.md)
+echo "check if package name have version number"
+for i in $package_name; do
+    expr "$i" : ".*\.[0-9]\+\." > /dev/null && echo "[ERROR] $i : package name should not have version!" && exit 2
+done
+
 ## lint markdown
 # TODO
