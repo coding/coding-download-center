@@ -29,14 +29,26 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Cache Downloads
+        id: cache-downloads
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/downloads
+          key: ${{ runner.os }}-downloads
+
+      - name: Download shfmt
+        if: steps.cache-downloads.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/.cache/downloads
+          wget https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 -O ~/.cache/downloads/shfmt
+          chmod +x ~/.cache/downloads/shfmt
+
       - name: Lint
         if: ${{ github.event_name == 'pull_request' }}
         run: |
           sudo apt-get update
           sudo apt-get install -y shellcheck
-          wget https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 -O /tmp/shfmt
-          chmod +x /tmp/shfmt
-          sudo mv /tmp/shfmt /usr/local/bin/shfmt
+          sudo cp ~/.cache/downloads/shfmt /usr/local/bin/shfmt
           git diff --diff-filter=d --name-only origin/$GITHUB_BASE_REF... | xargs ./lint.sh
 
       # Download and check sha256, if file not exist in registry
