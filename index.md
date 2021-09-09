@@ -15,6 +15,7 @@ jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3
 kubectl-linux-amd64 | v1.21.1 | https://dl.k8s.io/release/v1.21.1/bin/linux/amd64/kubectl | 58785190e2b4fc6891e01108e41f9ba5db26e04cebb7c1ac639919a931ce9233
 packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
 rancherd-amd64.tar.gz | v2.5.9 | https://github.com/rancher/rancher/releases/download/v2.5.9/rancherd-amd64.tar.gz | 61222a6d57ecdd109a0063d6422390c865ab8d11b63b42e43bac09e0a999562e
+shellcheck-linux-x86-64.tar.xz | v0.7.2 | https://github.com/koalaman/shellcheck/releases/download/v0.7.2/shellcheck-v0.7.2.linux.x86_64.tar.xz | 70423609f27b504d6c0c47e340f33652aea975e45f312324f2dbf91c95a3b188
 shfmt-linux-amd64 | v3.3.1 | https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 | 0f73bf27219571bca7c5ef7d740d6ae72227e3995ffd88c7cb2b5712751538e2
 terraform-linux-amd64.zip | 1.0.6 | https://releases.hashicorp.com/terraform/1.0.6/terraform_1.0.6_linux_amd64.zip | 6a454323d252d34e928785a3b7c52bfaff1192f82685dfee4da1279bb700b733
 vscode-darwin-universal.zip | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCode-darwin-universal.zip | da04978c00b1c142eafb97a0db86883cda5ca5b54899b86b88456a82153bba53
