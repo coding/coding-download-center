@@ -29,6 +29,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - uses: technote-space/get-diff-action@v5
+        if: ${{ github.event_name == 'pull_request' }}
+
       - name: Cache Downloads
         id: cache-downloads
         uses: actions/cache@v2
@@ -50,8 +53,8 @@ jobs:
           sudo cp ~/.cache/downloads/shellcheck /usr/local/bin/shellcheck
 
       - name: Lint
-        if: ${{ github.event_name == 'pull_request' }}
-        run: git diff --diff-filter=d --name-only origin/${GITHUB_BASE_REF} origin/${GITHUB_HEAD_REF} | xargs ./lint.sh
+        if: env.GIT_DIFF
+        run: echo ${{ env.GIT_DIFF }} | xargs ./lint.sh
 
       # Download and check sha256, if file not exist in registry
       - name: Download and check
