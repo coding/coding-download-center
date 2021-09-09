@@ -6,9 +6,10 @@ if [ -z "$1" ]; then
     exit
 fi
 
-echo "lint shell"
 shell_files=$(echo "$@" | tr ' ' '\n' | { grep ".sh$" || true; })
 if [ -n "$shell_files" ]; then
+    echo "lint shell:"
+    echo "$shell_files"
     echo "$shell_files" | xargs shellcheck
     echo "$shell_files" | xargs shfmt -d -i 4 -sr
 else
