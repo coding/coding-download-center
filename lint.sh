@@ -24,7 +24,10 @@ if [ -n "$index_file" ]; then
     cd /tmp
     sort index-body.md > index-body-sorted.md
     diff index-body.md index-body-sorted.md
+    packages=$(awk '{print $1}' index-body.md)
+    for i in $packages; do
+        expr "$i" : "[a-z0-9\.-]\+$" > /dev/null || (echo "$i: 包名应该全为小写" && exit 250)
+    done
 fi
-
 ## lint markdown
 # TODO
