@@ -24,9 +24,9 @@ if [ -n "$index_file" ]; then
     cd /tmp
     sort index-body.md > index-body-sorted.md
     diff index-body.md index-body-sorted.md
-    package_name=$(awk '{print $1}' index-body.md)
-    for i in $package_name; do
-        expr "$i" : "[a-z0-9\.-]\+$" > /dev/null || (echo "$i: Product names shall be all in lower case" && exit 250)
+    packages=$(awk '{print $1}' index-body.md)
+    for i in $packages; do
+        expr "$i" : "[a-z0-9\.-]\+$" > /dev/null || (echo "$i: 包名应该全为小写" && exit 250)
     done
 fi
 ## lint markdown
