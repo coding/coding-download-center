@@ -8,6 +8,7 @@ chrome-darwin-amd64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/stabl
 chrome-darwin-arm64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg | 0ec1f9d1f89b5b913c63452b8327e76deb1ddb6b7d3e518fd6eecd15c09a4dd4
 chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome/bxpqrd8QQC3CMG7JLTYU0w_91.0.4472.106/91.0.4472.106_chrome_installer.exe | cffddc1fa70fa7296d033e1754c942b143f2c5995edff17a4ecae8e455775446
 composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar | 29454b41558968ca634bf5e2d4d07ff2275d91b637a76d7a05e6747d36dd3473
+dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyCheck/releases/download/v6.3.1/dependency-check-6.3.1-release.zip | 3650ef52aa66eeea1cd5f063670aec7304c2f2a3cd4cafd84bcf516660fbdfa2
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
 go-linux-amd64.tar.gz | 1.17.1 | https://golang.google.cn/dl/go1.17.1.linux-amd64.tar.gz | dab7d9c34361dc21ec237d584590d72500652e7c909bf082758fb63064fca0ef
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
