@@ -8,7 +8,7 @@ chrome-darwin-arm64.dmg | 91.0.4472.106 | https://dl.google.com/chrome/mac/unive
 chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome/bxpqrd8QQC3CMG7JLTYU0w_91.0.4472.106/91.0.4472.106_chrome_installer.exe | cffddc1fa70fa7296d033e1754c942b143f2c5995edff17a4ecae8e455775446
 composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar | 29454b41558968ca634bf5e2d4d07ff2275d91b637a76d7a05e6747d36dd3473
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
-go-linux-amd64.tar.gz | 1.16.7 | https://golang.google.cn/dl/go1.16.7.linux-amd64.tar.gz | 7fe7a73f55ba3e2285da36f8b085e5c0159e9564ef5f63ee0ed6b818ade8ef04
+go-linux-amd64.tar.gz | 1.17.1 | https://golang.google.cn/dl/go1.17.1.linux-amd64.tar.gz | dab7d9c34361dc21ec237d584590d72500652e7c909bf082758fb63064fca0ef
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
 hugo-linux-64bit.deb | 0.88.1 | https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb | 2d5f5dc3c1041f38e690f2a2c876d1658fbfdf1a327565f0167b3f0853798fb2
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
