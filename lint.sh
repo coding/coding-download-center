@@ -24,13 +24,12 @@ if [ -n "$index_file" ]; then
     cd /tmp
     sort index-body.md > index-body-sorted.md
     diff index-body.md index-body-sorted.md
+    packages=$(awk '{print $1}' index-body.md)
+    for i in $packages; do
+        expr "$i" : "[a-z0-9\.-]\+$" > /dev/null || (echo "$i: 包名应该全为小写" && exit 250)
+        expr "$i" : ".*\.[0-9]\+\." > /dev/null && echo "[ERROR] $i : 包名不能含有版本号" && exit 2
+    done
 fi
-
-package_name=$(awk '{print $1}' /tmp/index-body.md)
-echo "check if package name have version number"
-for i in $package_name; do
-    expr "$i" : ".*\.[0-9]\+\." > /dev/null && echo "[ERROR] $i : package name should not have version!" && exit 2
-done
 
 ## lint markdown
 # TODO
