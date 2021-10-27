@@ -27,9 +27,7 @@ if [ -n "$index_file" ]; then
     packages=$(awk '{print $1}' index-body.md)
     for i in $packages; do
         expr "$i" : "[a-z0-9\.-]\+$" > /dev/null || (echo "$i: 包名应该全为小写" && exit 250)
-        expr "$i" : ".*\.[0-9]\+\." > /dev/null && echo "[ERROR] $i : 包名不能含有版本号" && exit 2
     done
 fi
-
 ## lint markdown
 # TODO
