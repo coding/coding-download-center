@@ -13,7 +13,7 @@ git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/release
 go-darwin-arm64.pkg | 1.17.2 | https://golang.org/dl/go1.17.2.darwin-arm64.pkg | 3c527bc4585f86b5a1a299fc3f59244be6f8d358daaffb10067ab4d53fe46eb5
 go-linux-amd64.tar.gz | 1.17.2 | https://golang.google.cn/dl/go1.17.2.linux-amd64.tar.gz | f242a9db6a0ad1846de7b6d94d507915d14062660616a61ef7c808a76e4f1676
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
-hugo-linux-64bit.deb | 0.88.1 | https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.deb | 2d5f5dc3c1041f38e690f2a2c876d1658fbfdf1a327565f0167b3f0853798fb2
+hugo-linux-64bit.deb | 0.89.0 | https://github.com/gohugoio/hugo/releases/download/v0.89.0/hugo_0.89.0_Linux-64bit.deb | 9713783d4ae6e9c8548d57f35f37377fa21d3e86575a9f75ef11cd98474ddca9
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
 kubectl-darwin-amd64 | v1.22.3 | https://dl.k8s.io/release/v1.22.3/bin/darwin/amd64/kubectl | beea08a2a166a002603e2aa015223b5ba558d6e3f6a81098e3cc5d7d2b7a64d9
 kubectl-darwin-arm64 | v1.22.3 | https://dl.k8s.io/release/v1.22.3/bin/darwin/arm64/kubectl | 1e120fae5e3102c522fb4ca7ce815a1d0551d2d8fa6084e7c5a44652a2c589b7
