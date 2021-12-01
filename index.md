@@ -13,7 +13,7 @@ dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyC
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
 go-darwin-arm64.pkg | 1.17.2 | https://golang.org/dl/go1.17.2.darwin-arm64.pkg | 3c527bc4585f86b5a1a299fc3f59244be6f8d358daaffb10067ab4d53fe46eb5
 go-linux-amd64.tar.gz | 1.17.3 | https://go.dev/dl/go1.17.3.linux-amd64.tar.gz | 550f9845451c0c94be679faf116291e7807a8d78b43149f9506c1b15eb89008c
-helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
+helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
 hugo-linux-64bit.deb | 0.89.4 | https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_0.89.4_Linux-64bit.deb | 2e5f74456ab3b4d3651437262ed7b9998de70024b1a7fecbe12755fa4b384516
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
 kubectl-darwin-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/amd64/kubectl | 9b2ace8f0c991153f8b6319a8f8cb3a8003e6d8e38cc44ce20e012d9b43ac5f4
