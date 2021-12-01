@@ -12,7 +12,7 @@ composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar |
 dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyCheck/releases/download/v6.3.1/dependency-check-6.3.1-release.zip | 3650ef52aa66eeea1cd5f063670aec7304c2f2a3cd4cafd84bcf516660fbdfa2
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
 go-darwin-arm64.pkg | 1.17.2 | https://golang.org/dl/go1.17.2.darwin-arm64.pkg | 3c527bc4585f86b5a1a299fc3f59244be6f8d358daaffb10067ab4d53fe46eb5
-go-linux-amd64.tar.gz | 1.17.2 | https://golang.google.cn/dl/go1.17.2.linux-amd64.tar.gz | f242a9db6a0ad1846de7b6d94d507915d14062660616a61ef7c808a76e4f1676
+go-linux-amd64.tar.gz | 1.17.3 | https://go.dev/dl/go1.17.3.linux-amd64.tar.gz | 550f9845451c0c94be679faf116291e7807a8d78b43149f9506c1b15eb89008c
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
 hugo-linux-64bit.deb | 0.89.4 | https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_0.89.4_Linux-64bit.deb | 2e5f74456ab3b4d3651437262ed7b9998de70024b1a7fecbe12755fa4b384516
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
