@@ -19,7 +19,7 @@ jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3
 kubectl-darwin-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/amd64/kubectl | 9b2ace8f0c991153f8b6319a8f8cb3a8003e6d8e38cc44ce20e012d9b43ac5f4
 kubectl-darwin-arm64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/arm64/kubectl | 6a0b79f9d15cff722419f29f1c0cb57268a261ecf69d8789079a16674d5222d4
 kubectl-linux-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/linux/amd64/kubectl | 21f24aa723002353eba1cc2668d0be22651f9063f444fd01626dce2b6e1c568c
-node-linux-x64 | v16.13.0 | https://nodejs.org/dist/v16.13.0/node-v16.13.0-linux-x64.tar.xz | a876ce787133149abd1696afa54b0b5bc5ce3d5ae359081d407ff776e39b7ba8
+node-linux-x64.tar.xz | v16.13.0 | https://nodejs.org/dist/v16.13.0/node-v16.13.0-linux-x64.tar.xz | a876ce787133149abd1696afa54b0b5bc5ce3d5ae359081d407ff776e39b7ba8
 pack-linux.tgz | v0.20.0 | https://github.com/buildpacks/pack/releases/download/v0.20.0/pack-v0.20.0-linux.tgz |  1d879c8f99130b30e080153b1025ee51cfeddfb41612e5c257a89d3a358fc3c2
 packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
 rancherd-amd64.tar.gz | v2.5.9 | https://github.com/rancher/rancher/releases/download/v2.5.9/rancherd-amd64.tar.gz | 61222a6d57ecdd109a0063d6422390c865ab8d11b63b42e43bac09e0a999562e
