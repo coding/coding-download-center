@@ -16,9 +16,9 @@ go-linux-amd64.tar.gz | 1.17.2 | https://golang.google.cn/dl/go1.17.2.linux-amd6
 helm-linux-amd64.tar.gz | v3.6.3 | https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz | 07c100849925623dc1913209cd1a30f0a9b80a5b4d6ff2153c609d11b043e262
 hugo-linux-64bit.deb | 0.89.4 | https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_0.89.4_Linux-64bit.deb | 2e5f74456ab3b4d3651437262ed7b9998de70024b1a7fecbe12755fa4b384516
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
-kubectl-darwin-amd64 | v1.22.3 | https://dl.k8s.io/release/v1.22.3/bin/darwin/amd64/kubectl | beea08a2a166a002603e2aa015223b5ba558d6e3f6a81098e3cc5d7d2b7a64d9
-kubectl-darwin-arm64 | v1.22.3 | https://dl.k8s.io/release/v1.22.3/bin/darwin/arm64/kubectl | 1e120fae5e3102c522fb4ca7ce815a1d0551d2d8fa6084e7c5a44652a2c589b7
-kubectl-linux-amd64 | v1.22.3 | https://dl.k8s.io/release/v1.22.3/bin/linux/amd64/kubectl | 0751808ca8d7daba56bf76b08848ef5df6b887e9d7e8a9030dd3711080e37b54
+kubectl-darwin-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/amd64/kubectl | 9b2ace8f0c991153f8b6319a8f8cb3a8003e6d8e38cc44ce20e012d9b43ac5f4
+kubectl-darwin-arm64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/arm64/kubectl | 6a0b79f9d15cff722419f29f1c0cb57268a261ecf69d8789079a16674d5222d4
+kubectl-linux-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/linux/amd64/kubectl | 21f24aa723002353eba1cc2668d0be22651f9063f444fd01626dce2b6e1c568c
 pack-linux.tgz | v0.20.0 | https://github.com/buildpacks/pack/releases/download/v0.20.0/pack-v0.20.0-linux.tgz |  1d879c8f99130b30e080153b1025ee51cfeddfb41612e5c257a89d3a358fc3c2
 packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
 rancherd-amd64.tar.gz | v2.5.9 | https://github.com/rancher/rancher/releases/download/v2.5.9/rancherd-amd64.tar.gz | 61222a6d57ecdd109a0063d6422390c865ab8d11b63b42e43bac09e0a999562e
