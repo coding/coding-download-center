@@ -11,8 +11,9 @@ chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome
 composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar | 29454b41558968ca634bf5e2d4d07ff2275d91b637a76d7a05e6747d36dd3473
 dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyCheck/releases/download/v6.3.1/dependency-check-6.3.1-release.zip | 3650ef52aa66eeea1cd5f063670aec7304c2f2a3cd4cafd84bcf516660fbdfa2
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
-go-darwin-arm64.pkg | 1.17.5 | https://go.dev/dl/go1.17.5.darwin-amd64.pkg | 7eb86164c3e6d8bbfba3e4cd30b1f1bd532505594fba2ddf6da6f9838582aab2
-go-linux-amd64.tar.gz | 1.17.5 | https://go.dev/dl/go1.17.5.linux-amd64.tar.gz | bd78114b0d441b029c8fe0341f4910370925a4d270a6a590668840675b0c653e
+go-darwin-amd64.pkg | 1.17.6 | https://go.dev/dl/go1.17.6.darwin-amd64.pkg | 306fb15dd69572c78b8804fe913c04a88697474866a97c42c21bfc2d771ce977
+go-darwin-arm64.pkg | 1.17.6 | https://go.dev/dl/go1.17.6.darwin-arm64.pkg | a81584c25bbc0de1ea32dccf386c3d1b5d16400a3b2cdef0205233df1d7057cd
+go-linux-amd64.tar.gz | 1.17.6 | https://go.dev/dl/go1.17.6.linux-amd64.tar.gz | 231654bbf2dab3d86c1619ce799e77b03d96f9b50770297c8f4dff8836fc8ca2
 golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci-lint/releases/download/v1.43.0/golangci-lint-1.43.0-linux-amd64.tar.gz | f3515cebec926257da703ba0a2b169e4a322c11dc31a8b4656b50a43e48877f4 |
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
 hugo-linux-64bit.deb | 0.91.2 | https://github.com/gohugoio/hugo/releases/download/v0.91.2/hugo_0.91.2_Linux-64bit.deb | 0f2c2a7b4e5a757bd4f0955e5e9fa2ab16f081df59918d957561b878b9fbf710
