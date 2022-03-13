@@ -16,8 +16,8 @@ go-darwin-arm64.pkg | 1.17.6 | https://go.dev/dl/go1.17.6.darwin-arm64.pkg | a81
 go-linux-amd64.tar.gz | 1.17.6 | https://go.dev/dl/go1.17.6.linux-amd64.tar.gz | 231654bbf2dab3d86c1619ce799e77b03d96f9b50770297c8f4dff8836fc8ca2
 golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci-lint/releases/download/v1.43.0/golangci-lint-1.43.0-linux-amd64.tar.gz | f3515cebec926257da703ba0a2b169e4a322c11dc31a8b4656b50a43e48877f4 |
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
-hugo-extended-linux-64bit.deb | 0.94.0 | https://github.com/gohugoio/hugo/releases/download/v0.94.0/hugo_extended_0.94.0_Linux-64bit.deb | af24f7960cb40e5fffe50c7713844c9db8521e41421a72fc3b5e13a578f399f5
-hugo-linux-64bit.deb | 0.94.0 | https://github.com/gohugoio/hugo/releases/download/v0.94.0/hugo_0.94.0_Linux-64bit.deb | c6dfa5a672d304fac87275acd4c5365cc7d6bb46cfdd35a7e060f1d6c97696c5
+hugo-extended-linux-64bit.deb | 0.94.2 | https://github.com/gohugoio/hugo/releases/download/v0.94.2/hugo_extended_0.94.2_Linux-64bit.deb | 88b7fa12eb843d6fc08e94b2bb0e47902843a803b52286bb7b74b2121b892fb2
+hugo-linux-64bit.deb | 0.94.2 | https://github.com/gohugoio/hugo/releases/download/v0.94.2/hugo_0.94.2_Linux-64bit.deb | 86dff3f391f809ecb4ad952330f503b2d3379f07ed1cbba8e23e99d84d0c91a0
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
 kubectl-darwin-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/amd64/kubectl | 9b2ace8f0c991153f8b6319a8f8cb3a8003e6d8e38cc44ce20e012d9b43ac5f4
 kubectl-darwin-arm64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/arm64/kubectl | 6a0b79f9d15cff722419f29f1c0cb57268a261ecf69d8789079a16674d5222d4
