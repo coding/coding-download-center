@@ -1,5 +1,5 @@
 package | version | uri | sha256
---------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------
+--------|---------|-----|-------
 adoptopenjdk-11-openj9-amd64.deb | 11.0.10-9.openj9-0.24.0-3 | https://adoptopenjdk.jfrog.io/ui/api/v1/download?repoKey=deb&path=pool%252Fmain%252Fa%252Fadoptopenjdk-11-openj9%252Fadoptopenjdk-11-openj9_11.0.10%252B9.openj9-0.24.0-3_amd64.deb | 31ded628e72f16e9924786caf9ecc26c4e5728b458e51c7345f89cb05ed77d6b
 adoptopenjdk-16-openj9-amd64.deb | 16.0.1-9.openj9-0.26.0-3 | https://adoptopenjdk.jfrog.io/ui/api/v1/download?repoKey=deb&path=pool%252Fmain%252Fa%252Fadoptopenjdk-16-openj9%252Fadoptopenjdk-16-openj9_16.0.1%252B9.openj9-0.26.0-3_amd64.deb | 486e92a3dd6525ec3e360ba21188c9c1d5974d35d3502b082c849172d2e90f11
 allure-commandline.tgz | 2.16.1 | https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.1/allure-commandline-2.16.1.tgz | c8ae7e2029471cb06d0a1d8c851c3fb3d47a54698ec8353a0e194c48a1a07963
@@ -13,18 +13,18 @@ dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyC
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
 go-darwin-amd64.pkg | 1.18 | https://go.dev/dl/go1.18.darwin-amd64.pkg | dbfabbbb6377c225ccf28393ecc7aed55564870fcfb39d797411d6b8693013c6
 go-darwin-arm64.pkg | 1.18 | https://go.dev/dl/go1.18.darwin-arm64.pkg | 7c48130b37a155e709ef1db22d3f40ca17cfdaee0dc9d0cc35d2d7c4e0e3d299
-go-linux-amd64.tar.gz | 1.18 | https://go.dev/dl/go1.18.linux-amd64.tar.gz | e85278e98f57cdb150fe8409e6e5df5343ecb13cebf03a5d5ff12bd55a80264f
 golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci-lint/releases/download/v1.43.0/golangci-lint-1.43.0-linux-amd64.tar.gz | f3515cebec926257da703ba0a2b169e4a322c11dc31a8b4656b50a43e48877f4 |
+go-linux-amd64.tar.gz | 1.18 | https://go.dev/dl/go1.18.linux-amd64.tar.gz | e85278e98f57cdb150fe8409e6e5df5343ecb13cebf03a5d5ff12bd55a80264f
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
-hugo-extended-linux-64bit.deb | 0.97.1 | https://github.com/gohugoio/hugo/releases/download/v0.97.1/hugo_extended_0.97.1_Linux-64bit.deb | 5dd405ef30f02fd1695d0a672fcef45a018137dcb09fd1545f56c0d71eba635c
-hugo-linux-64bit.deb | 0.97.1 | https://github.com/gohugoio/hugo/releases/download/v0.97.1/hugo_0.97.1_Linux-64bit.deb | 3a2f9d19f5ae73ecf0b57171b35b516a2398247250b3f1ace6589124639769a0
+hugo-extended-linux-64bit.deb | 0.98.0 | https://github.com/gohugoio/hugo/releases/download/v0.98.0/hugo_extended_0.98.0_Linux-64bit.deb | 82f828de8f086cf27b4d812194687a491e2b16a7d9e038903100ca917816c526
+hugo-linux-64bit.deb | 0.98.0 | https://github.com/gohugoio/hugo/releases/download/v0.98.0/hugo_0.98.0_Linux-64bit.deb | 4d189dc40ac33d2c72aa70547632ade77e8ea9214a000d1d118f7c3e481aea20
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
 kubectl-darwin-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/amd64/kubectl | 9b2ace8f0c991153f8b6319a8f8cb3a8003e6d8e38cc44ce20e012d9b43ac5f4
 kubectl-darwin-arm64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/arm64/kubectl | 6a0b79f9d15cff722419f29f1c0cb57268a261ecf69d8789079a16674d5222d4
 kubectl-linux-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/linux/amd64/kubectl | 21f24aa723002353eba1cc2668d0be22651f9063f444fd01626dce2b6e1c568c
 node-linux-x64.tar.xz | v17.2.0 | https://nodejs.org/dist/v17.2.0/node-v17.2.0-linux-x64.tar.xz | 0b5a6db351f31edf5282c63be7b923e40064ac6d54b5222fdd419ab8f1bedf61
-pack-linux.tgz | v0.20.0 | https://github.com/buildpacks/pack/releases/download/v0.20.0/pack-v0.20.0-linux.tgz | 1d879c8f99130b30e080153b1025ee51cfeddfb41612e5c257a89d3a358fc3c2
 packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
+pack-linux.tgz | v0.20.0 | https://github.com/buildpacks/pack/releases/download/v0.20.0/pack-v0.20.0-linux.tgz | 1d879c8f99130b30e080153b1025ee51cfeddfb41612e5c257a89d3a358fc3c2
 php.tar.xz | 8.1.0 | https://www.php.net/distributions/php-8.1.0.tar.xz | a1317eff0723a2b3d3122bbfe107a1158570ea2822dc35a5fb360086db0f6bbc
 rancherd-amd64.tar.gz | v2.5.9 | https://github.com/rancher/rancher/releases/download/v2.5.9/rancherd-amd64.tar.gz | 61222a6d57ecdd109a0063d6422390c865ab8d11b63b42e43bac09e0a999562e
 shellcheck-linux-x86-64.tar.xz | v0.7.2 | https://github.com/koalaman/shellcheck/releases/download/v0.7.2/shellcheck-v0.7.2.linux.x86_64.tar.xz | 70423609f27b504d6c0c47e340f33652aea975e45f312324f2dbf91c95a3b188
