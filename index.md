@@ -11,9 +11,9 @@ chrome-windows-amd64.exe | 91.0.4472.106 | https://dl.google.com/release2/chrome
 composer.phar | 2.0.14 | https://getcomposer.org/download/2.0.14/composer.phar | 29454b41558968ca634bf5e2d4d07ff2275d91b637a76d7a05e6747d36dd3473
 dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyCheck/releases/download/v6.3.1/dependency-check-6.3.1-release.zip | 3650ef52aa66eeea1cd5f063670aec7304c2f2a3cd4cafd84bcf516660fbdfa2
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
-go-darwin-amd64.pkg | 1.18 | https://go.dev/dl/go1.18.darwin-amd64.pkg | dbfabbbb6377c225ccf28393ecc7aed55564870fcfb39d797411d6b8693013c6
-go-darwin-arm64.pkg | 1.18 | https://go.dev/dl/go1.18.darwin-arm64.pkg | 7c48130b37a155e709ef1db22d3f40ca17cfdaee0dc9d0cc35d2d7c4e0e3d299
-go-linux-amd64.tar.gz | 1.18 | https://go.dev/dl/go1.18.linux-amd64.tar.gz | e85278e98f57cdb150fe8409e6e5df5343ecb13cebf03a5d5ff12bd55a80264f
+go-darwin-amd64.pkg | 1.18.4 | https://go.dev/dl/go1.18.4.darwin-amd64.pkg | ed5093acc099dfc4ab14cb5d5bc51d9f6694240d5eed25942f0d85f9995ba3f8
+go-darwin-arm64.pkg | 1.18.4 | https://go.dev/dl/go1.18.4.darwin-arm64.pkg | 7f7726eae9c295cc148ae33457cf650c6b088ead027229e5256a312919187f88
+go-linux-amd64.tar.gz | 1.18.4 | https://go.dev/dl/go1.18.4.linux-amd64.tar.gz | c9b099b68d93f5c5c8a8844a89f8db07eaa58270e3a1e01804f17f4cf8df02f5
 golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci-lint/releases/download/v1.43.0/golangci-lint-1.43.0-linux-amd64.tar.gz | f3515cebec926257da703ba0a2b169e4a322c11dc31a8b4656b50a43e48877f4 |
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
 hugo-extended-linux-64bit.deb | 0.101.0 | https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_extended_0.101.0_Linux-64bit.deb | 9d479c2d185cfd1e49a8e9959c998f159a3a9d81280b2972b6a6a3235b88db54
