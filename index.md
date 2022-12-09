@@ -13,7 +13,7 @@ dependency-check-release.zip | 6.3.1 | https://github.com/jeremylong/DependencyC
 git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz | 46508eb932c2ec0003a940f179246708d4ddc2fec439dcacbf20ff9e98b957c9
 go-darwin-amd64.pkg | 1.18.4 | https://go.dev/dl/go1.18.4.darwin-amd64.pkg | ed5093acc099dfc4ab14cb5d5bc51d9f6694240d5eed25942f0d85f9995ba3f8
 go-darwin-arm64.pkg | 1.18.4 | https://go.dev/dl/go1.18.4.darwin-arm64.pkg | 7f7726eae9c295cc148ae33457cf650c6b088ead027229e5256a312919187f88
-go-linux-amd64.tar.gz | 1.18.4 | https://go.dev/dl/go1.18.4.linux-amd64.tar.gz | c9b099b68d93f5c5c8a8844a89f8db07eaa58270e3a1e01804f17f4cf8df02f5
+go-linux-amd64.tar.gz | 1.19.3 | https://go.dev/dl/go1.19.3.linux-amd64.tar.gz | 74b9640724fd4e6bb0ed2a1bc44ae813a03f1e72a4c76253e2d5c015494430ba
 golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci-lint/releases/download/v1.43.0/golangci-lint-1.43.0-linux-amd64.tar.gz | f3515cebec926257da703ba0a2b169e4a322c11dc31a8b4656b50a43e48877f4 |
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
 hugo-extended-linux-amd64.deb | 0.104.3 | https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_extended_0.104.3_linux-amd64.deb | 27ffd4e6b33e7359a97569b48cfdca41d9246e9d16151d25eb979d8285c89bdf
