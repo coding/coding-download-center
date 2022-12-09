@@ -18,6 +18,7 @@ golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
 hugo-extended-linux-amd64.deb | 0.104.3 | https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_extended_0.104.3_linux-amd64.deb | 27ffd4e6b33e7359a97569b48cfdca41d9246e9d16151d25eb979d8285c89bdf
 hugo-linux-amd64.deb | 0.104.3 | https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_0.104.3_linux-amd64.deb | 48c23615b36f847a5fa7a76ea03ac1ad437b0c3d65fbb97b521ad6d555073eef
+ibm-semeru-open-jdk-x64-linux.tar.gz | 17.0.5_8_openj9-0.35.0 | https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.5%2B8_openj9-0.35.0/ibm-semeru-open-jdk_x64_linux_17.0.5_8_openj9-0.35.0.tar.gz | b46de9cd00af8a0223f4b50deb2627ab91fe515a69383a96fd2c12757cef24fe
 jenkins-all.deb | 2.190.3 | https://get.jenkins.io/debian-stable/jenkins_2.190.3_all.deb | 96caa1d5ebe4b0c835571e3fae5a30ce25474edfffce01e6df511e69adef69fd
 kubectl-darwin-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/amd64/kubectl | 9b2ace8f0c991153f8b6319a8f8cb3a8003e6d8e38cc44ce20e012d9b43ac5f4
 kubectl-darwin-arm64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/darwin/arm64/kubectl | 6a0b79f9d15cff722419f29f1c0cb57268a261ecf69d8789079a16674d5222d4
