@@ -30,6 +30,7 @@ php.tar.xz | 8.1.0 | https://www.php.net/distributions/php-8.1.0.tar.xz | a1317e
 rancherd-amd64.tar.gz | v2.5.9 | https://github.com/rancher/rancher/releases/download/v2.5.9/rancherd-amd64.tar.gz | 61222a6d57ecdd109a0063d6422390c865ab8d11b63b42e43bac09e0a999562e
 shellcheck-linux-x86-64.tar.xz | v0.7.2 | https://github.com/koalaman/shellcheck/releases/download/v0.7.2/shellcheck-v0.7.2.linux.x86_64.tar.xz | 70423609f27b504d6c0c47e340f33652aea975e45f312324f2dbf91c95a3b188
 shfmt-linux-amd64 | v3.3.1 | https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 | 0f73bf27219571bca7c5ef7d740d6ae72227e3995ffd88c7cb2b5712751538e2
+TencentKona-17.0.7.b1-jdk_linux-x86_64 | 17.0.7.b1 ||https://github.com/Tencent/TencentKona-17/releases/download/TencentKona-17.0.7/TencentKona-17.0.7.b1-jdk_linux-x86_64.tar.gz|2D565E62B2715EDA2DD7D79379E4CD7F3F909C235579580C8427487974C36273
 terraform-linux-amd64.zip | 1.0.6 | https://releases.hashicorp.com/terraform/1.0.6/terraform_1.0.6_linux_amd64.zip | 6a454323d252d34e928785a3b7c52bfaff1192f82685dfee4da1279bb700b733
 vscode-darwin-universal.zip | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCode-darwin-universal.zip | da04978c00b1c142eafb97a0db86883cda5ca5b54899b86b88456a82153bba53
 vscode-linux-amd64.deb | 1.59.0 | https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/code_1.59.0-1628120042_amd64.deb | c9c73e3e9e38806c83031954e909c23c50d4d3b8877dc91ab4b51eb66a3f5eea
