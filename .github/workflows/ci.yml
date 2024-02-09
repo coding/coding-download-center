@@ -19,11 +19,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    
-    # TODO hard code, because GitHub Actions only support secrets but not env
-    env:
-      CODING_GENERIC_REGISTRY: https://coding-public-generic.pkg.coding.net/public/downloads/
-
+ 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it

@@ -2,8 +2,10 @@
 set -e
 
 if [ "$CODING_GENERIC_REGISTRY" = "" ]; then
-    echo "WARNING: env CODING_GENERIC_REGISTRY not set, only run download"
-elif [ "$CODING_ARTIFACTS_USERNAME" = "" ]; then
+    echo "WARNING: env CODING_GENERIC_REGISTRY not set, use default value"
+    CODING_GENERIC_REGISTRY="https://coding-public-generic.pkg.coding.net/public/downloads/"
+fi
+if [ "$CODING_ARTIFACTS_USERNAME" = "" ]; then
     echo "WARNING: env CODING_ARTIFACTS_USERNAME not set, only run check and download"
 fi
 
