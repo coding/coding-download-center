@@ -28,7 +28,7 @@ kubectl-linux-amd64 | v1.22.4 | https://dl.k8s.io/release/v1.22.4/bin/linux/amd6
 node-linux-x64.tar.xz | v17.2.0 | https://nodejs.org/dist/v17.2.0/node-v17.2.0-linux-x64.tar.xz | 0b5a6db351f31edf5282c63be7b923e40064ac6d54b5222fdd419ab8f1bedf61
 pack-linux.tgz | v0.20.0 | https://github.com/buildpacks/pack/releases/download/v0.20.0/pack-v0.20.0-linux.tgz | 1d879c8f99130b30e080153b1025ee51cfeddfb41612e5c257a89d3a358fc3c2
 packer-linux-amd64.zip | 1.7.4 | https://releases.hashicorp.com/packer/1.7.4/packer_1.7.4_linux_amd64.zip | 3660064a56a174a6da5c37ee6b36107098c6b37e35cc84feb2f7f7519081b1b0
-php.tar.xz | 8.1.0 | https://www.php.net/distributions/php-8.1.0.tar.xz | a1317eff0723a2b3d3122bbfe107a1158570ea2822dc35a5fb360086db0f6bbc
+php.tar.xz | 8.2.16 | https://www.php.net/distributions/php-8.2.16.tar.xz | 28cdc995b7d5421711c7044294885fcde4390c9f67504a994b4cf9bc1b5cc593
 rancherd-amd64.tar.gz | v2.5.9 | https://github.com/rancher/rancher/releases/download/v2.5.9/rancherd-amd64.tar.gz | 61222a6d57ecdd109a0063d6422390c865ab8d11b63b42e43bac09e0a999562e
 shellcheck-linux-x86-64.tar.xz | v0.7.2 | https://github.com/koalaman/shellcheck/releases/download/v0.7.2/shellcheck-v0.7.2.linux.x86_64.tar.xz | 70423609f27b504d6c0c47e340f33652aea975e45f312324f2dbf91c95a3b188
 shfmt-linux-amd64 | v3.3.1 | https://github.com/mvdan/sh/releases/download/v3.3.1/shfmt_v3.3.1_linux_amd64 | 0f73bf27219571bca7c5ef7d740d6ae72227e3995ffd88c7cb2b5712751538e2
