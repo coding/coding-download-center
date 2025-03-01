@@ -16,6 +16,7 @@ git-lfs-linux-amd64.tar.gz | 2.11.0 | https://github.com/git-lfs/git-lfs/release
 go-darwin-amd64.pkg | 1.18.4 | https://go.dev/dl/go1.18.4.darwin-amd64.pkg | ed5093acc099dfc4ab14cb5d5bc51d9f6694240d5eed25942f0d85f9995ba3f8
 go-darwin-arm64.pkg | 1.18.4 | https://go.dev/dl/go1.18.4.darwin-arm64.pkg | 7f7726eae9c295cc148ae33457cf650c6b088ead027229e5256a312919187f88
 go-linux-amd64.tar.gz | 1.19.3 | https://go.dev/dl/go1.19.3.linux-amd64.tar.gz | 74b9640724fd4e6bb0ed2a1bc44ae813a03f1e72a4c76253e2d5c015494430ba
+go-linux-amd64.tar.gz | 1.24.0 | https://go.dev/dl/go1.24.0.linux-amd64.tar.gz | dea9ca38a0b852a74e81c26134671af7c0fbe65d81b0dc1c5bfe22cf7d4c8858
 golangci-lint-linux-amd64.tar.gz | 1.43.0 | https://github.com/golangci/golangci-lint/releases/download/v1.43.0/golangci-lint-1.43.0-linux-amd64.tar.gz | f3515cebec926257da703ba0a2b169e4a322c11dc31a8b4656b50a43e48877f4 |
 helm-linux-amd64.tar.gz | v3.7.1 | https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz | 6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4
 hugo-extended-linux-amd64.deb | 0.104.3 | https://github.com/gohugoio/hugo/releases/download/v0.104.3/hugo_extended_0.104.3_linux-amd64.deb | 27ffd4e6b33e7359a97569b48cfdca41d9246e9d16151d25eb979d8285c89bdf
