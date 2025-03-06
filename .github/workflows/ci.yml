@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     
     # TODO hard code, because GitHub Actions only support secrets but not env
     env:
@@ -27,14 +27,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - uses: technote-space/get-diff-action@v5
         if: ${{ github.event_name == 'pull_request' }}
 
       - name: Cache Downloads
         id: cache-downloads
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             /usr/local/bin/shellcheck
@@ -59,4 +59,3 @@ jobs:
       # Download and check sha256, if file not exist in registry
       - name: Download and check
         run: ./coding-generic-sync.sh
-
